@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 
+from .players import PlayerProfiles
 from .registry import MemberRegistry
 from .river_races import RiverRaceArchive
 from .snapshot import DailySnapshot
@@ -21,7 +22,8 @@ class Collector:
         self._store.write("current/river_race.json", river_race)
         members = MemberRegistry(self._store).update(clan.get("memberList", []), stamp)
         archived = RiverRaceArchive(self._store, self._clan_tag).update(log)
-        snapshot = DailySnapshot(self._store, self._client).save_if_missing(now.date().isoformat(), clan)
+        players = PlayerProfiles(self._store, self._client).update(clan.get("memberList", []))
+        snapshot = DailySnapshot(self._store).save_if_missing(now.date().isoformat(), clan, players)
         self._store.write("current/meta.json", {"clan_tag": self._clan_tag, "updated_at": stamp})
         print(f"Members in clan: {members}")
         print(f"New river races archived: {archived}")
