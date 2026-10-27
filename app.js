@@ -242,6 +242,55 @@ class DonationHistory {
   }
 }
 
+class KickWatch {
+  static IDLE_WARN = 5;
+  static IDLE_KICK = 7;
+  static MISSES_KICK = 2;
+  static CONTENDERS = 5;
+
+  constructor(calendar, ranking, now = Date.now()) {
+    this.calendar = calendar;
+    this.now = now;
+    this.contenders = new Set(ranking.standings(calendar.currentSeasonId).slice(0, KickWatch.CONTENDERS).map((row) => row.tag));
+  }
+
+  misses(tag) {
+    let count = 0;
+    for (const race of [...this.calendar.races].reverse()) {
+      const participant = race.participants.find((p) => p.tag === tag);
+      if (!participant || participant.decksUsed > 0) break;
+      count += 1;
+    }
+    return count;
+  }
+
+  idleDays(member) {
+    if (!member.lastSeen) return 0;
+    return Math.floor((this.now - RaceCalendar.parse(member.lastSeen)) / RaceCalendar.DAY);
+  }
+
+  status(member) {
+    const misses = this.misses(member.tag);
+    const idle = this.idleDays(member);
+    const notes = [];
+    if (misses >= KickWatch.MISSES_KICK) notes.push({ text: `${misses} ${KickWatch.plural(misses)}`, title: `${misses} недели КВ подряд без единой колоды` });
+    else if (misses === 1) notes.push({ text: "пропуск КВ", title: "Прошлую неделю КВ не сыграл ни одной колоды" });
+    if (idle >= KickWatch.IDLE_WARN) notes.push({ text: `${idle} дн. офлайн`, title: `Не заходил в игру ${idle} дн.` });
+    if (misses >= KickWatch.MISSES_KICK || idle >= KickWatch.IDLE_KICK) return { mark: "kick", notes };
+    if (notes.length > 0) return { mark: "warn", notes };
+    if (this.contenders.has(member.tag)) {
+      return { mark: "star", notes: [{ text: `топ-${KickWatch.CONTENDERS} КВ`, title: "Сейчас в топ-5 бойцов КВ сезона, претендент в зал славы" }] };
+    }
+    return { mark: null, notes };
+  }
+
+  static plural(count) {
+    const tens = count % 100;
+    const ones = count % 10;
+    return ones >= 2 && ones <= 4 && (tens < 12 || tens > 14) ? "пропуска" : "пропусков";
+  }
+}
+
 class Elements {
   static create(tag, className, text) {
     const element = document.createElement(tag);
@@ -308,6 +357,7 @@ class RankingList {
   row(row, place, view) {
     const item = Elements.create("li");
     const card = Elements.create("a", "member");
+    if (view.mark) card.classList.add(`mark-${view.mark}`);
     card.href = `#player/${row.tag.replace("#", "")}`;
     card.addEventListener("click", (event) => this.open(event, card));
     const who = Elements.create("div", "who");
@@ -483,10 +533,11 @@ class RosterTab {
 
   title = "Состав";
 
-  constructor(clan, members, list) {
+  constructor(clan, members, list, watch) {
     this.clan = clan;
     this.members = members;
     this.list = list;
+    this.watch = watch;
     this.trackingStart = Object.values(members).map((record) => record.first_seen.slice(0, 10)).sort()[0];
   }
 
@@ -494,11 +545,35 @@ class RosterTab {
     const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
     const top = Elements.create("div", "panel-top");
     top.appendChild(this.statBand());
-    container.replaceChildren(top, this.list.render(rows, (row) => ({
-      line: [RosterTab.ROLES[row.role] ?? row.role],
-      stack: { icon: "cards", label: "Донат за неделю", value: Elements.number(row.donations) },
-      pill: { icon: "trophy", label: "Кубки", value: row.trophies },
-    })));
+    container.replaceChildren(top, this.legend(), this.list.render(rows, (row) => {
+      const status = this.watch.status(row);
+      return {
+        mark: status.mark,
+        line: [RosterTab.ROLES[row.role] ?? row.role, ...status.notes.map((note) => this.flag(status.mark, note))],
+        stack: { icon: "cards", label: "Донат за неделю", value: Elements.number(row.donations) },
+        pill: { icon: "trophy", label: "Кубки", value: row.trophies },
+      };
+    }));
+  }
+
+  flag(mark, { text, title }) {
+    const flag = Elements.create("span", `flag flag-${mark}`, text);
+    flag.title = title;
+    return flag;
+  }
+
+  legend() {
+    const legend = Elements.create("ul", "legend");
+    for (const [mark, text] of [
+      ["kick", `на кик: ${KickWatch.MISSES_KICK} пропуска КВ подряд или ${KickWatch.IDLE_KICK}+ дней не в игре`],
+      ["warn", `внимание: 1 пропуск КВ или ${KickWatch.IDLE_WARN}+ дней не в игре`],
+      ["star", `топ-${KickWatch.CONTENDERS} сезона, претендент в зал славы`],
+    ]) {
+      const item = Elements.create("li", null, text);
+      item.prepend(Elements.create("span", `swatch mark-${mark}`));
+      legend.appendChild(item);
+    }
+    return legend;
   }
 
   statBand() {
@@ -852,7 +927,7 @@ class ClanApp {
       const history = new WeeklyHistory(calendar);
       const membership = new Membership(data.clan);
       const list = new RankingList(membership);
-      const roster = new RosterTab(data.clan, data.members, list);
+      const roster = new RosterTab(data.clan, data.members, list, new KickWatch(calendar, war));
       this.tabs = {
         war: new WarTab(calendar, war, list),
         donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list, membership),

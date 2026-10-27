@@ -879,6 +879,69 @@ a.member.released {
   }
 }
 
+.member.mark-warn,
+.swatch.mark-warn {
+  background: linear-gradient(#f8e1e1 0%, #f8e1e1 49%, #efcaca 51%, #eecaca 100%);
+  box-shadow: inset 0 1px 0 #f1d4d4, inset 0 -1px 0 #f6dcdc, 0 calc(2 * var(--u)) 0 var(--ink);
+}
+
+.member.mark-kick,
+.swatch.mark-kick {
+  background: linear-gradient(#f5a9a9 0%, #f5a9a9 49%, #e98787 51%, #e88686 100%);
+  box-shadow: inset 0 1px 0 #f0b7b7, inset 0 -1px 0 #f2a0a0, 0 calc(2 * var(--u)) 0 var(--ink);
+}
+
+.member.mark-star,
+.swatch.mark-star {
+  background: linear-gradient(#d9f3d4 0%, #d9f3d4 49%, #bde5b6 51%, #bce5b5 100%);
+  box-shadow: inset 0 1px 0 #cdeac7, inset 0 -1px 0 #d2f0cc, 0 calc(2 * var(--u)) 0 var(--ink);
+}
+
+.member .role .flag {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flag-warn {
+  color: #b3433a;
+}
+
+.flag-kick {
+  color: #7a0f0a;
+}
+
+.member.mark-kick .role {
+  color: #6e3d3d;
+}
+
+.flag-star {
+  color: #1c6b2d;
+}
+
+.legend {
+  display: grid;
+  gap: calc(4 * var(--u));
+  margin: 0 0 calc(10 * var(--u));
+  padding: 0;
+  list-style: none;
+  color: #26324a;
+  font-size: calc(14 * var(--u));
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: calc(8 * var(--u));
+}
+
+.swatch {
+  flex: none;
+  width: calc(22 * var(--u));
+  height: calc(14 * var(--u));
+  border: calc(2 * var(--u)) solid var(--ink);
+  border-radius: calc(4 * var(--u));
+}
+
 .member .name-line {
   display: flex;
   align-items: center;
