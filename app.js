@@ -303,8 +303,11 @@ class RosterTab {
   since(tag) {
     const record = this.members[tag];
     if (!record) return "";
+    const format = (date) => new Date(date).toLocaleDateString("ru-RU");
+    if (record.joined_precision === "before") return `в клане раньше ${format(record.joined)}`;
+    if (record.joined_precision === "approx") return `в клане примерно с ${format(record.joined)}`;
     const date = record.joined ?? (record.first_seen.slice(0, 10) > this.trackingStart ? record.first_seen : null);
-    return date ? `в клане с ${new Date(date).toLocaleDateString("ru-RU")}` : "";
+    return date ? `в клане с ${format(date)}` : "";
   }
 }
 
