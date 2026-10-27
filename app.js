@@ -611,11 +611,50 @@ class ClanTab {
   }
 }
 
+class DeckRails {
+  static PER_SIDE = 4;
+
+  constructor(host) {
+    this.rails = ["left", "right"].map((side) => {
+      const rail = Elements.create("aside", `deck-rail ${side}`);
+      rail.setAttribute("aria-hidden", "true");
+      host.appendChild(rail);
+      return rail;
+    });
+  }
+
+  show(cards) {
+    if (cards.length === 0) {
+      this.hide();
+      return;
+    }
+    this.rails.forEach((rail, side) => {
+      const slice = cards.slice(side * DeckRails.PER_SIDE, (side + 1) * DeckRails.PER_SIDE);
+      rail.replaceChildren(...slice.map((card, index) => {
+        const image = Elements.create("img", card.evolved ? "rail-card evolved" : "rail-card");
+        image.src = card.icon;
+        image.alt = "";
+        image.style.animationDelay = `${(side * DeckRails.PER_SIDE + index) * 60}ms`;
+        return image;
+      }));
+      rail.classList.add("visible");
+    });
+  }
+
+  hide() {
+    for (const rail of this.rails) {
+      rail.classList.remove("visible");
+      rail.replaceChildren();
+    }
+  }
+}
+
 class ProfileView {
   static LEGENDS = 10;
 
-  constructor(data, { roster, history, donations, membership, calendar, war }) {
+  constructor(data, { roster, history, donations, membership, calendar, war, rails }) {
     this.data = data;
+    this.rails = rails;
     this.roster = roster;
     this.history = history;
     this.donations = donations;
@@ -636,10 +675,13 @@ class ProfileView {
     const profile = this.data.players[tag] ?? {};
     const back = Elements.create("a", "back", "← назад");
     back.href = "#roster";
+    const medals = this.hallOfFame(tag);
+    this.rails.show(member ? profile.currentDeck ?? [] : []);
     container.replaceChildren(
       back,
       this.header(tag, name, member, profile, appearances),
-      this.contribution(tag, record, appearances),
+      ...(medals.length > 0 ? [this.medals(medals)] : []),
+      this.contribution(tag, record, appearances, medals),
       ...(member ? [this.deck(profile)] : []),
       new BarChart({ title: "Медали за неделю КВ", valueLabel: "Медали", referenceLabel: "Медиана клана" })
         .render(this.history.player(tag, "fame")),
@@ -679,7 +721,21 @@ class ProfileView {
     return card;
   }
 
-  contribution(tag, record, appearances) {
+  medals(entries) {
+    const card = Elements.create("section", "profile medals");
+    card.appendChild(Elements.create("h3", null, "Медали зала славы"));
+    const list = Elements.create("ul", "medal-list");
+    for (const { id, place } of entries) {
+      const item = Elements.create("li", "medal");
+      item.title = `${place} место в сезоне ${id}`;
+      item.append(Elements.glossy(Elements.create("span", `rank rank-${place}`, place)), Elements.create("span", "medal-season", `Сезон ${id}`));
+      list.appendChild(item);
+    }
+    card.appendChild(list);
+    return card;
+  }
+
+  contribution(tag, record, appearances, medals) {
     const card = Elements.create("section", "profile");
     card.appendChild(Elements.create("h3", null, "Вклад в клан"));
     card.appendChild(Elements.create("p", "details", `по ${this.history.weeks.length} неделям КВ в архиве`));
@@ -693,8 +749,7 @@ class ProfileView {
     add("Недель в КВ", `${played.length} из ${participants.length} в клане`);
     if (best) add("Лучшая неделя", `${Elements.number(best.fame)} медалей`);
     if (record) add("Донат с начала учёта", Elements.number(record.donations.closed + record.donations.current));
-    const hall = this.hallOfFame(tag);
-    add("Зал славы", hall.length > 0 ? hall.join(", ") : "пока нет");
+    add("Зал славы", medals.length > 0 ? medals.map(({ id, place }) => `${place} место в сезоне ${id}`).join(", ") : "пока нет");
     card.appendChild(stats);
     return card;
   }
@@ -703,8 +758,7 @@ class ProfileView {
     return this.calendar.seasons()
       .filter((id) => this.calendar.isComplete(id))
       .map((id) => ({ id, place: this.war.standings(id).slice(0, HallOfFameTab.SIZE).findIndex((row) => row.tag === tag) + 1 }))
-      .filter((entry) => entry.place > 0)
-      .map((entry) => `${entry.place} место в сезоне ${entry.id}`);
+      .filter((entry) => entry.place > 0);
   }
 
   league(result) {
@@ -796,7 +850,8 @@ class ClanApp {
         clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge)),
         roster,
       };
-      this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war });
+      this.rails = new DeckRails(document.body);
+      this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war, rails: this.rails });
       const badge = ClanSummary.badgeUrl(data.badge);
       if (badge) {
         this.logo.src = badge;
@@ -833,6 +888,7 @@ class ClanApp {
 
   show() {
     const route = decodeURIComponent(location.hash.slice(1));
+    this.rails.hide();
     if (route.startsWith("player/")) {
       this.highlight(null);
       this.profile.render(this.content, `#${route.slice("player/".length).toUpperCase()}`);
