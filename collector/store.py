@@ -18,6 +18,11 @@ class JsonStore:
             return default
         return json.loads(path.read_text(encoding="utf-8"))
 
+    def write_bytes(self, relative, data):
+        path = self._root / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(data)
+
     def write(self, relative, data):
         path = self._root / relative
         path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 
+from .badge import ClanBadge
 from .players import PlayerProfiles
 from .rankings import ClanRankings
 from .registry import MemberRegistry
@@ -26,8 +27,10 @@ class Collector:
         players = PlayerProfiles(self._store, self._client).update(clan.get("memberList", []))
         snapshot = DailySnapshot(self._store).save_if_missing(now.date().isoformat(), clan, players)
         rankings = ClanRankings(self._store, self._client, self._clan_tag).update(clan)
+        badge = ClanBadge(self._store).update(clan)
         self._store.write("current/meta.json", {"clan_tag": self._clan_tag, "updated_at": stamp})
         print(f"Members in clan: {members}")
         print(f"New river races archived: {archived}")
         print(f"Daily snapshot created: {'yes' if snapshot else 'no'}")
         print(f"Rankings: {rankings}")
+        print(f"Badge: {badge.get('name')} {badge.get('league')}")

@@ -16,8 +16,12 @@ class DataSource {
       this.load("history/river_races/index.json"),
       this.load("current/players.json").catch(() => ({})),
     ]);
+    const [rankings, badge] = await Promise.all([
+      this.load("current/rankings.json").catch(() => null),
+      this.load("current/badge.json").catch(() => null),
+    ]);
     const races = await Promise.all(index.map((name) => this.load(`history/river_races/${name}`)));
-    return { meta, clan, race, members, races, players };
+    return { meta, clan, race, members, races, players, rankings, badge };
   }
 }
 
@@ -442,16 +446,86 @@ class RosterTab {
   }
 }
 
+class ClanSummary {
+  static TYPES = { open: "открытый", inviteOnly: "по приглашению", closed: "закрытый" };
+  static RANKING_SIZE = 1000;
+
+  constructor(clan, rankings, badge) {
+    this.clan = clan;
+    this.rankings = rankings;
+    this.badge = badge;
+  }
+
+  static badgeUrl(badge) {
+    return badge ? `data/current/badge.png?v=${badge.name}-${badge.league}` : null;
+  }
+
+  render() {
+    const card = Elements.create("section", "profile clan-card");
+    const title = Elements.create("div", "clan-title");
+    const url = ClanSummary.badgeUrl(this.badge);
+    if (url) {
+      const image = Elements.create("img", "clan-badge");
+      image.src = url;
+      image.alt = "Бейдж клана";
+      title.appendChild(image);
+    }
+    const name = Elements.create("div");
+    name.append(Elements.create("h2", null, this.clan.name));
+    if (this.badge?.league_title) name.append(Elements.create("p", "details", this.badge.league_title));
+    title.appendChild(name);
+    card.appendChild(title);
+    if (this.clan.description) card.appendChild(Elements.create("p", "clan-description", this.clan.description));
+    const stats = Elements.create("dl", "stats");
+    const add = (term, value) => stats.append(Elements.create("dt", null, term), Elements.create("dd", null, value));
+    add("Кубки клана", Elements.number(this.clan.clanScore));
+    add("Кубки КВ", Elements.number(this.clan.clanWarTrophies));
+    add("Участников", `${this.clan.members} из 50`);
+    add("Донат за неделю", Elements.number(this.clan.donationsPerWeek));
+    add("Вход", `от ${Elements.number(this.clan.requiredTrophies)} кубков, ${ClanSummary.TYPES[this.clan.type] ?? this.clan.type}`);
+    if (this.clan.location?.name) add("Страна", this.clan.location.name === "Russia" ? "Россия" : this.clan.location.name);
+    card.appendChild(stats);
+    if (this.rankings) card.append(Elements.create("h3", "subheading", "Место в рейтингах"), this.rankingList());
+    return card;
+  }
+
+  rankingList() {
+    const stats = Elements.create("dl", "stats");
+    const local = this.clan.location?.name === "Russia" ? "Россия" : this.rankings.location;
+    const boards = [
+      ["Мир, кубки", this.rankings.global?.trophies, this.clan.clanScore],
+      ["Мир, КВ", this.rankings.global?.war, this.clan.clanWarTrophies],
+      [`${local}, кубки`, this.rankings.local?.trophies, this.clan.clanScore],
+      [`${local}, КВ`, this.rankings.local?.war, this.clan.clanWarTrophies],
+    ];
+    for (const [term, board, own] of boards) {
+      if (!board) continue;
+      stats.append(Elements.create("dt", null, term), Elements.create("dd", null, this.position(board, own)));
+    }
+    return stats;
+  }
+
+  position(board, own) {
+    if (board.rank) return `${Elements.number(board.rank)} место`;
+    const gap = board.cutoff ? board.cutoff - own : null;
+    return gap > 0
+      ? `не в топ-${ClanSummary.RANKING_SIZE}, не хватает ${Elements.number(gap)}`
+      : `не в топ-${ClanSummary.RANKING_SIZE}`;
+  }
+}
+
 class ClanTab {
   title = "Клан";
 
-  constructor(history) {
+  constructor(history, summary) {
     this.history = history;
+    this.summary = summary;
   }
 
   render(container) {
     const sum = (participants, field) => participants.reduce((total, participant) => total + participant[field], 0);
     container.replaceChildren(
+      this.summary.render(),
       Elements.create("p", "hint", "Вся история КВ, что есть в архиве. Наведи или нажми на столбец, чтобы увидеть цифры."),
       new BarChart({ title: "Медали клана за неделю", subtitle: "сумма медалей всех участников", valueLabel: "Медали" })
         .render(this.history.clan((participants) => sum(participants, "fame"))),
@@ -594,8 +668,9 @@ class ProfileView {
 }
 
 class ClanApp {
-  constructor(source, nav, content, footer) {
+  constructor(source, nav, content, footer, logo) {
     this.source = source;
+    this.logo = logo;
     this.nav = nav;
     this.content = content;
     this.footer = footer;
@@ -615,10 +690,15 @@ class ClanApp {
         war: new WarTab(calendar, war, list),
         donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list),
         hall: new HallOfFameTab(calendar, war, list),
-        clan: new ClanTab(history),
+        clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge)),
         roster,
       };
       this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war });
+      const badge = ClanSummary.badgeUrl(data.badge);
+      if (badge) {
+        this.logo.src = badge;
+        this.logo.hidden = false;
+      }
       this.footer.textContent = `Обновлено ${new Date(data.meta.updated_at).toLocaleString("ru-RU")}`;
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
@@ -664,4 +744,5 @@ new ClanApp(
   document.getElementById("tabs"),
   document.getElementById("content"),
   document.getElementById("updated"),
+  document.getElementById("logo"),
 ).start();
