@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113318,
+  "clanScore": 113311,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1830,
+  "donationsPerWeek": 1848,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -185,7 +185,7 @@
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261027T191950.000Z",
+      "lastSeen": "20261027T200355.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -196,7 +196,7 @@
       "clanRank": 10,
       "previousClanRank": 10,
       "donations": 116,
-      "donationsReceived": 110,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
@@ -293,7 +293,7 @@
       "tag": "#29GJQ0G9Q",
       "name": "✨R_U_B_I_N✨",
       "role": "member",
-      "lastSeen": "20261027T072539.000Z",
+      "lastSeen": "20261027T202843.000Z",
       "expLevel": 0,
       "trophies": 11492,
       "arena": {
@@ -303,7 +303,7 @@
       },
       "clanRank": 16,
       "previousClanRank": 17,
-      "donations": 68,
+      "donations": 76,
       "donationsReceived": 120,
       "clanChestPoints": 0
     },
@@ -311,9 +311,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261027T181502.000Z",
+      "lastSeen": "20261027T195448.000Z",
       "expLevel": 0,
-      "trophies": 11415,
+      "trophies": 11386,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -321,8 +321,8 @@
       },
       "clanRank": 17,
       "previousClanRank": 18,
-      "donations": 176,
-      "donationsReceived": 144,
+      "donations": 186,
+      "donationsReceived": 152,
       "clanChestPoints": 0
     },
     {
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261027T193600.000Z",
+      "lastSeen": "20261027T200523.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
