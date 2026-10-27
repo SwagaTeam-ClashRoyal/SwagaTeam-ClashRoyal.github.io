@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113317,
+  "clanScore": 113296,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1604,
+  "donationsPerWeek": 1696,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -33,8 +33,8 @@
       },
       "clanRank": 1,
       "previousClanRank": 5,
-      "donations": 98,
-      "donationsReceived": 112,
+      "donations": 118,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
@@ -52,7 +52,7 @@
       "clanRank": 2,
       "previousClanRank": 6,
       "donations": 128,
-      "donationsReceived": 90,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
@@ -70,7 +70,7 @@
       "clanRank": 3,
       "previousClanRank": 2,
       "donations": 34,
-      "donationsReceived": 136,
+      "donationsReceived": 152,
       "clanChestPoints": 0
     },
     {
@@ -311,9 +311,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261027T155002.000Z",
+      "lastSeen": "20261027T161346.000Z",
       "expLevel": 0,
-      "trophies": 11354,
+      "trophies": 11356,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -321,7 +321,7 @@
       },
       "clanRank": 17,
       "previousClanRank": 18,
-      "donations": 130,
+      "donations": 166,
       "donationsReceived": 120,
       "clanChestPoints": 0
     },
@@ -365,9 +365,9 @@
       "tag": "#222YY9YCC",
       "name": "king abolfazl",
       "role": "member",
-      "lastSeen": "20261027T153113.000Z",
+      "lastSeen": "20261027T160434.000Z",
       "expLevel": 0,
-      "trophies": 10146,
+      "trophies": 10038,
       "arena": {
         "id": 54000117,
         "name": "Lumberlove Cabin",
@@ -376,7 +376,7 @@
       "clanRank": 20,
       "previousClanRank": 23,
       "donations": 0,
-      "donationsReceived": 90,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
@@ -599,7 +599,7 @@
       "tag": "#9282CQQ90",
       "name": "Чушпан",
       "role": "member",
-      "lastSeen": "20261026T221035.000Z",
+      "lastSeen": "20261027T164042.000Z",
       "expLevel": 0,
       "trophies": 6785,
       "arena": {
@@ -617,9 +617,9 @@
       "tag": "#GQP92GLC8",
       "name": "Adawell",
       "role": "member",
-      "lastSeen": "20261027T152654.000Z",
+      "lastSeen": "20261027T163053.000Z",
       "expLevel": 0,
-      "trophies": 6354,
+      "trophies": 6379,
       "arena": {
         "id": 54000014,
         "name": "Royal Crypt",
@@ -671,9 +671,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261026T171410.000Z",
+      "lastSeen": "20261027T165051.000Z",
       "expLevel": 0,
-      "trophies": 3247,
+      "trophies": 3279,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -681,8 +681,8 @@
       },
       "clanRank": 37,
       "previousClanRank": 40,
-      "donations": 78,
-      "donationsReceived": 80,
+      "donations": 114,
+      "donationsReceived": 88,
       "clanChestPoints": 0
     }
   ]
