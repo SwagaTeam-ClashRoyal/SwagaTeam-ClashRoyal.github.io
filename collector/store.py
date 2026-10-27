@@ -9,6 +9,9 @@ class JsonStore:
     def exists(self, relative):
         return (self._root / relative).exists()
 
+    def list(self, directory, pattern="*.json"):
+        return sorted(path.name for path in (self._root / directory).glob(pattern))
+
     def read(self, relative, default=None):
         path = self._root / relative
         if not path.exists():

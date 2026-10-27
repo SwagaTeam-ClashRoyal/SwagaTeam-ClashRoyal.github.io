@@ -13,6 +13,8 @@ class RiverRaceArchive:
                 continue
             self._store.write(relative, self._compact(race))
             added += 1
+        races = [name for name in self._store.list(self.DIRECTORY) if name != "index.json"]
+        self._store.write(f"{self.DIRECTORY}/index.json", races)
         return added
 
     def _compact(self, race):

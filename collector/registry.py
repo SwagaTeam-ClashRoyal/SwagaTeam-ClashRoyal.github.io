@@ -17,7 +17,7 @@ class MemberRegistry:
             record["in_clan"] = True
             record["last_seen_in_clan"] = now
             for key, field in self.COUNTERS.items():
-                self._accumulate(record[key], member.get(field, 0))
+                self._accumulate(record[key], member.get(field, 0), now)
         for tag, record in self._members.items():
             if tag not in present:
                 record["in_clan"] = False
@@ -31,7 +31,8 @@ class MemberRegistry:
         return record
 
     @staticmethod
-    def _accumulate(counter, value):
+    def _accumulate(counter, value, now):
         if value < counter["current"]:
             counter["closed"] += counter["current"]
+            counter.setdefault("weeks", []).append({"closed_at": now, "value": counter["current"]})
         counter["current"] = value
