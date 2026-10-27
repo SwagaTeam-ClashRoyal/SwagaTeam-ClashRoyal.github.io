@@ -42,6 +42,10 @@
   --former-fg: #5b6170;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 * {
   box-sizing: border-box;
 }
