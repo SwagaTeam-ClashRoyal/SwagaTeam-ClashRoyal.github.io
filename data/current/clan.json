@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 114616,
+  "clanScore": 114619,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -32,7 +32,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 1,
-      "previousClanRank": 2,
+      "previousClanRank": 6,
       "donations": 76,
       "donationsReceived": 60,
       "clanChestPoints": 0
@@ -50,7 +50,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
-      "previousClanRank": 3,
+      "previousClanRank": 2,
       "donations": 26,
       "donationsReceived": 104,
       "clanChestPoints": 0
@@ -68,7 +68,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 3,
-      "previousClanRank": 6,
+      "previousClanRank": 7,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -122,7 +122,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 6,
-      "previousClanRank": 7,
+      "previousClanRank": 3,
       "donations": 16,
       "donationsReceived": 40,
       "clanChestPoints": 0
@@ -410,7 +410,7 @@
         "rawName": "Arena_L11"
       },
       "clanRank": 22,
-      "previousClanRank": 0,
+      "previousClanRank": 24,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -428,7 +428,7 @@
         "rawName": "Arena_L10"
       },
       "clanRank": 23,
-      "previousClanRank": 24,
+      "previousClanRank": 25,
       "donations": 24,
       "donationsReceived": 32,
       "clanChestPoints": 0
@@ -446,7 +446,7 @@
         "rawName": "Arena_L10"
       },
       "clanRank": 24,
-      "previousClanRank": 25,
+      "previousClanRank": 26,
       "donations": 8,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -455,7 +455,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261026T184031.000Z",
+      "lastSeen": "20261027T094643.000Z",
       "expLevel": 0,
       "trophies": 9419,
       "arena": {
@@ -464,7 +464,7 @@
         "rawName": "Arena_L9"
       },
       "clanRank": 25,
-      "previousClanRank": 26,
+      "previousClanRank": 27,
       "donations": 92,
       "donationsReceived": 120,
       "clanChestPoints": 0
@@ -482,7 +482,7 @@
         "rawName": "Arena_L9"
       },
       "clanRank": 26,
-      "previousClanRank": 27,
+      "previousClanRank": 28,
       "donations": 84,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -500,7 +500,7 @@
         "rawName": "Arena_L9"
       },
       "clanRank": 27,
-      "previousClanRank": 28,
+      "previousClanRank": 29,
       "donations": 178,
       "donationsReceived": 104,
       "clanChestPoints": 0
@@ -518,7 +518,7 @@
         "rawName": "Arena_L8"
       },
       "clanRank": 28,
-      "previousClanRank": 29,
+      "previousClanRank": 30,
       "donations": 0,
       "donationsReceived": 104,
       "clanChestPoints": 0
@@ -536,7 +536,7 @@
         "rawName": "Arena_L7"
       },
       "clanRank": 29,
-      "previousClanRank": 30,
+      "previousClanRank": 31,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -554,7 +554,7 @@
         "rawName": "Arena_L7"
       },
       "clanRank": 30,
-      "previousClanRank": 31,
+      "previousClanRank": 32,
       "donations": 36,
       "donationsReceived": 40,
       "clanChestPoints": 0
@@ -572,7 +572,7 @@
         "rawName": "Arena_L7"
       },
       "clanRank": 31,
-      "previousClanRank": 32,
+      "previousClanRank": 33,
       "donations": 18,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -590,7 +590,7 @@
         "rawName": "Arena_L6"
       },
       "clanRank": 32,
-      "previousClanRank": 33,
+      "previousClanRank": 34,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -599,7 +599,7 @@
       "tag": "#JGL98Q9G2",
       "name": "(LP)Wasabi",
       "role": "member",
-      "lastSeen": "20261027T063350.000Z",
+      "lastSeen": "20261027T075212.000Z",
       "expLevel": 0,
       "trophies": 7530,
       "arena": {
@@ -608,7 +608,7 @@
         "rawName": "Arena_L6"
       },
       "clanRank": 33,
-      "previousClanRank": 34,
+      "previousClanRank": 35,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -626,7 +626,7 @@
         "rawName": "Arena_L4"
       },
       "clanRank": 34,
-      "previousClanRank": 35,
+      "previousClanRank": 36,
       "donations": 14,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -644,8 +644,26 @@
         "rawName": "Arena_L3"
       },
       "clanRank": 35,
-      "previousClanRank": 36,
+      "previousClanRank": 37,
       "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8JRL80GY0",
+      "name": "vickymaddy",
+      "role": "member",
+      "lastSeen": "20261027T074805.000Z",
+      "expLevel": 0,
+      "trophies": 5406,
+      "arena": {
+        "id": 54000012,
+        "name": "Miner's Mine",
+        "rawName": "Arena_L1"
+      },
+      "clanRank": 36,
+      "previousClanRank": 39,
+      "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -656,24 +674,6 @@
       "lastSeen": "20261026T163452.000Z",
       "expLevel": 0,
       "trophies": 5406,
-      "arena": {
-        "id": 54000012,
-        "name": "Miner's Mine",
-        "rawName": "Arena_L1"
-      },
-      "clanRank": 36,
-      "previousClanRank": 37,
-      "donations": 0,
-      "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#8JRL80GY0",
-      "name": "vickymaddy",
-      "role": "member",
-      "lastSeen": "20261027T074805.000Z",
-      "expLevel": 0,
-      "trophies": 5376,
       "arena": {
         "id": 54000012,
         "name": "Miner's Mine",
@@ -698,7 +698,7 @@
         "rawName": "Arena_L"
       },
       "clanRank": 38,
-      "previousClanRank": 39,
+      "previousClanRank": 40,
       "donations": 78,
       "donationsReceived": 80,
       "clanChestPoints": 0
