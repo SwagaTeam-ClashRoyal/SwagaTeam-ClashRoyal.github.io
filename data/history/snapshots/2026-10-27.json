@@ -1,0 +1,1726 @@
+{
+  "date": "2026-10-27",
+  "clan": {
+    "tag": "#QVQUPC8Q",
+    "name": "Swaga team",
+    "type": "open",
+    "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
+    "badgeId": 16000072,
+    "clanScore": 114616,
+    "clanWarTrophies": 2055,
+    "location": {
+      "id": 57000193,
+      "name": "Russia",
+      "isCountry": true,
+      "countryCode": "RU"
+    },
+    "requiredTrophies": 1000,
+    "donationsPerWeek": 1120,
+    "clanChestStatus": "inactive",
+    "clanChestLevel": 1,
+    "clanChestMaxLevel": 0,
+    "members": 38
+  },
+  "members": [
+    {
+      "tag": "#LV0GVYYL8",
+      "name": "kkyo",
+      "role": "coLeader",
+      "lastSeen": "20261027T055017.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 2,
+      "donations": 42,
+      "donationsReceived": 50,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8UCG80RYR",
+      "name": "Daisy Sprout",
+      "role": "leader",
+      "lastSeen": "20261027T044101.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 2,
+      "previousClanRank": 6,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "role": "elder",
+      "lastSeen": "20261027T033538.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 3,
+      "previousClanRank": 4,
+      "donations": 140,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#R98U8U290",
+      "name": "tenkuu.☁️",
+      "role": "member",
+      "lastSeen": "20261026T194255.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 4,
+      "previousClanRank": 1,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261026T190502.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 5,
+      "previousClanRank": 3,
+      "donations": 26,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#28G90Y9JL",
+      "name": "GamerPro",
+      "role": "member",
+      "lastSeen": "20261026T172837.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 6,
+      "previousClanRank": 7,
+      "donations": 16,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261026T133912.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 7,
+      "previousClanRank": 5,
+      "donations": 72,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#UJ0CY2UPC",
+      "name": "да",
+      "role": "member",
+      "lastSeen": "20261023T052010.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 8,
+      "previousClanRank": 8,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#U0QJL29PY",
+      "name": "egor",
+      "role": "elder",
+      "lastSeen": "20261026T132013.000Z",
+      "expLevel": 0,
+      "trophies": 13275,
+      "arena": {
+        "id": 54000143,
+        "name": "Little Prince's Tavern",
+        "rawName": "Arena_L17"
+      },
+      "clanRank": 9,
+      "previousClanRank": 9,
+      "donations": 16,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#YQ2VLPJ0L",
+      "name": "arch1tector",
+      "role": "member",
+      "lastSeen": "20261026T115811.000Z",
+      "expLevel": 0,
+      "trophies": 13178,
+      "arena": {
+        "id": 54000143,
+        "name": "Little Prince's Tavern",
+        "rawName": "Arena_L17"
+      },
+      "clanRank": 10,
+      "previousClanRank": 10,
+      "donations": 38,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8LRPG2VPQ",
+      "name": "CHLE N EGRA",
+      "role": "member",
+      "lastSeen": "20261027T013902.000Z",
+      "expLevel": 0,
+      "trophies": 13058,
+      "arena": {
+        "id": 54000143,
+        "name": "Little Prince's Tavern",
+        "rawName": "Arena_L17"
+      },
+      "clanRank": 11,
+      "previousClanRank": 12,
+      "donations": 134,
+      "donationsReceived": 30,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#P08LLGYLQ",
+      "name": "Luka13",
+      "role": "member",
+      "lastSeen": "20261027T045616.000Z",
+      "expLevel": 0,
+      "trophies": 12774,
+      "arena": {
+        "id": 54000142,
+        "name": "Ultimate Clash Pit",
+        "rawName": "Arena_L16"
+      },
+      "clanRank": 12,
+      "previousClanRank": 13,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#Q2RJCVYUQ",
+      "name": "NEVIDIMKA YT",
+      "role": "member",
+      "lastSeen": "20261026T200852.000Z",
+      "expLevel": 0,
+      "trophies": 12150,
+      "arena": {
+        "id": 54000141,
+        "name": "Magic Academy",
+        "rawName": "Arena_L15"
+      },
+      "clanRank": 13,
+      "previousClanRank": 14,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#J9Y9Y9YRG",
+      "name": "Sinner",
+      "role": "member",
+      "lastSeen": "20261026T112227.000Z",
+      "expLevel": 0,
+      "trophies": 11763,
+      "arena": {
+        "id": 54000132,
+        "name": "Summit of Heroes",
+        "rawName": "Arena_L14"
+      },
+      "clanRank": 14,
+      "previousClanRank": 15,
+      "donations": 0,
+      "donationsReceived": 24,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#PL82RPJUJ",
+      "name": ")))",
+      "role": "elder",
+      "lastSeen": "20261024T235440.000Z",
+      "expLevel": 0,
+      "trophies": 11695,
+      "arena": {
+        "id": 54000132,
+        "name": "Summit of Heroes",
+        "rawName": "Arena_L14"
+      },
+      "clanRank": 15,
+      "previousClanRank": 16,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#29GJQ0G9Q",
+      "name": "✨R_U_B_I_N✨",
+      "role": "member",
+      "lastSeen": "20261026T111739.000Z",
+      "expLevel": 0,
+      "trophies": 11492,
+      "arena": {
+        "id": 54000131,
+        "name": "Musketeer Street",
+        "rawName": "Arena_L13"
+      },
+      "clanRank": 16,
+      "previousClanRank": 17,
+      "donations": 44,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#PQQ2JYL2G",
+      "name": "MFbren",
+      "role": "member",
+      "lastSeen": "20261026T172515.000Z",
+      "expLevel": 0,
+      "trophies": 11354,
+      "arena": {
+        "id": 54000131,
+        "name": "Musketeer Street",
+        "rawName": "Arena_L13"
+      },
+      "clanRank": 17,
+      "previousClanRank": 18,
+      "donations": 86,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8LJQ29VPG",
+      "name": "buxiir",
+      "role": "member",
+      "lastSeen": "20261026T232838.000Z",
+      "expLevel": 0,
+      "trophies": 11215,
+      "arena": {
+        "id": 54000131,
+        "name": "Musketeer Street",
+        "rawName": "Arena_L13"
+      },
+      "clanRank": 18,
+      "previousClanRank": 20,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#YR2GG8C2",
+      "name": "mohamaddavodi",
+      "role": "member",
+      "lastSeen": "20261026T134542.000Z",
+      "expLevel": 0,
+      "trophies": 10794,
+      "arena": {
+        "id": 54000130,
+        "name": "Royal Road",
+        "rawName": "Arena_L12"
+      },
+      "clanRank": 19,
+      "previousClanRank": 21,
+      "donations": 0,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#V92YR0C2L",
+      "name": "ERICK_V",
+      "role": "member",
+      "lastSeen": "20261024T121816.000Z",
+      "expLevel": 0,
+      "trophies": 10600,
+      "arena": {
+        "id": 54000130,
+        "name": "Royal Road",
+        "rawName": "Arena_L12"
+      },
+      "clanRank": 20,
+      "previousClanRank": 22,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#222YY9YCC",
+      "name": "king abolfazl",
+      "role": "member",
+      "lastSeen": "20261026T181801.000Z",
+      "expLevel": 0,
+      "trophies": 10203,
+      "arena": {
+        "id": 54000117,
+        "name": "Lumberlove Cabin",
+        "rawName": "Arena_L11"
+      },
+      "clanRank": 21,
+      "previousClanRank": 23,
+      "donations": 0,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CY0LPRRUJ",
+      "name": "MOHAMMAD",
+      "role": "member",
+      "lastSeen": "20261026T163301.000Z",
+      "expLevel": 0,
+      "trophies": 10030,
+      "arena": {
+        "id": 54000117,
+        "name": "Lumberlove Cabin",
+        "rawName": "Arena_L11"
+      },
+      "clanRank": 22,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CC9J8Y902",
+      "name": "Michael",
+      "role": "member",
+      "lastSeen": "20261026T170235.000Z",
+      "expLevel": 0,
+      "trophies": 9821,
+      "arena": {
+        "id": 54000031,
+        "name": "Legendary Arena",
+        "rawName": "Arena_L10"
+      },
+      "clanRank": 23,
+      "previousClanRank": 24,
+      "donations": 24,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#GQQL9YLYQ",
+      "name": "Ter",
+      "role": "elder",
+      "lastSeen": "20261027T042702.000Z",
+      "expLevel": 0,
+      "trophies": 9617,
+      "arena": {
+        "id": 54000031,
+        "name": "Legendary Arena",
+        "rawName": "Arena_L10"
+      },
+      "clanRank": 24,
+      "previousClanRank": 25,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9RJPRQLL2",
+      "name": "Morj",
+      "role": "member",
+      "lastSeen": "20261026T184031.000Z",
+      "expLevel": 0,
+      "trophies": 9419,
+      "arena": {
+        "id": 54000020,
+        "name": "Valkalla",
+        "rawName": "Arena_L9"
+      },
+      "clanRank": 25,
+      "previousClanRank": 26,
+      "donations": 92,
+      "donationsReceived": 120,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#JU2L2U8LG",
+      "name": "адцкий гей",
+      "role": "member",
+      "lastSeen": "20261026T205304.000Z",
+      "expLevel": 0,
+      "trophies": 9243,
+      "arena": {
+        "id": 54000020,
+        "name": "Valkalla",
+        "rawName": "Arena_L9"
+      },
+      "clanRank": 26,
+      "previousClanRank": 27,
+      "donations": 84,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CJR008LV9",
+      "name": "cook",
+      "role": "member",
+      "lastSeen": "20261027T043814.000Z",
+      "expLevel": 0,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Valkalla",
+        "rawName": "Arena_L9"
+      },
+      "clanRank": 27,
+      "previousClanRank": 28,
+      "donations": 144,
+      "donationsReceived": 88,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#22JLP29RV",
+      "name": "Kale",
+      "role": "member",
+      "lastSeen": "20261027T030311.000Z",
+      "expLevel": 0,
+      "trophies": 8741,
+      "arena": {
+        "id": 54000019,
+        "name": "PANCAKES!",
+        "rawName": "Arena_L8"
+      },
+      "clanRank": 28,
+      "previousClanRank": 29,
+      "donations": 0,
+      "donationsReceived": 88,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#LGQC0JPLU",
+      "name": "am012",
+      "role": "member",
+      "lastSeen": "20261026T095453.000Z",
+      "expLevel": 0,
+      "trophies": 8286,
+      "arena": {
+        "id": 54000018,
+        "name": "Clash Fest",
+        "rawName": "Arena_L7"
+      },
+      "clanRank": 29,
+      "previousClanRank": 30,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#UY2UPL2GV",
+      "name": "\"Erick\"",
+      "role": "member",
+      "lastSeen": "20261026T032049.000Z",
+      "expLevel": 0,
+      "trophies": 8241,
+      "arena": {
+        "id": 54000018,
+        "name": "Clash Fest",
+        "rawName": "Arena_L7"
+      },
+      "clanRank": 30,
+      "previousClanRank": 31,
+      "donations": 36,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9JPPYRL90",
+      "name": "disruption",
+      "role": "member",
+      "lastSeen": "20261026T103313.000Z",
+      "expLevel": 0,
+      "trophies": 8127,
+      "arena": {
+        "id": 54000018,
+        "name": "Clash Fest",
+        "rawName": "Arena_L7"
+      },
+      "clanRank": 31,
+      "previousClanRank": 32,
+      "donations": 18,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VJPQ089PL",
+      "name": "Dimaster_HUY",
+      "role": "member",
+      "lastSeen": "20261026T145449.000Z",
+      "expLevel": 0,
+      "trophies": 7815,
+      "arena": {
+        "id": 54000017,
+        "name": "Boot Camp",
+        "rawName": "Arena_L6"
+      },
+      "clanRank": 32,
+      "previousClanRank": 33,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#JGL98Q9G2",
+      "name": "(LP)Wasabi",
+      "role": "member",
+      "lastSeen": "20261027T054732.000Z",
+      "expLevel": 0,
+      "trophies": 7530,
+      "arena": {
+        "id": 54000017,
+        "name": "Boot Camp",
+        "rawName": "Arena_L6"
+      },
+      "clanRank": 33,
+      "previousClanRank": 34,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9282CQQ90",
+      "name": "Чушпан",
+      "role": "member",
+      "lastSeen": "20261026T221035.000Z",
+      "expLevel": 0,
+      "trophies": 6785,
+      "arena": {
+        "id": 54000015,
+        "name": "Silent Sanctuary",
+        "rawName": "Arena_L4"
+      },
+      "clanRank": 34,
+      "previousClanRank": 35,
+      "donations": 14,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#GQP92GLC8",
+      "name": "Adawell",
+      "role": "member",
+      "lastSeen": "20261026T095818.000Z",
+      "expLevel": 0,
+      "trophies": 6354,
+      "arena": {
+        "id": 54000014,
+        "name": "Royal Crypt",
+        "rawName": "Arena_L3"
+      },
+      "clanRank": 35,
+      "previousClanRank": 36,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8JRL80GY0",
+      "name": "vickymaddy",
+      "role": "member",
+      "lastSeen": "20261027T052001.000Z",
+      "expLevel": 0,
+      "trophies": 5409,
+      "arena": {
+        "id": 54000012,
+        "name": "Miner's Mine",
+        "rawName": "Arena_L1"
+      },
+      "clanRank": 36,
+      "previousClanRank": 38,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QY9JV9JQ0",
+      "name": "Sk_Kr1staL",
+      "role": "member",
+      "lastSeen": "20261026T163452.000Z",
+      "expLevel": 0,
+      "trophies": 5406,
+      "arena": {
+        "id": 54000012,
+        "name": "Miner's Mine",
+        "rawName": "Arena_L1"
+      },
+      "clanRank": 37,
+      "previousClanRank": 37,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#V0RCP20LR",
+      "name": "подписични черв",
+      "role": "elder",
+      "lastSeen": "20261026T171410.000Z",
+      "expLevel": 0,
+      "trophies": 3247,
+      "arena": {
+        "id": 54000007,
+        "name": "Hog Mountain",
+        "rawName": "Arena_L"
+      },
+      "clanRank": 38,
+      "previousClanRank": 39,
+      "donations": 78,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    }
+  ],
+  "players": {
+    "#LV0GVYYL8": {
+      "expLevel": 63,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 2209,
+      "losses": 1484,
+      "battleCount": 3693,
+      "threeCrownWins": 1066,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 34178,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#8UCG80RYR": {
+      "expLevel": 67,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 3923,
+      "losses": 3008,
+      "battleCount": 6931,
+      "threeCrownWins": 1187,
+      "warDayWins": 0,
+      "clanCardsCollected": 1220,
+      "totalDonations": 28913,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 3,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 8,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#QP0PPC0QU": {
+      "expLevel": 60,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 3519,
+      "losses": 4107,
+      "battleCount": 7626,
+      "threeCrownWins": 1009,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 16915,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#R98U8U290": {
+      "expLevel": 62,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 2909,
+      "losses": 2489,
+      "battleCount": 5398,
+      "threeCrownWins": 1102,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 15128,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#9JQ8PCJ": {
+      "expLevel": 59,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 10985,
+      "losses": 10625,
+      "battleCount": 21610,
+      "threeCrownWins": 5588,
+      "warDayWins": 136,
+      "clanCardsCollected": 394128,
+      "totalDonations": 138417,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#28G90Y9JL": {
+      "expLevel": 59,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 2816,
+      "losses": 1467,
+      "battleCount": 4283,
+      "threeCrownWins": 1020,
+      "warDayWins": 13,
+      "clanCardsCollected": 23160,
+      "totalDonations": 34641,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 6,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 8,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#CGPUY8P2": {
+      "expLevel": 69,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 3683,
+      "losses": 2059,
+      "battleCount": 5742,
+      "threeCrownWins": 1072,
+      "warDayWins": 30,
+      "clanCardsCollected": 92376,
+      "totalDonations": 40552,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 5,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 8,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#UJ0CY2UPC": {
+      "expLevel": 63,
+      "trophies": 14000,
+      "bestTrophies": 14000,
+      "wins": 4361,
+      "losses": 3693,
+      "battleCount": 8054,
+      "threeCrownWins": 923,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 15155,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 7,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#U0QJL29PY": {
+      "expLevel": 57,
+      "trophies": 13275,
+      "bestTrophies": 13303,
+      "wins": 3465,
+      "losses": 3571,
+      "battleCount": 7036,
+      "threeCrownWins": 1455,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 19373,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 2,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#YQ2VLPJ0L": {
+      "expLevel": 58,
+      "trophies": 13178,
+      "bestTrophies": 13178,
+      "wins": 2284,
+      "losses": 1621,
+      "battleCount": 3905,
+      "threeCrownWins": 593,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 29991,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#8LRPG2VPQ": {
+      "expLevel": 43,
+      "trophies": 13058,
+      "bestTrophies": 13090,
+      "wins": 2316,
+      "losses": 2021,
+      "battleCount": 4337,
+      "threeCrownWins": 1167,
+      "warDayWins": 0,
+      "clanCardsCollected": 460,
+      "totalDonations": 14583,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#P08LLGYLQ": {
+      "expLevel": 56,
+      "trophies": 12774,
+      "bestTrophies": 12780,
+      "wins": 3281,
+      "losses": 1830,
+      "battleCount": 5111,
+      "threeCrownWins": 1196,
+      "warDayWins": 19,
+      "clanCardsCollected": 45839,
+      "totalDonations": 18818,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#Q2RJCVYUQ": {
+      "expLevel": 60,
+      "trophies": 12150,
+      "bestTrophies": 12267,
+      "wins": 3509,
+      "losses": 2972,
+      "battleCount": 6481,
+      "threeCrownWins": 2394,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 22325,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#J9Y9Y9YRG": {
+      "expLevel": 1,
+      "trophies": 11763,
+      "bestTrophies": 11846,
+      "wins": 1544,
+      "losses": 507,
+      "battleCount": 2051,
+      "threeCrownWins": 481,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 20,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#PL82RPJUJ": {
+      "expLevel": 56,
+      "trophies": 11695,
+      "bestTrophies": 11695,
+      "wins": 1092,
+      "losses": 1030,
+      "battleCount": 2122,
+      "threeCrownWins": 626,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 24526,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#29GJQ0G9Q": {
+      "expLevel": 63,
+      "trophies": 11492,
+      "bestTrophies": 11492,
+      "wins": 3635,
+      "losses": 2819,
+      "battleCount": 6454,
+      "threeCrownWins": 2721,
+      "warDayWins": 87,
+      "clanCardsCollected": 215555,
+      "totalDonations": 72661,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#PQQ2JYL2G": {
+      "expLevel": 48,
+      "trophies": 11354,
+      "bestTrophies": 11384,
+      "wins": 2195,
+      "losses": 2417,
+      "battleCount": 4612,
+      "threeCrownWins": 1058,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 11773,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#8LJQ29VPG": {
+      "expLevel": 52,
+      "trophies": 11215,
+      "bestTrophies": 11215,
+      "wins": 1152,
+      "losses": 901,
+      "battleCount": 2053,
+      "threeCrownWins": 773,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 7522,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#YR2GG8C2": {
+      "expLevel": 35,
+      "trophies": 10794,
+      "bestTrophies": 10943,
+      "wins": 2209,
+      "losses": 2125,
+      "battleCount": 4334,
+      "threeCrownWins": 1411,
+      "warDayWins": 0,
+      "clanCardsCollected": 7400,
+      "totalDonations": 16511,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#V92YR0C2L": {
+      "expLevel": 55,
+      "trophies": 10600,
+      "bestTrophies": 10600,
+      "wins": 1486,
+      "losses": 1150,
+      "battleCount": 2636,
+      "threeCrownWins": 862,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 6568,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#222YY9YCC": {
+      "expLevel": 35,
+      "trophies": 10203,
+      "bestTrophies": 10203,
+      "wins": 2452,
+      "losses": 2144,
+      "battleCount": 4596,
+      "threeCrownWins": 887,
+      "warDayWins": 40,
+      "clanCardsCollected": 109447,
+      "totalDonations": 31164,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 2,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#CY0LPRRUJ": {
+      "expLevel": 40,
+      "trophies": 10030,
+      "bestTrophies": 10071,
+      "wins": 2114,
+      "losses": 2170,
+      "battleCount": 4284,
+      "threeCrownWins": 771,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 1268,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#CC9J8Y902": {
+      "expLevel": 42,
+      "trophies": 9821,
+      "bestTrophies": 9822,
+      "wins": 1729,
+      "losses": 1513,
+      "battleCount": 3242,
+      "threeCrownWins": 428,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 2906,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#GQQL9YLYQ": {
+      "expLevel": 38,
+      "trophies": 9617,
+      "bestTrophies": 9825,
+      "wins": 2254,
+      "losses": 2086,
+      "battleCount": 4340,
+      "threeCrownWins": 780,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 17222,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#9RJPRQLL2": {
+      "expLevel": 20,
+      "trophies": 9419,
+      "bestTrophies": 9449,
+      "wins": 984,
+      "losses": 651,
+      "battleCount": 1635,
+      "threeCrownWins": 493,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 2423,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#JU2L2U8LG": {
+      "expLevel": 40,
+      "trophies": 9243,
+      "bestTrophies": 9243,
+      "wins": 1023,
+      "losses": 801,
+      "battleCount": 1824,
+      "threeCrownWins": 526,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 3219,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#CJR008LV9": {
+      "expLevel": 39,
+      "trophies": 9000,
+      "bestTrophies": 9093,
+      "wins": 1139,
+      "losses": 991,
+      "battleCount": 2130,
+      "threeCrownWins": 653,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 3826,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#22JLP29RV": {
+      "expLevel": 42,
+      "trophies": 8741,
+      "bestTrophies": 8741,
+      "wins": 2572,
+      "losses": 2757,
+      "battleCount": 5329,
+      "threeCrownWins": 1624,
+      "warDayWins": 6,
+      "clanCardsCollected": 5920,
+      "totalDonations": 26149,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 5,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#LGQC0JPLU": {
+      "expLevel": 31,
+      "trophies": 8286,
+      "bestTrophies": 8437,
+      "wins": 660,
+      "losses": 428,
+      "battleCount": 1088,
+      "threeCrownWins": 370,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 119,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#UY2UPL2GV": {
+      "expLevel": 32,
+      "trophies": 8241,
+      "bestTrophies": 8241,
+      "wins": 910,
+      "losses": 629,
+      "battleCount": 1539,
+      "threeCrownWins": 411,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 533,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#9JPPYRL90": {
+      "expLevel": 32,
+      "trophies": 8127,
+      "bestTrophies": 8127,
+      "wins": 924,
+      "losses": 684,
+      "battleCount": 1608,
+      "threeCrownWins": 298,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 1083,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#VJPQ089PL": {
+      "expLevel": 36,
+      "trophies": 7815,
+      "bestTrophies": 7835,
+      "wins": 674,
+      "losses": 610,
+      "battleCount": 1284,
+      "threeCrownWins": 224,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 5453,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#JGL98Q9G2": {
+      "expLevel": 34,
+      "trophies": 7530,
+      "bestTrophies": 7648,
+      "wins": 872,
+      "losses": 699,
+      "battleCount": 1571,
+      "threeCrownWins": 330,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 110,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#9282CQQ90": {
+      "expLevel": 39,
+      "trophies": 6785,
+      "bestTrophies": 6785,
+      "wins": 2460,
+      "losses": 2589,
+      "battleCount": 5049,
+      "threeCrownWins": 1800,
+      "warDayWins": 31,
+      "clanCardsCollected": 71356,
+      "totalDonations": 37043,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 2,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#GQP92GLC8": {
+      "expLevel": 27,
+      "trophies": 6354,
+      "bestTrophies": 6355,
+      "wins": 569,
+      "losses": 488,
+      "battleCount": 1057,
+      "threeCrownWins": 384,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 493,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#8JRL80GY0": {
+      "expLevel": 21,
+      "trophies": 5409,
+      "bestTrophies": 5439,
+      "wins": 769,
+      "losses": 723,
+      "battleCount": 1492,
+      "threeCrownWins": 496,
+      "warDayWins": 1,
+      "clanCardsCollected": 3550,
+      "totalDonations": 14,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#QY9JV9JQ0": {
+      "expLevel": 29,
+      "trophies": 5406,
+      "bestTrophies": 5451,
+      "wins": 487,
+      "losses": 349,
+      "battleCount": 836,
+      "threeCrownWins": 241,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 3238,
+      "currentPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "lastPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      },
+      "bestPathOfLegendSeasonResult": {
+        "leagueNumber": 1,
+        "trophies": 0,
+        "rank": null
+      }
+    },
+    "#V0RCP20LR": {
+      "expLevel": 58,
+      "trophies": 3247,
+      "bestTrophies": 3397,
+      "wins": 3168,
+      "losses": 2764,
+      "battleCount": 5932,
+      "threeCrownWins": 2537,
+      "warDayWins": 0,
+      "clanCardsCollected": 0,
+      "totalDonations": 19866,
+      "currentPathOfLegendSeasonResult": null,
+      "lastPathOfLegendSeasonResult": null,
+      "bestPathOfLegendSeasonResult": null
+    }
+  }
+}
