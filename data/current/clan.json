@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 114621,
+  "clanScore": 114644,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1398,
+  "donationsPerWeek": 1448,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
+    {
+      "tag": "#R98U8U290",
+      "name": "tenkuu.☁️",
+      "role": "member",
+      "lastSeen": "20261027T105753.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 1,
+      "donations": 36,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#8UCG80RYR",
       "name": "Daisy Sprout",
@@ -31,26 +49,8 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
-      "previousClanRank": 7,
-      "donations": 28,
-      "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#R98U8U290",
-      "name": "tenkuu.☁️",
-      "role": "member",
-      "lastSeen": "20261027T095702.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
       "clanRank": 2,
-      "previousClanRank": 1,
+      "previousClanRank": 7,
       "donations": 28,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -167,9 +167,9 @@
       "tag": "#U0QJL29PY",
       "name": "egor",
       "role": "elder",
-      "lastSeen": "20261026T132013.000Z",
+      "lastSeen": "20261027T111336.000Z",
       "expLevel": 0,
-      "trophies": 13275,
+      "trophies": 13278,
       "arena": {
         "id": 54000143,
         "name": "Little Prince's Tavern",
@@ -177,7 +177,7 @@
       },
       "clanRank": 9,
       "previousClanRank": 9,
-      "donations": 16,
+      "donations": 50,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -322,7 +322,7 @@
       "clanRank": 17,
       "previousClanRank": 18,
       "donations": 130,
-      "donationsReceived": 88,
+      "donationsReceived": 96,
       "clanChestPoints": 0
     },
     {
@@ -455,18 +455,18 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261027T094643.000Z",
+      "lastSeen": "20261027T113541.000Z",
       "expLevel": 0,
-      "trophies": 9355,
+      "trophies": 9527,
       "arena": {
-        "id": 54000020,
-        "name": "Valkalla",
-        "rawName": "Arena_L9"
+        "id": 54000031,
+        "name": "Legendary Arena",
+        "rawName": "Arena_L10"
       },
       "clanRank": 25,
       "previousClanRank": 27,
-      "donations": 126,
-      "donationsReceived": 150,
+      "donations": 134,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -502,14 +502,14 @@
       "clanRank": 27,
       "previousClanRank": 29,
       "donations": 178,
-      "donationsReceived": 104,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
       "tag": "#22JLP29RV",
       "name": "Kale",
       "role": "member",
-      "lastSeen": "20261027T102736.000Z",
+      "lastSeen": "20261027T113850.000Z",
       "expLevel": 0,
       "trophies": 8741,
       "arena": {
@@ -520,7 +520,7 @@
       "clanRank": 28,
       "previousClanRank": 30,
       "donations": 0,
-      "donationsReceived": 112,
+      "donationsReceived": 128,
       "clanChestPoints": 0
     },
     {
