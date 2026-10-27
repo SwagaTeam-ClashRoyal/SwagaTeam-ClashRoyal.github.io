@@ -13,17 +13,17 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1466,
+  "donationsPerWeek": 1492,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
     {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261027T124653.000Z",
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261027T134129.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -32,16 +32,16 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 1,
-      "previousClanRank": 5,
-      "donations": 90,
-      "donationsReceived": 80,
+      "previousClanRank": 2,
+      "donations": 34,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
-      "tag": "#9JQ8PCJ",
-      "name": "lastiq",
-      "role": "member",
-      "lastSeen": "20261027T120919.000Z",
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261027T132453.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -50,16 +50,16 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
-      "previousClanRank": 2,
-      "donations": 26,
-      "donationsReceived": 120,
+      "previousClanRank": 5,
+      "donations": 90,
+      "donationsReceived": 96,
       "clanChestPoints": 0
     },
     {
       "tag": "#R98U8U290",
       "name": "tenkuu.☁️",
       "role": "member",
-      "lastSeen": "20261027T105753.000Z",
+      "lastSeen": "20261027T130334.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -69,7 +69,7 @@
       },
       "clanRank": 3,
       "previousClanRank": 1,
-      "donations": 36,
+      "donations": 54,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -178,7 +178,7 @@
       "clanRank": 9,
       "previousClanRank": 9,
       "donations": 50,
-      "donationsReceived": 50,
+      "donationsReceived": 60,
       "clanChestPoints": 0
     },
     {
@@ -509,7 +509,7 @@
       "tag": "#22JLP29RV",
       "name": "Kale",
       "role": "member",
-      "lastSeen": "20261027T122650.000Z",
+      "lastSeen": "20261027T125626.000Z",
       "expLevel": 0,
       "trophies": 8741,
       "arena": {
