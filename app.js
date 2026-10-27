@@ -324,10 +324,12 @@ class RankingList {
     return stack;
   }
 
-  pill({ icon, label, value }) {
+  pill({ icon, label, value, tint }) {
     const pill = Elements.create("div", "score-pill");
     pill.title = label;
-    pill.append(Elements.icon(icon, label), Elements.glossy(Elements.create("span", null, value)));
+    const image = Elements.icon(icon, label);
+    if (tint) image.classList.add(`tint-${tint}`);
+    pill.append(image, Elements.glossy(Elements.create("span", null, value)));
     return pill;
   }
 
@@ -396,7 +398,7 @@ class WarTab {
           RankingList.stat("cw-fame", "Медали", Elements.number(row.fame)),
           RankingList.stat("cw-battle", "Колоды", `${row.decks}/${row.possible}`),
         ],
-        pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score) },
+        pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score), tint: "white" },
       })),
     );
   }
@@ -459,7 +461,7 @@ class HallOfFameTab {
         RankingList.stat("cw-fame", "Медали", Elements.number(row.fame)),
         RankingList.stat("cw-battle", "Колоды", `${row.decks}/${row.possible}`),
       ],
-      pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score) },
+      pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score), tint: "white" },
     })));
     return card;
   }
@@ -775,7 +777,12 @@ class ClanApp {
       warTrophies.textContent = Elements.number(data.clan.clanWarTrophies);
       warTrophies.dataset.text = warTrophies.textContent;
       document.getElementById("war-pill").hidden = false;
-      this.footer.textContent = `Обновлено ${new Date(data.meta.updated_at).toLocaleString("ru-RU")}`;
+      this.footer.textContent = new Date(data.meta.updated_at).toLocaleString("ru-RU");
+      if (badge) {
+        const footerLogo = document.getElementById("footer-logo");
+        footerLogo.src = badge;
+        footerLogo.hidden = false;
+      }
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
       document.addEventListener("touchstart", () => {}, { passive: true });
