@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113296,
+  "clanScore": 113303,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1696,
+  "donationsPerWeek": 1740,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -70,7 +70,7 @@
       "clanRank": 3,
       "previousClanRank": 2,
       "donations": 34,
-      "donationsReceived": 152,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -311,9 +311,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261027T161346.000Z",
+      "lastSeen": "20261027T173121.000Z",
       "expLevel": 0,
-      "trophies": 11356,
+      "trophies": 11355,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -321,7 +321,7 @@
       },
       "clanRank": 17,
       "previousClanRank": 18,
-      "donations": 166,
+      "donations": 176,
       "donationsReceived": 120,
       "clanChestPoints": 0
     },
@@ -367,7 +367,7 @@
       "role": "member",
       "lastSeen": "20261027T160434.000Z",
       "expLevel": 0,
-      "trophies": 10038,
+      "trophies": 10100,
       "arena": {
         "id": 54000117,
         "name": "Lumberlove Cabin",
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261027T145246.000Z",
+      "lastSeen": "20261027T171656.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -429,7 +429,7 @@
       },
       "clanRank": 23,
       "previousClanRank": 26,
-      "donations": 42,
+      "donations": 60,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -437,7 +437,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261027T113541.000Z",
+      "lastSeen": "20261027T173402.000Z",
       "expLevel": 0,
       "trophies": 9527,
       "arena": {
@@ -447,8 +447,8 @@
       },
       "clanRank": 24,
       "previousClanRank": 27,
-      "donations": 134,
-      "donationsReceived": 160,
+      "donations": 150,
+      "donationsReceived": 180,
       "clanChestPoints": 0
     },
     {
@@ -671,9 +671,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261027T165051.000Z",
+      "lastSeen": "20261027T165732.000Z",
       "expLevel": 0,
-      "trophies": 3279,
+      "trophies": 3193,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -682,7 +682,7 @@
       "clanRank": 37,
       "previousClanRank": 40,
       "donations": 114,
-      "donationsReceived": 88,
+      "donationsReceived": 104,
       "clanChestPoints": 0
     }
   ]
