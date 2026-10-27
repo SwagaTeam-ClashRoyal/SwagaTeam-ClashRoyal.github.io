@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1740,
+  "donationsPerWeek": 1830,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -185,7 +185,7 @@
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261027T070116.000Z",
+      "lastSeen": "20261027T191950.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -195,15 +195,15 @@
       },
       "clanRank": 10,
       "previousClanRank": 10,
-      "donations": 90,
-      "donationsReceived": 80,
+      "donations": 116,
+      "donationsReceived": 110,
       "clanChestPoints": 0
     },
     {
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261027T013902.000Z",
+      "lastSeen": "20261027T193436.000Z",
       "expLevel": 0,
       "trophies": 13058,
       "arena": {
@@ -213,7 +213,7 @@
       },
       "clanRank": 11,
       "previousClanRank": 12,
-      "donations": 134,
+      "donations": 170,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -322,7 +322,7 @@
       "clanRank": 17,
       "previousClanRank": 18,
       "donations": 176,
-      "donationsReceived": 120,
+      "donationsReceived": 144,
       "clanChestPoints": 0
     },
     {
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261027T171656.000Z",
+      "lastSeen": "20261027T193600.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -429,7 +429,7 @@
       },
       "clanRank": 23,
       "previousClanRank": 26,
-      "donations": 60,
+      "donations": 78,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -437,7 +437,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261027T181342.000Z",
+      "lastSeen": "20261027T191305.000Z",
       "expLevel": 0,
       "trophies": 9527,
       "arena": {
@@ -447,8 +447,8 @@
       },
       "clanRank": 24,
       "previousClanRank": 27,
-      "donations": 150,
-      "donationsReceived": 180,
+      "donations": 160,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -682,7 +682,7 @@
       "clanRank": 37,
       "previousClanRank": 40,
       "donations": 114,
-      "donationsReceived": 104,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     }
   ]
