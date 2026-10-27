@@ -247,11 +247,12 @@ class KickWatch {
   static IDLE_KICK = 7;
   static MISSES_KICK = 2;
   static CONTENDERS = 5;
+  static ELDERS = 3;
 
   constructor(calendar, ranking, now = Date.now()) {
     this.calendar = calendar;
     this.now = now;
-    this.contenders = new Set(ranking.standings(calendar.currentSeasonId).slice(0, KickWatch.CONTENDERS).map((row) => row.tag));
+    this.places = new Map(ranking.standings(calendar.currentSeasonId).slice(0, KickWatch.CONTENDERS).map((row, index) => [row.tag, index + 1]));
   }
 
   misses(tag) {
@@ -278,10 +279,29 @@ class KickWatch {
     if (idle >= KickWatch.IDLE_WARN) notes.push({ text: `${idle} дн. офлайн`, title: `Не заходил в игру ${idle} дн.` });
     if (misses >= KickWatch.MISSES_KICK || idle >= KickWatch.IDLE_KICK) return { mark: "kick", notes };
     if (notes.length > 0) return { mark: "warn", notes };
-    if (this.contenders.has(member.tag)) {
-      return { mark: "star", notes: [{ text: `топ-${KickWatch.CONTENDERS} КВ`, title: "Сейчас в топ-5 бойцов КВ сезона, претендент в зал славы" }] };
+    const place = this.places.get(member.tag);
+    if (place <= KickWatch.ELDERS) {
+      return { mark: "elder", notes: [{ text: `${place} место`, title: `Сейчас ${place}-й боец КВ сезона: попадёт в зал славы и станет старейшиной` }] };
+    }
+    if (place) {
+      return { mark: "star", notes: [{ text: `${place} место`, title: `Сейчас ${place}-й боец КВ сезона, претендент в зал славы` }] };
     }
     return { mark: null, notes };
+  }
+
+  static legend() {
+    const legend = Elements.create("ul", "legend");
+    for (const [mark, text] of [
+      ["kick", `на кик: ${KickWatch.MISSES_KICK} пропуска КВ подряд или ${KickWatch.IDLE_KICK}+ дней не в игре`],
+      ["warn", `внимание: 1 пропуск КВ или ${KickWatch.IDLE_WARN}+ дней не в игре`],
+      ["elder", `топ-${KickWatch.ELDERS} сезона: попадут в зал славы и станут старейшинами`],
+      ["star", `топ-${KickWatch.CONTENDERS} сезона, претенденты в зал славы`],
+    ]) {
+      const item = Elements.create("li", null, text);
+      item.prepend(Elements.create("span", `swatch mark-${mark}`));
+      legend.appendChild(item);
+    }
+    return legend;
   }
 
   static plural(count) {
@@ -541,35 +561,24 @@ class Roster {
 
   render() {
     const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
-    return [Elements.create("h2", "section-title", `Участники ${this.clan.members}/50`), this.legend(), this.list.render(rows, (row) => {
+    const list = this.list.render(rows, (row) => {
       const status = this.watch.status(row);
       return {
         mark: status.mark,
-        line: [Roster.ROLES[row.role] ?? row.role, ...status.notes.map((note) => this.flag(status.mark, note))],
+        line: [Elements.create("span", "role-name", Roster.ROLES[row.role] ?? row.role), ...status.notes.map((note) => this.flag(status.mark, note))],
         stack: { icon: "cards", label: "Донат за неделю", value: Elements.number(row.donations) },
         pill: { icon: "trophy", label: "Кубки", value: row.trophies },
       };
-    })];
+    });
+    const legend = KickWatch.legend();
+    legend.classList.add("legend-below");
+    return [Elements.create("h2", "section-title", `Участники ${this.clan.members}/50`), list, legend];
   }
 
   flag(mark, { text, title }) {
     const flag = Elements.create("span", `flag flag-${mark}`, text);
     flag.title = title;
     return flag;
-  }
-
-  legend() {
-    const legend = Elements.create("ul", "legend");
-    for (const [mark, text] of [
-      ["kick", `на кик: ${KickWatch.MISSES_KICK} пропуска КВ подряд или ${KickWatch.IDLE_KICK}+ дней не в игре`],
-      ["warn", `внимание: 1 пропуск КВ или ${KickWatch.IDLE_WARN}+ дней не в игре`],
-      ["star", `топ-${KickWatch.CONTENDERS} сезона, претендент в зал славы`],
-    ]) {
-      const item = Elements.create("li", null, text);
-      item.prepend(Elements.create("span", `swatch mark-${mark}`));
-      legend.appendChild(item);
-    }
-    return legend;
   }
 
   since(tag) {
@@ -591,6 +600,7 @@ class ClanSummary {
     this.clan = clan;
     this.rankings = rankings;
     this.badge = badge;
+    this.open = false;
   }
 
   static badgeUrl(badge) {
@@ -613,6 +623,12 @@ class ClanSummary {
     title.appendChild(name);
     card.appendChild(title);
     if (this.clan.description) card.appendChild(Elements.create("p", "clan-description", this.clan.description));
+    const more = Elements.create("details", "fold clan-more");
+    more.open = this.open;
+    more.addEventListener("toggle", () => {
+      this.open = more.open;
+    });
+    more.appendChild(Elements.create("summary", null, "Кубки, донат, вход и места в рейтингах"));
     const stats = Elements.create("dl", "stats");
     const add = (term, value) => stats.append(Elements.create("dt", null, term), Elements.create("dd", null, value));
     add("Кубки клана", Elements.number(this.clan.clanScore));
@@ -621,8 +637,9 @@ class ClanSummary {
     add("Донат за неделю", Elements.number(this.clan.donationsPerWeek));
     add("Вход", `от ${Elements.number(this.clan.requiredTrophies)} кубков, ${ClanSummary.TYPES[this.clan.type] ?? this.clan.type}`);
     if (this.clan.location?.name) add("Страна", this.clan.location.name === "Russia" ? "Россия" : this.clan.location.name);
-    card.appendChild(stats);
-    if (this.rankings) card.append(Elements.create("h3", "subheading", "Место в рейтингах"), this.rankingList());
+    more.appendChild(stats);
+    if (this.rankings) more.append(Elements.create("h3", "subheading", "Место в рейтингах"), this.rankingList());
+    card.appendChild(more);
     return card;
   }
 
@@ -666,7 +683,7 @@ class ClanTab {
   }
 
   stats() {
-    const block = Elements.create("details", "clan-stats");
+    const block = Elements.create("details", "fold clan-stats");
     block.open = this.statsOpen;
     block.addEventListener("toggle", () => {
       this.statsOpen = block.open;
@@ -881,7 +898,7 @@ class AboutView {
 
   render(container) {
     const back = Elements.create("a", "back", "← назад");
-    back.href = "#war";
+    back.href = "#clan";
     const panel = Elements.create("section", "about");
     const items = [
       `Данные берутся из официального API Clash Royale и обновляются каждые 60 минут. Последнее обновление: ${new Date(this.meta.updated_at).toLocaleString("ru-RU")}.`,
@@ -891,12 +908,15 @@ class AboutView {
       "В рейтингах учитываются и те, кто уже вышел из клана: их вклад остаётся в истории.",
       "Пять лучших бойцов КВ каждого завершённого сезона навсегда попадают в зал славы.",
       "Участники зала славы смогут выбрать себе фразу и картинку, они сохранятся на сайте.",
+      `Топ-${KickWatch.ELDERS} зала славы каждого сезона становятся старейшинами.`,
     ];
     const list = Elements.create("ul");
     list.append(...items.map((text) => Elements.create("li", null, text)));
     panel.append(
       Elements.glossy(Elements.create("h2", "about-title", "Как работает сайт")),
       list,
+      Elements.glossy(Elements.create("h2", "about-title about-subtitle", "Цвета в составе")),
+      KickWatch.legend(),
       Elements.create("p", "about-author", "Сайт создал участник клана kkyo."),
     );
     container.replaceChildren(back, panel);
@@ -923,10 +943,10 @@ class ClanApp {
       const list = new RankingList(membership);
       const roster = new Roster(data.clan, data.members, list, new KickWatch(calendar, war));
       this.tabs = {
+        clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge), roster),
         war: new WarTab(calendar, war, list),
         donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list, membership),
         hall: new HallOfFameTab(calendar, war, list),
-        clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge), roster),
       };
       this.rails = new DeckRails(document.getElementById("stage"), data.renders);
       this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war, rails: this.rails });
@@ -979,7 +999,7 @@ class ClanApp {
       window.scrollTo(0, 0);
       return;
     }
-    const key = route in this.tabs ? route : route === "roster" ? "clan" : "war";
+    const key = route in this.tabs ? route : "clan";
     this.highlight(key);
     this.tabs[key].render(this.content);
   }

@@ -867,7 +867,7 @@ a.member.released {
   background: var(--surface);
 }
 
-.clan-stats > summary {
+.fold > summary {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -878,19 +878,27 @@ a.member.released {
   list-style: none;
 }
 
-.clan-stats > summary::-webkit-details-marker {
+.fold > summary::-webkit-details-marker {
   display: none;
 }
 
-.clan-stats > summary::before {
+.fold > summary::before {
   content: "▸";
   font-size: 16px;
   line-height: 1;
   transition: transform 160ms ease;
 }
 
-.clan-stats[open] > summary::before {
+.fold[open] > summary::before {
   transform: rotate(90deg);
+}
+
+.clan-more > summary {
+  padding: 4px 0;
+}
+
+.clan-more[open] > summary {
+  margin-bottom: 8px;
 }
 
 .clan-stats[open] {
@@ -940,7 +948,18 @@ a.member.released {
   box-shadow: inset 0 1px 0 #cdeac7, inset 0 -1px 0 #d2f0cc, 0 calc(2 * var(--u)) 0 var(--ink);
 }
 
+.member.mark-elder,
+.swatch.mark-elder {
+  background: linear-gradient(#97e087 0%, #97e087 49%, #6fc95e 51%, #6ec85d 100%);
+  box-shadow: inset 0 1px 0 #a9e79b, inset 0 -1px 0 #85d675, 0 calc(2 * var(--u)) 0 var(--ink);
+}
+
 .member .role .flag {
+  flex: none;
+}
+
+.member .role .role-name {
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -959,6 +978,27 @@ a.member.released {
 
 .flag-star {
   color: #1c6b2d;
+}
+
+.flag-elder {
+  color: #0d4418;
+}
+
+.member.mark-elder .role {
+  color: #2f5a35;
+}
+
+.legend-below {
+  margin-top: calc(12 * var(--u));
+}
+
+.about .legend {
+  padding-left: 0;
+  font-size: inherit;
+}
+
+.about .about-subtitle {
+  margin-top: calc(20 * var(--u));
 }
 
 .legend {
