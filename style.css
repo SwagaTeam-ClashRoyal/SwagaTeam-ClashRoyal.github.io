@@ -860,7 +860,50 @@ a.member.released {
   font-size: calc(15 * var(--u));
 }
 
-.hall h2 {
+.clan-stats {
+  margin: 0 0 calc(10 * var(--u));
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.clan-stats > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.clan-stats > summary::-webkit-details-marker {
+  display: none;
+}
+
+.clan-stats > summary::before {
+  content: "▸";
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 160ms ease;
+}
+
+.clan-stats[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.clan-stats[open] {
+  padding: 0 10px 2px;
+}
+
+.clan-stats[open] > summary {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.hall h2,
+.section-title {
   margin: calc(18 * var(--u)) 0 calc(10 * var(--u));
   color: #ffffff;
   font-size: calc(22 * var(--u));
