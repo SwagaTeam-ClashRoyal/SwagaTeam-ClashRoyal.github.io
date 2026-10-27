@@ -14,6 +14,10 @@
   --bronze: #b86b32;
   --series-1: #2a78d6;
   --reference: #52514e;
+  --member-bg: #e2f4e6;
+  --member-fg: #1c6b2d;
+  --former-bg: #eceef1;
+  --former-fg: #5b6170;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +35,10 @@
     --bronze: #d88a52;
     --series-1: #3987e5;
     --reference: #c3c2b7;
+    --member-bg: #1c3a25;
+    --member-fg: #8fd6a0;
+    --former-bg: #2a2e37;
+    --former-fg: #a3a9b6;
   }
 }
 
@@ -208,8 +216,36 @@ footer {
 }
 
 a.name {
+  min-width: 0;
   color: inherit;
   text-decoration: none;
+}
+
+.name-line,
+.profile-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.badge {
+  flex: none;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.in-clan {
+  background: var(--member-bg);
+  color: var(--member-fg);
+}
+
+.left-clan {
+  background: var(--former-bg);
+  color: var(--former-fg);
 }
 
 a.name:hover {
@@ -235,6 +271,7 @@ a.name:hover {
 }
 
 .profile h2,
+.profile h3,
 .deck-block h3 {
   margin: 0;
 }

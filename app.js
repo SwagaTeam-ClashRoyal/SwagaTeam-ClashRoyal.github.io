@@ -172,6 +172,12 @@ class WeeklyHistory {
     });
   }
 
+  appearances(tag) {
+    return this.weeks
+      .map((week) => ({ week, participant: week.participants.find((participant) => participant.tag === tag) }))
+      .filter((entry) => entry.participant);
+  }
+
   clan(summarize) {
     return this.weeks.map((week) => ({ label: week.label, title: week.title, value: summarize(week.participants) }));
   }
@@ -245,7 +251,27 @@ class Elements {
   }
 }
 
+class Membership {
+  constructor(clan) {
+    this.tags = new Set(clan.memberList.map((member) => member.tag));
+  }
+
+  has(tag) {
+    return this.tags.has(tag);
+  }
+
+  badge(tag) {
+    return this.has(tag)
+      ? Elements.create("span", "badge in-clan", "в клане")
+      : Elements.create("span", "badge left-clan", "не в клане");
+  }
+}
+
 class RankingList {
+  constructor(membership) {
+    this.membership = membership;
+  }
+
   render(rows, describe) {
     if (rows.length === 0) {
       return Elements.create("p", "empty", "Пока нет данных за этот сезон.");
@@ -256,7 +282,10 @@ class RankingList {
       const item = Elements.create("li", place <= 3 ? `row podium place-${place}` : "row");
       const who = Elements.create("div", "who");
       const view = describe(row);
-      who.append(Elements.playerLink(row.tag, row.name), Elements.create("span", "details", view.details));
+      const line = Elements.create("span", "name-line");
+      line.appendChild(Elements.playerLink(row.tag, row.name));
+      if (!this.membership.has(row.tag)) line.appendChild(this.membership.badge(row.tag));
+      who.append(line, Elements.create("span", "details", view.details));
       item.append(Elements.create("span", "place", place), who, Elements.create("span", "score", view.score));
       list.appendChild(item);
     });
@@ -292,9 +321,10 @@ class SeasonPicker {
 class WarTab {
   title = "Бойцы КВ";
 
-  constructor(calendar, ranking) {
+  constructor(calendar, ranking, list) {
     this.calendar = calendar;
     this.ranking = ranking;
+    this.list = list;
     this.season = calendar.currentSeasonId;
   }
 
@@ -306,7 +336,7 @@ class WarTab {
     container.replaceChildren(
       picker.render(this.season),
       Elements.create("p", "hint", "Очки = медали × доля сыгранных колод. Топ-5 каждого сезона уходит в зал славы."),
-      new RankingList().render(this.ranking.standings(this.season), (row) => ({
+      this.list.render(this.ranking.standings(this.season), (row) => ({
         score: Elements.number(row.score),
         details: `${Elements.number(row.fame)} медалей · колоды ${row.decks}/${row.possible}`,
       })),
@@ -317,9 +347,10 @@ class WarTab {
 class DonationTab {
   title = "Щедрые";
 
-  constructor(calendar, ranking) {
+  constructor(calendar, ranking, list) {
     this.calendar = calendar;
     this.ranking = ranking;
+    this.list = list;
     this.season = calendar.currentSeasonId;
   }
 
@@ -331,7 +362,7 @@ class DonationTab {
     container.replaceChildren(
       picker.render(this.season),
       Elements.create("p", "hint", "Карты, отданные клану за сезон. Учёт идёт с 27 октября 2026 года."),
-      new RankingList().render(this.ranking.standings(this.season), (row) => ({
+      this.list.render(this.ranking.standings(this.season), (row) => ({
         score: Elements.number(row.donations),
         details: `недель с донатом: ${row.weeks}`,
       })),
@@ -343,9 +374,10 @@ class HallOfFameTab {
   static SIZE = 5;
   title = "Зал славы";
 
-  constructor(calendar, ranking) {
+  constructor(calendar, ranking, list) {
     this.calendar = calendar;
     this.ranking = ranking;
+    this.list = list;
   }
 
   render(container) {
@@ -363,7 +395,7 @@ class HallOfFameTab {
   season(id) {
     const card = Elements.create("section", "hall");
     card.appendChild(Elements.create("h2", null, `Сезон ${id}`));
-    card.appendChild(new RankingList().render(this.ranking.standings(id).slice(0, HallOfFameTab.SIZE), (row) => ({
+    card.appendChild(this.list.render(this.ranking.standings(id).slice(0, HallOfFameTab.SIZE), (row) => ({
       score: Elements.number(row.score),
       details: `${Elements.number(row.fame)} медалей · колоды ${row.decks}/${row.possible}`,
     })));
@@ -381,9 +413,10 @@ class RosterTab {
 
   title = "Состав";
 
-  constructor(clan, members) {
+  constructor(clan, members, list) {
     this.clan = clan;
     this.members = members;
+    this.list = list;
     this.trackingStart = Object.values(members).map((record) => record.first_seen.slice(0, 10)).sort()[0];
   }
 
@@ -391,7 +424,7 @@ class RosterTab {
     const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
     container.replaceChildren(
       Elements.create("p", "hint", `${this.clan.members} из 50 · кубки КВ клана: ${Elements.number(this.clan.clanWarTrophies)}`),
-      new RankingList().render(rows, (row) => ({
+      this.list.render(rows, (row) => ({
         score: Elements.number(row.trophies),
         details: [RosterTab.ROLES[row.role] ?? row.role, `донат за неделю ${row.donations}`, this.since(row.tag)].filter(Boolean).join(" · "),
       })),
@@ -433,17 +466,22 @@ class ClanTab {
 class ProfileView {
   static LEGENDS = 10;
 
-  constructor(data, roster, history, donations) {
+  constructor(data, { roster, history, donations, membership, calendar, war }) {
     this.data = data;
     this.roster = roster;
     this.history = history;
     this.donations = donations;
+    this.membership = membership;
+    this.calendar = calendar;
+    this.war = war;
   }
 
   render(container, tag) {
     const record = this.data.members[tag];
     const member = this.data.clan.memberList.find((entry) => entry.tag === tag);
-    if (!record && !member) {
+    const appearances = this.history.appearances(tag);
+    const name = member?.name ?? record?.name ?? appearances.at(-1)?.participant.name;
+    if (!name) {
       container.replaceChildren(Elements.create("p", "empty", "Игрок не найден."));
       return;
     }
@@ -452,24 +490,31 @@ class ProfileView {
     back.href = "#roster";
     container.replaceChildren(
       back,
-      this.header(tag, record, member, profile),
-      this.deck(profile),
+      this.header(tag, name, member, profile, appearances),
+      this.contribution(tag, record, appearances),
+      ...(member ? [this.deck(profile)] : []),
       new BarChart({ title: "Медали за неделю КВ", valueLabel: "Медали", referenceLabel: "Медиана клана" })
         .render(this.history.player(tag, "fame")),
       new BarChart({ title: "Колоды за неделю КВ", subtitle: "из 16 возможных", valueLabel: "Колоды", referenceLabel: "Медиана клана", max: 16, step: 4 })
         .render(this.history.player(tag, "decksUsed")),
-      new BarChart({ title: "Донат за неделю", subtitle: "учёт с 27.10.2026", valueLabel: "Донат", referenceLabel: "Медиана клана" })
-        .render(this.donations.player(tag)),
+      ...(record
+        ? [new BarChart({ title: "Донат за неделю", subtitle: "учёт с 27.10.2026", valueLabel: "Донат", referenceLabel: "Медиана клана" })
+          .render(this.donations.player(tag))]
+        : []),
     );
   }
 
-  header(tag, record, member, profile) {
+  header(tag, name, member, profile, appearances) {
     const card = Elements.create("section", "profile");
-    card.appendChild(Elements.create("h2", null, member?.name ?? record.name));
+    const title = Elements.create("div", "profile-title");
+    title.append(Elements.create("h2", null, name), this.membership.badge(tag));
+    card.appendChild(title);
+    const last = appearances.at(-1)?.week;
     const facts = [
       tag,
-      member ? RosterTab.ROLES[member.role] ?? member.role : "не в клане",
+      member ? RosterTab.ROLES[member.role] ?? member.role : null,
       this.roster.since(tag),
+      !member && last ? `последняя неделя КВ в клане: ${last.title.replace(/^Сезон \d+, /, "")}` : null,
     ].filter(Boolean);
     card.appendChild(Elements.create("p", "details", facts.join(" · ")));
     const stats = Elements.create("dl", "stats");
@@ -482,8 +527,36 @@ class ProfileView {
     add("Лучший сезон PoL", this.league(profile.bestPathOfLegendSeasonResult));
     add("Донат за всю игру", profile.totalDonations !== undefined ? Elements.number(profile.totalDonations) : null);
     add("Любимая карта", profile.currentFavouriteCard?.name);
+    if (stats.children.length > 0) card.appendChild(stats);
+    return card;
+  }
+
+  contribution(tag, record, appearances) {
+    const card = Elements.create("section", "profile");
+    card.appendChild(Elements.create("h3", null, "Вклад в клан"));
+    card.appendChild(Elements.create("p", "details", `по ${this.history.weeks.length} неделям КВ в архиве`));
+    const participants = appearances.map((entry) => entry.participant);
+    const played = participants.filter((participant) => participant.decksUsed > 0);
+    const best = played.reduce((top, participant) => (participant.fame > (top?.fame ?? -1) ? participant : top), null);
+    const stats = Elements.create("dl", "stats");
+    const add = (term, value) => stats.append(Elements.create("dt", null, term), Elements.create("dd", null, value));
+    add("Медали", Elements.number(participants.reduce((sum, participant) => sum + participant.fame, 0)));
+    add("Колоды", Elements.number(participants.reduce((sum, participant) => sum + participant.decksUsed, 0)));
+    add("Недель в КВ", `${played.length} из ${participants.length} в клане`);
+    if (best) add("Лучшая неделя", `${Elements.number(best.fame)} медалей`);
+    if (record) add("Донат с начала учёта", Elements.number(record.donations.closed + record.donations.current));
+    const hall = this.hallOfFame(tag);
+    add("Зал славы", hall.length > 0 ? hall.join(", ") : "пока нет");
     card.appendChild(stats);
     return card;
+  }
+
+  hallOfFame(tag) {
+    return this.calendar.seasons()
+      .filter((id) => this.calendar.isComplete(id))
+      .map((id) => ({ id, place: this.war.standings(id).slice(0, HallOfFameTab.SIZE).findIndex((row) => row.tag === tag) + 1 }))
+      .filter((entry) => entry.place > 0)
+      .map((entry) => `${entry.place} место в сезоне ${entry.id}`);
   }
 
   league(result) {
@@ -535,15 +608,17 @@ class ClanApp {
       const names = new Map(Object.entries(data.members).map(([tag, record]) => [tag, record.name]));
       const war = new WarRanking(calendar, names);
       const history = new WeeklyHistory(calendar);
-      const roster = new RosterTab(data.clan, data.members);
+      const membership = new Membership(data.clan);
+      const list = new RankingList(membership);
+      const roster = new RosterTab(data.clan, data.members, list);
       this.tabs = {
-        war: new WarTab(calendar, war),
-        donations: new DonationTab(calendar, new DonationRanking(calendar, data.members)),
-        hall: new HallOfFameTab(calendar, war),
+        war: new WarTab(calendar, war, list),
+        donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list),
+        hall: new HallOfFameTab(calendar, war, list),
         clan: new ClanTab(history),
         roster,
       };
-      this.profile = new ProfileView(data, roster, history, new DonationHistory(data.members));
+      this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war });
       this.footer.textContent = `Обновлено ${new Date(data.meta.updated_at).toLocaleString("ru-RU")}`;
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
