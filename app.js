@@ -741,13 +741,42 @@ class ProfileView {
   }
 }
 
+class AboutView {
+  constructor(meta) {
+    this.meta = meta;
+  }
+
+  render(container) {
+    const back = Elements.create("a", "back", "← назад");
+    back.href = "#war";
+    const panel = Elements.create("section", "about");
+    const items = [
+      `Данные берутся из официального API Clash Royale и обновляются каждые 60 минут. Последнее обновление: ${new Date(this.meta.updated_at).toLocaleString("ru-RU")}.`,
+      "История клановых войн учитывается с 17.08.2026, донаты с 27.10.2026. Более старых данных API не хранит.",
+      "Сезон на сайте совпадает с сезоном Clash Royale.",
+      "Очки бойца КВ = медали × сыгранные колоды ÷ возможные колоды. Возможных колод 16 в неделю: по 4 в каждый из четырёх дней войны. В идущую неделю считаются только уже начавшиеся дни.",
+      "В рейтингах учитываются и те, кто уже вышел из клана: их вклад остаётся в истории.",
+      "Пять лучших бойцов КВ каждого завершённого сезона навсегда попадают в зал славы.",
+      "Участники зала славы смогут выбрать себе фразу и картинку, они сохранятся на сайте.",
+    ];
+    const list = Elements.create("ul");
+    list.append(...items.map((text) => Elements.create("li", null, text)));
+    panel.append(
+      Elements.glossy(Elements.create("h2", "about-title", "Как работает сайт")),
+      list,
+      Elements.create("p", "about-author", "Сайт создал участник клана kkyo."),
+    );
+    container.replaceChildren(back, panel);
+  }
+}
+
 class ClanApp {
-  constructor(source, nav, content, footer, logo) {
+  constructor(source, nav, content, logo, footerLogo) {
     this.source = source;
     this.logo = logo;
+    this.footerLogo = footerLogo;
     this.nav = nav;
     this.content = content;
-    this.footer = footer;
   }
 
   async start() {
@@ -777,11 +806,10 @@ class ClanApp {
       warTrophies.textContent = Elements.number(data.clan.clanWarTrophies);
       warTrophies.dataset.text = warTrophies.textContent;
       document.getElementById("war-pill").hidden = false;
-      this.footer.textContent = new Date(data.meta.updated_at).toLocaleString("ru-RU");
+      this.about = new AboutView(data.meta);
       if (badge) {
-        const footerLogo = document.getElementById("footer-logo");
-        footerLogo.src = badge;
-        footerLogo.hidden = false;
+        this.footerLogo.src = badge;
+        this.footerLogo.hidden = false;
       }
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
@@ -811,6 +839,12 @@ class ClanApp {
       window.scrollTo(0, 0);
       return;
     }
+    if (route === "about") {
+      this.highlight(null);
+      this.about.render(this.content);
+      window.scrollTo(0, 0);
+      return;
+    }
     const key = route in this.tabs ? route : "war";
     this.highlight(key);
     this.tabs[key].render(this.content);
@@ -827,6 +861,6 @@ new ClanApp(
   new DataSource(),
   document.getElementById("tabs"),
   document.getElementById("content"),
-  document.getElementById("updated"),
   document.getElementById("logo"),
+  document.getElementById("footer-logo"),
 ).start();

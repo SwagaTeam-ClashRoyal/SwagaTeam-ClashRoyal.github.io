@@ -898,89 +898,79 @@ a.member.released {
 .site-footer {
   flex: 1 0 auto;
   margin-top: 40px;
-  padding: 32px 16px 40px;
-  border-top: 1px solid #3a3e45;
-  background: #24272c;
-  color: #b9bec6;
-  font: 14px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding: 28px 24px 32px;
+  background: #000000;
+  color: #ffffff;
+  font: 600 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 .footer-inner {
-  display: grid;
-  gap: 20px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-.site-footer p {
-  margin: 0;
-}
-
-.site-footer a {
-  color: #8ab4f8;
-}
-
-.footer-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-
-.footer-logo {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
-
-.footer-name {
-  color: #f1f3f5;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.footer-sub {
-  color: #8d939c;
-  font-size: 13px;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 8px 22px;
 }
 
-.site-footer .footer-button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  background: #33373e;
-  color: #f1f3f5;
+.footer-links a {
+  color: #ffffff;
   text-decoration: none;
-  transition: background 200ms ease;
 }
 
-.site-footer .footer-button:hover {
-  background: #40454d;
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
-.footer-about h2 {
-  margin: 0 0 8px;
-  color: #f1f3f5;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.footer-about ul {
-  display: grid;
-  gap: 6px;
-  margin: 0;
-  padding-left: 18px;
-}
-
-.footer-author {
-  color: #d3d7dd;
+.footer-logo {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
 }
 
 .footer-disclaimer {
-  color: #7c828b;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  color: #7d7d7d;
   font-size: 12px;
+  font-weight: 400;
+}
+
+.about {
+  padding: calc(18 * var(--u));
+  border: calc(2.5 * var(--u)) solid var(--ink);
+  border-radius: calc(10 * var(--u));
+  background: #ebf3fe;
+  box-shadow: 0 calc(2 * var(--u)) 0 var(--ink);
+  color: #26324a;
+  font-size: calc(17 * var(--u));
+  line-height: 1.45;
+}
+
+.about-title {
+  margin: 0 0 calc(12 * var(--u));
+  color: #ffffff;
+  font-size: calc(24 * var(--u));
+  -webkit-text-stroke: calc(3.5 * var(--u)) var(--ink);
+  paint-order: stroke fill;
+  text-shadow: 0 calc(2 * var(--u)) 0 var(--ink);
+}
+
+.about ul {
+  display: grid;
+  gap: calc(10 * var(--u));
+  margin: 0;
+  padding-left: calc(22 * var(--u));
+}
+
+.about-author {
+  margin: calc(16 * var(--u)) 0 0;
+  font-weight: 700;
 }
