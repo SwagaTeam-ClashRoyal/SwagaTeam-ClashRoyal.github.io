@@ -212,7 +212,7 @@
         "repairPoints": 0,
         "boatAttacks": 0,
         "decksUsed": 0,
-        "decksUsedToday": 3
+        "decksUsedToday": 0
       },
       {
         "tag": "#CY0LPRRUJ",
@@ -311,7 +311,7 @@
         "repairPoints": 0,
         "boatAttacks": 0,
         "decksUsed": 0,
-        "decksUsedToday": 1
+        "decksUsedToday": 0
       },
       {
         "tag": "#PG2Q892U2",
@@ -464,7 +464,7 @@
         "repairPoints": 0,
         "boatAttacks": 0,
         "decksUsed": 0,
-        "decksUsedToday": 2
+        "decksUsedToday": 0
       },
       {
         "tag": "#Y9CUJG2PV",
@@ -701,7 +701,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#2CUG0229",
@@ -728,7 +728,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#PCLGQ0VUV",
@@ -982,7 +982,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#RGC0LRPG9",
@@ -1045,7 +1045,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 3
+          "decksUsedToday": 0
         },
         {
           "tag": "#PCPU00V99",
@@ -1054,7 +1054,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#2VVU0LYVJ",
@@ -1063,7 +1063,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#QR0LQCQUJ",
@@ -1389,7 +1389,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 3
+          "decksUsedToday": 0
         },
         {
           "tag": "#CY0LPRRUJ",
@@ -1488,7 +1488,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 1
+          "decksUsedToday": 0
         },
         {
           "tag": "#PG2Q892U2",
@@ -1641,7 +1641,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 2
+          "decksUsedToday": 0
         },
         {
           "tag": "#Y9CUJG2PV",
@@ -1913,7 +1913,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 1
+          "decksUsedToday": 0
         },
         {
           "tag": "#CV8QYG9JL",
@@ -2057,7 +2057,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 3
+          "decksUsedToday": 0
         },
         {
           "tag": "#208LQLRGRG",
@@ -2111,7 +2111,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 4
+          "decksUsedToday": 0
         },
         {
           "tag": "#2GJVJVVLY",
@@ -2264,7 +2264,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 3
+          "decksUsedToday": 0
         },
         {
           "tag": "#20QUCGQQ9G",
@@ -2410,7 +2410,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 3
+          "decksUsedToday": 0
         },
         {
           "tag": "#2RYU0V2UL",
@@ -2653,7 +2653,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 2
+          "decksUsedToday": 0
         },
         {
           "tag": "#Y8UV98G0C",
@@ -2742,7 +2742,7 @@
     }
   ],
   "sectionIndex": 3,
-  "periodIndex": 21,
+  "periodIndex": 22,
   "periodType": "training",
   "periodLogs": [
     {
