@@ -3,6 +3,7 @@
   --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #666666;
+  --line: #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,6 +11,7 @@
     --bg: #121212;
     --fg: #f0f0f0;
     --muted: #a0a0a0;
+    --line: #2c2c2c;
   }
 }
 
@@ -28,4 +30,35 @@ main {
 
 .tag {
   color: var(--muted);
+}
+
+h2 {
+  margin-top: 32px;
+}
+
+.scroll {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+th {
+  color: var(--muted);
+  font-weight: normal;
+}
+
+.num {
+  text-align: right;
+  white-space: nowrap;
 }
