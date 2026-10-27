@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1136,
+  "donationsPerWeek": 1264,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -23,7 +23,7 @@
       "tag": "#LV0GVYYL8",
       "name": "kkyo",
       "role": "coLeader",
-      "lastSeen": "20261027T065405.000Z",
+      "lastSeen": "20261027T074350.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -33,8 +33,8 @@
       },
       "clanRank": 1,
       "previousClanRank": 2,
-      "donations": 58,
-      "donationsReceived": 50,
+      "donations": 76,
+      "donationsReceived": 60,
       "clanChestPoints": 0
     },
     {
@@ -52,7 +52,7 @@
       "clanRank": 2,
       "previousClanRank": 3,
       "donations": 26,
-      "donationsReceived": 88,
+      "donationsReceived": 104,
       "clanChestPoints": 0
     },
     {
@@ -185,7 +185,7 @@
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261026T115811.000Z",
+      "lastSeen": "20261027T070116.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -195,8 +195,8 @@
       },
       "clanRank": 10,
       "previousClanRank": 10,
-      "donations": 38,
-      "donationsReceived": 40,
+      "donations": 90,
+      "donationsReceived": 60,
       "clanChestPoints": 0
     },
     {
@@ -214,7 +214,7 @@
       "clanRank": 11,
       "previousClanRank": 12,
       "donations": 134,
-      "donationsReceived": 30,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -293,7 +293,7 @@
       "tag": "#29GJQ0G9Q",
       "name": "✨R_U_B_I_N✨",
       "role": "member",
-      "lastSeen": "20261026T111739.000Z",
+      "lastSeen": "20261027T072539.000Z",
       "expLevel": 0,
       "trophies": 11492,
       "arena": {
@@ -303,8 +303,8 @@
       },
       "clanRank": 16,
       "previousClanRank": 17,
-      "donations": 44,
-      "donationsReceived": 80,
+      "donations": 68,
+      "donationsReceived": 96,
       "clanChestPoints": 0
     },
     {
@@ -430,7 +430,7 @@
       "clanRank": 23,
       "previousClanRank": 24,
       "donations": 24,
-      "donationsReceived": 8,
+      "donationsReceived": 32,
       "clanChestPoints": 0
     },
     {
@@ -473,7 +473,7 @@
       "tag": "#JU2L2U8LG",
       "name": "адцкий гей",
       "role": "member",
-      "lastSeen": "20261026T205304.000Z",
+      "lastSeen": "20261027T072336.000Z",
       "expLevel": 0,
       "trophies": 9243,
       "arena": {
@@ -491,9 +491,9 @@
       "tag": "#CJR008LV9",
       "name": "cook",
       "role": "member",
-      "lastSeen": "20261027T043814.000Z",
+      "lastSeen": "20261027T072858.000Z",
       "expLevel": 0,
-      "trophies": 9000,
+      "trophies": 9030,
       "arena": {
         "id": 54000020,
         "name": "Valkalla",
@@ -501,15 +501,15 @@
       },
       "clanRank": 27,
       "previousClanRank": 28,
-      "donations": 144,
-      "donationsReceived": 88,
+      "donations": 178,
+      "donationsReceived": 104,
       "clanChestPoints": 0
     },
     {
       "tag": "#22JLP29RV",
       "name": "Kale",
       "role": "member",
-      "lastSeen": "20261027T030311.000Z",
+      "lastSeen": "20261027T073153.000Z",
       "expLevel": 0,
       "trophies": 8741,
       "arena": {
@@ -520,7 +520,7 @@
       "clanRank": 28,
       "previousClanRank": 29,
       "donations": 0,
-      "donationsReceived": 88,
+      "donationsReceived": 104,
       "clanChestPoints": 0
     },
     {
@@ -650,24 +650,6 @@
       "clanChestPoints": 0
     },
     {
-      "tag": "#8JRL80GY0",
-      "name": "vickymaddy",
-      "role": "member",
-      "lastSeen": "20261027T052001.000Z",
-      "expLevel": 0,
-      "trophies": 5409,
-      "arena": {
-        "id": 54000012,
-        "name": "Miner's Mine",
-        "rawName": "Arena_L1"
-      },
-      "clanRank": 36,
-      "previousClanRank": 38,
-      "donations": 0,
-      "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
       "tag": "#QY9JV9JQ0",
       "name": "Sk_Kr1staL",
       "role": "member",
@@ -679,8 +661,26 @@
         "name": "Miner's Mine",
         "rawName": "Arena_L1"
       },
-      "clanRank": 37,
+      "clanRank": 36,
       "previousClanRank": 37,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8JRL80GY0",
+      "name": "vickymaddy",
+      "role": "member",
+      "lastSeen": "20261027T074805.000Z",
+      "expLevel": 0,
+      "trophies": 5376,
+      "arena": {
+        "id": 54000012,
+        "name": "Miner's Mine",
+        "rawName": "Arena_L1"
+      },
+      "clanRank": 37,
+      "previousClanRank": 38,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
