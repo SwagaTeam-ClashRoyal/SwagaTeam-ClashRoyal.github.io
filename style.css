@@ -80,7 +80,7 @@ body::after {
 .window {
   width: calc(100% - calc(18 * var(--u)));
   max-width: 480px;
-  margin: calc(12 * var(--u)) auto 0;
+  margin: calc(12 * var(--u)) auto 40px;
   padding: 0 calc(10 * var(--u)) calc(10 * var(--u));
   border: calc(3 * var(--u)) solid #1f2329;
   border-radius: calc(16 * var(--u));
@@ -896,8 +896,7 @@ a.member.released {
 }
 
 .site-footer {
-  flex: 1 0 auto;
-  margin-top: 40px;
+  margin-top: auto;
   padding: 28px 24px 32px;
   background: #000000;
   color: #ffffff;
