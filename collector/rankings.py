@@ -28,4 +28,4 @@ class ClanRankings:
             print(f"Skipped ranking {location_id}/{board}: {error}")
             return None
         rank = next((item["rank"] for item in items if item["tag"].upper() == self._clan_tag), None)
-        return {"rank": rank, "size": len(items)}
+        return {"rank": rank, "size": len(items), "cutoff": items[-1].get("clanScore") if items else None}
