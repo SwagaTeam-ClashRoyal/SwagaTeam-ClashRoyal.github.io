@@ -16,12 +16,18 @@ class DataSource {
       this.load("history/river_races/index.json"),
       this.load("current/players.json").catch(() => ({})),
     ]);
-    const [rankings, badge] = await Promise.all([
+    const [rankings, badge, renders] = await Promise.all([
       this.load("current/rankings.json").catch(() => null),
       this.load("current/badge.json").catch(() => null),
+      this.renders(),
     ]);
     const races = await Promise.all(index.map((name) => this.load(`history/river_races/${name}`)));
-    return { meta, clan, race, members, races, players, rankings, badge };
+    return { meta, clan, race, members, races, players, rankings, badge, renders };
+  }
+
+  async renders() {
+    const response = await fetch("assets/renders/index.json").catch(() => null);
+    return response?.ok ? response.json() : {};
   }
 }
 
@@ -614,7 +620,8 @@ class ClanTab {
 class DeckRails {
   static PER_SIDE = 4;
 
-  constructor(host) {
+  constructor(host, renders) {
+    this.renders = renders;
     this.rails = ["left", "right"].map((side) => {
       const rail = Elements.create("aside", `deck-rail ${side}`);
       rail.setAttribute("aria-hidden", "true");
@@ -631,11 +638,14 @@ class DeckRails {
     this.rails.forEach((rail, side) => {
       const slice = cards.slice(side * DeckRails.PER_SIDE, (side + 1) * DeckRails.PER_SIDE);
       rail.replaceChildren(...slice.map((card, index) => {
-        const image = Elements.create("img", card.evolved ? "rail-card evolved" : "rail-card");
-        image.src = card.icon;
+        const render = this.renders[card.name];
+        const slot = Elements.create("div", "rail-slot");
+        const image = Elements.create("img", render ? "rail-card render" : `rail-card icon${card.evolved ? " evolved" : ""}`);
+        image.src = render ?? card.icon;
         image.alt = "";
         image.style.animationDelay = `${(side * DeckRails.PER_SIDE + index) * 60}ms`;
-        return image;
+        slot.appendChild(image);
+        return slot;
       }));
       rail.classList.add("visible");
     });
@@ -850,7 +860,7 @@ class ClanApp {
         clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge)),
         roster,
       };
-      this.rails = new DeckRails(document.body);
+      this.rails = new DeckRails(document.getElementById("stage"), data.renders);
       this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war, rails: this.rails });
       const badge = ClanSummary.badgeUrl(data.badge);
       if (badge) {
