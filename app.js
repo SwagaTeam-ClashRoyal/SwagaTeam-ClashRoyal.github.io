@@ -260,21 +260,20 @@ class Elements {
     image.alt = alt;
     return image;
   }
-
-  static playerLink(tag, name) {
-    const link = Elements.create("a", "name", name);
-    link.href = `#player/${tag.replace("#", "")}`;
-    return link;
-  }
 }
 
 class Membership {
   constructor(clan) {
-    this.tags = new Set(clan.memberList.map((member) => member.tag));
+    this.roles = new Map(clan.memberList.map((member) => [member.tag, member.role]));
   }
 
   has(tag) {
-    return this.tags.has(tag);
+    return this.roles.has(tag);
+  }
+
+  role(tag) {
+    const role = this.roles.get(tag);
+    return role ? RosterTab.ROLES[role] ?? role : null;
   }
 
   badge(tag) {
@@ -285,6 +284,8 @@ class Membership {
 }
 
 class RankingList {
+  static RELEASE_DELAY = 160;
+
   constructor(membership) {
     this.membership = membership;
   }
@@ -293,20 +294,57 @@ class RankingList {
     if (rows.length === 0) {
       return Elements.create("p", "empty", "Пока нет данных за этот сезон.");
     }
-    const list = Elements.create("ol", "ranking");
-    rows.forEach((row, index) => {
-      const place = index + 1;
-      const item = Elements.create("li", place <= 3 ? `row podium place-${place}` : "row");
-      const who = Elements.create("div", "who");
-      const view = describe(row);
-      const line = Elements.create("span", "name-line");
-      line.appendChild(Elements.playerLink(row.tag, row.name));
-      if (!this.membership.has(row.tag)) line.appendChild(this.membership.badge(row.tag));
-      who.append(line, Elements.create("span", "details", view.details));
-      item.append(Elements.create("span", "place", place), who, Elements.create("span", "score", view.score));
-      list.appendChild(item);
-    });
+    const list = Elements.create("ol", "roster");
+    rows.forEach((row, index) => list.appendChild(this.row(row, index + 1, describe(row))));
     return list;
+  }
+
+  row(row, place, view) {
+    const item = Elements.create("li");
+    const card = Elements.create("a", "member");
+    card.href = `#player/${row.tag.replace("#", "")}`;
+    card.addEventListener("click", (event) => this.open(event, card));
+    const who = Elements.create("div", "who");
+    const first = Elements.create("span", "name-line");
+    first.appendChild(Elements.glossy(Elements.create("span", "name", row.name)));
+    if (!this.membership.has(row.tag)) first.appendChild(this.membership.badge(row.tag));
+    const second = Elements.create("span", "role");
+    second.append(...(view.line ?? []));
+    who.append(first, second);
+    card.append(Elements.glossy(Elements.create("span", `rank rank-${place}`, place)), Elements.create("span", "avatar"), who);
+    if (view.stack) card.appendChild(this.stack(view.stack));
+    if (view.pill) card.appendChild(this.pill(view.pill));
+    item.appendChild(card);
+    return item;
+  }
+
+  stack({ icon, label, value }) {
+    const stack = Elements.create("div", "stack");
+    stack.append(Elements.icon(icon, label), Elements.glossy(Elements.create("span", null, value)));
+    return stack;
+  }
+
+  pill({ icon, label, value }) {
+    const pill = Elements.create("div", "score-pill");
+    pill.title = label;
+    pill.append(Elements.icon(icon, label), Elements.glossy(Elements.create("span", null, value)));
+    return pill;
+  }
+
+  static stat(icon, label, value) {
+    const stat = Elements.create("span", "inline-stat");
+    stat.title = label;
+    stat.append(Elements.icon(icon, label), value);
+    return stat;
+  }
+
+  open(event, card) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+    event.preventDefault();
+    card.classList.add("released");
+    setTimeout(() => {
+      location.hash = card.getAttribute("href");
+    }, RankingList.RELEASE_DELAY);
   }
 }
 
@@ -354,8 +392,11 @@ class WarTab {
       picker.render(this.season),
       Elements.create("p", "hint", "Очки = медали × доля сыгранных колод. Топ-5 каждого сезона уходит в зал славы."),
       this.list.render(this.ranking.standings(this.season), (row) => ({
-        score: Elements.number(row.score),
-        details: `${Elements.number(row.fame)} медалей · колоды ${row.decks}/${row.possible}`,
+        line: [
+          RankingList.stat("cw-fame", "Медали", Elements.number(row.fame)),
+          RankingList.stat("cw-battle", "Колоды", `${row.decks}/${row.possible}`),
+        ],
+        pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score) },
       })),
     );
   }
@@ -364,10 +405,11 @@ class WarTab {
 class DonationTab {
   title = "Щедрые";
 
-  constructor(calendar, ranking, list) {
+  constructor(calendar, ranking, list, membership) {
     this.calendar = calendar;
     this.ranking = ranking;
     this.list = list;
+    this.membership = membership;
     this.season = calendar.currentSeasonId;
   }
 
@@ -380,8 +422,8 @@ class DonationTab {
       picker.render(this.season),
       Elements.create("p", "hint", "Карты, отданные клану за сезон. Учёт идёт с 27 октября 2026 года."),
       this.list.render(this.ranking.standings(this.season), (row) => ({
-        score: Elements.number(row.donations),
-        details: `недель с донатом: ${row.weeks}`,
+        line: [this.membership.role(row.tag) ?? ""],
+        pill: { icon: "cards", label: "Донат за сезон", value: Elements.number(row.donations) },
       })),
     );
   }
@@ -413,8 +455,11 @@ class HallOfFameTab {
     const card = Elements.create("section", "hall");
     card.appendChild(Elements.create("h2", null, `Сезон ${id}`));
     card.appendChild(this.list.render(this.ranking.standings(id).slice(0, HallOfFameTab.SIZE), (row) => ({
-      score: Elements.number(row.score),
-      details: `${Elements.number(row.fame)} медалей · колоды ${row.decks}/${row.possible}`,
+      line: [
+        RankingList.stat("cw-fame", "Медали", Elements.number(row.fame)),
+        RankingList.stat("cw-battle", "Колоды", `${row.decks}/${row.possible}`),
+      ],
+      pill: { icon: "trophy-ribbon", label: "Очки", value: Elements.number(row.score) },
     })));
     return card;
   }
@@ -439,11 +484,13 @@ class RosterTab {
 
   render(container) {
     const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
-    const list = Elements.create("ol", "roster");
-    rows.forEach((row, index) => list.appendChild(this.member(row, index + 1)));
     const top = Elements.create("div", "panel-top");
     top.appendChild(this.statBand());
-    container.replaceChildren(top, list);
+    container.replaceChildren(top, this.list.render(rows, (row) => ({
+      line: [RosterTab.ROLES[row.role] ?? row.role],
+      stack: { icon: "cards", label: "Донат за неделю", value: Elements.number(row.donations) },
+      pill: { icon: "trophy", label: "Кубки", value: row.trophies },
+    })));
   }
 
   statBand() {
@@ -458,19 +505,6 @@ class RosterTab {
       band.appendChild(cell);
     }
     return band;
-  }
-
-  member(row, place) {
-    const item = Elements.create("li", "member");
-    item.title = this.since(row.tag);
-    const who = Elements.create("div", "who");
-    who.append(Elements.glossy(Elements.playerLink(row.tag, row.name)), Elements.create("span", "role", RosterTab.ROLES[row.role] ?? row.role));
-    const donations = Elements.create("div", "donations");
-    donations.append(Elements.icon("cards", "Донат за неделю"), Elements.glossy(Elements.create("span", null, Elements.number(row.donations))));
-    const trophies = Elements.create("div", "trophies");
-    trophies.append(Elements.icon("trophy", "Кубки"), Elements.glossy(Elements.create("span", null, row.trophies)));
-    item.append(Elements.glossy(Elements.create("span", `rank rank-${place}`, place)), Elements.create("span", "avatar"), who, donations, trophies);
-    return item;
   }
 
   since(tag) {
@@ -726,7 +760,7 @@ class ClanApp {
       const roster = new RosterTab(data.clan, data.members, list);
       this.tabs = {
         war: new WarTab(calendar, war, list),
-        donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list),
+        donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list, membership),
         hall: new HallOfFameTab(calendar, war, list),
         clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge)),
         roster,
@@ -744,6 +778,7 @@ class ClanApp {
       this.footer.textContent = `Обновлено ${new Date(data.meta.updated_at).toLocaleString("ru-RU")}`;
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
+      document.addEventListener("touchstart", () => {}, { passive: true });
       this.show();
     } catch (error) {
       this.content.replaceChildren(Elements.create("p", "empty", `Не удалось загрузить данные: ${error.message}`));
