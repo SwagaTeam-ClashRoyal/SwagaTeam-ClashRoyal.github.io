@@ -284,7 +284,7 @@ class Membership {
 }
 
 class RankingList {
-  static RELEASE_DELAY = 160;
+  static RELEASE_DELAY = 300;
 
   constructor(membership) {
     this.membership = membership;
