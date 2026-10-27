@@ -4,23 +4,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Swaga team</title>
+<link rel="preload" href="assets/fonts/clash-bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="window">
 <header>
 <div class="wrap">
 <div class="brand">
 <img id="logo" class="logo" alt="" hidden>
 <div>
-<h1>Swaga team</h1>
+<h1 class="glossy" data-text="Swaga team">Swaga team</h1>
 <p class="tag">Клан Clash Royale · #QVQUPC8Q</p>
 </div>
+<span class="war-pill outlined" id="war-pill" hidden><img src="assets/icons/cw-trophy.png" alt="Кубки КВ"><span id="war-trophies" class="glossy"></span></span>
 </div>
 </div>
 <nav id="tabs" class="wrap tabs"></nav>
 </header>
-<main id="content" class="wrap"><p class="empty">Загрузка…</p></main>
-<footer class="wrap"><span id="updated"></span></footer>
+<main id="content" class="wrap"><div class="loader"><img src="assets/icons/loading.png" alt=""><span>Загрузка…</span></div></main>
+</div>
+<footer class="wrap">
+<p id="updated"></p>
+<p>This material is unofficial and is not endorsed by Supercell. For more information see Supercell's Fan Content Policy: <a href="https://www.supercell.com/fan-content-policy">www.supercell.com/fan-content-policy</a>.</p>
+</footer>
 <script src="charts.js"></script>
 <script src="app.js"></script>
 </body>

@@ -248,6 +248,19 @@ class Elements {
     return value.toLocaleString("ru-RU");
   }
 
+  static glossy(element) {
+    element.classList.add("glossy");
+    element.dataset.text = element.textContent;
+    return element;
+  }
+
+  static icon(name, alt = "") {
+    const image = Elements.create("img", "icon");
+    image.src = `assets/icons/${name}.png`;
+    image.alt = alt;
+    return image;
+  }
+
   static playerLink(tag, name) {
     const link = Elements.create("a", "name", name);
     link.href = `#player/${tag.replace("#", "")}`;
@@ -426,13 +439,38 @@ class RosterTab {
 
   render(container) {
     const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
-    container.replaceChildren(
-      Elements.create("p", "hint", `${this.clan.members} из 50 · кубки КВ клана: ${Elements.number(this.clan.clanWarTrophies)}`),
-      this.list.render(rows, (row) => ({
-        score: Elements.number(row.trophies),
-        details: [RosterTab.ROLES[row.role] ?? row.role, `донат за неделю ${row.donations}`, this.since(row.tag)].filter(Boolean).join(" · "),
-      })),
-    );
+    const list = Elements.create("ol", "roster");
+    rows.forEach((row, index) => list.appendChild(this.member(row, index + 1)));
+    const top = Elements.create("div", "panel-top");
+    top.appendChild(this.statBand());
+    container.replaceChildren(top, list);
+  }
+
+  statBand() {
+    const band = Elements.create("div", "stat-band");
+    for (const [label, value] of [
+      ["Участники", `${this.clan.members}/50`],
+      ["Вход от", Elements.number(this.clan.requiredTrophies)],
+      ["Донат за неделю", Elements.number(this.clan.donationsPerWeek)],
+    ]) {
+      const cell = Elements.create("div", "stat");
+      cell.append(Elements.create("span", "stat-label", label), Elements.glossy(Elements.create("span", "stat-value", value)));
+      band.appendChild(cell);
+    }
+    return band;
+  }
+
+  member(row, place) {
+    const item = Elements.create("li", "member");
+    item.title = this.since(row.tag);
+    const who = Elements.create("div", "who");
+    who.append(Elements.glossy(Elements.playerLink(row.tag, row.name)), Elements.create("span", "role", RosterTab.ROLES[row.role] ?? row.role));
+    const donations = Elements.create("div", "donations");
+    donations.append(Elements.icon("cards", "Донат за неделю"), Elements.glossy(Elements.create("span", null, Elements.number(row.donations))));
+    const trophies = Elements.create("div", "trophies");
+    trophies.append(Elements.icon("trophy", "Кубки"), Elements.glossy(Elements.create("span", null, row.trophies)));
+    item.append(Elements.glossy(Elements.create("span", `rank rank-${place}`, place)), Elements.create("span", "avatar"), who, donations, trophies);
+    return item;
   }
 
   since(tag) {
@@ -699,6 +737,10 @@ class ClanApp {
         this.logo.src = badge;
         this.logo.hidden = false;
       }
+      const warTrophies = document.getElementById("war-trophies");
+      warTrophies.textContent = Elements.number(data.clan.clanWarTrophies);
+      warTrophies.dataset.text = warTrophies.textContent;
+      document.getElementById("war-pill").hidden = false;
       this.footer.textContent = `Обновлено ${new Date(data.meta.updated_at).toLocaleString("ru-RU")}`;
       this.renderNav();
       window.addEventListener("hashchange", () => this.show());
@@ -711,7 +753,7 @@ class ClanApp {
   renderNav() {
     this.nav.replaceChildren(
       ...Object.entries(this.tabs).map(([key, tab]) => {
-        const link = Elements.create("a", "tab", tab.title);
+        const link = Elements.glossy(Elements.create("a", "tab", tab.title));
         link.href = `#${key}`;
         link.dataset.key = key;
         return link;
