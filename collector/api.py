@@ -26,6 +26,9 @@ class ClashRoyaleClient:
     def player(self, tag):
         return self._get(f"/players/{self._encode(tag)}")
 
+    def clan_rankings(self, location, board):
+        return self._get(f"/locations/{location}/rankings/{board}?limit=1000")
+
     @staticmethod
     def _encode(tag):
         return urllib.parse.quote(tag.upper(), safe="")
