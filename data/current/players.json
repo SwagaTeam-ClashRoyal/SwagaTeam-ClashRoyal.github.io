@@ -1438,11 +1438,11 @@
   },
   "#PQQ2JYL2G": {
     "expLevel": 48,
-    "trophies": 11355,
-    "bestTrophies": 11386,
-    "wins": 2199,
+    "trophies": 11415,
+    "bestTrophies": 11415,
+    "wins": 2201,
     "losses": 2421,
-    "battleCount": 4620,
+    "battleCount": 4622,
     "threeCrownWins": 1060,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2084,9 +2084,9 @@
     "expLevel": 20,
     "trophies": 9527,
     "bestTrophies": 9527,
-    "wins": 991,
-    "losses": 655,
-    "battleCount": 1646,
+    "wins": 992,
+    "losses": 656,
+    "battleCount": 1648,
     "threeCrownWins": 494,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2347,98 +2347,6 @@
       "elixirCost": 7,
       "evolved": false,
       "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-    }
-  },
-  "#22JLP29RV": {
-    "expLevel": 42,
-    "trophies": 8741,
-    "bestTrophies": 8741,
-    "wins": 2584,
-    "losses": 2765,
-    "battleCount": 5349,
-    "threeCrownWins": 1625,
-    "warDayWins": 6,
-    "clanCardsCollected": 5920,
-    "totalDonations": 26159,
-    "currentPathOfLegendSeasonResult": {
-      "leagueNumber": 1,
-      "trophies": 0,
-      "rank": null
-    },
-    "lastPathOfLegendSeasonResult": {
-      "leagueNumber": 1,
-      "trophies": 0,
-      "rank": null
-    },
-    "bestPathOfLegendSeasonResult": {
-      "leagueNumber": 5,
-      "trophies": 0,
-      "rank": null
-    },
-    "currentDeck": [
-      {
-        "name": "Mega Knight",
-        "rarity": "legendary",
-        "elixirCost": 7,
-        "evolved": true,
-        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-      },
-      {
-        "name": "Mini P.E.K.K.A",
-        "rarity": "rare",
-        "elixirCost": 4,
-        "evolved": true,
-        "icon": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png"
-      },
-      {
-        "name": "Firecracker",
-        "rarity": "common",
-        "elixirCost": 3,
-        "evolved": true,
-        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
-      },
-      {
-        "name": "Balloon",
-        "rarity": "epic",
-        "elixirCost": 5,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
-      },
-      {
-        "name": "Skeleton Army",
-        "rarity": "epic",
-        "elixirCost": 3,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png"
-      },
-      {
-        "name": "Lumberjack",
-        "rarity": "legendary",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/E6RWrnCuk13xMX5OE1EQtLEKTZQV6B78d00y8PlXt6Q.png"
-      },
-      {
-        "name": "Executioner",
-        "rarity": "epic",
-        "elixirCost": 5,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png"
-      },
-      {
-        "name": "The Log",
-        "rarity": "legendary",
-        "elixirCost": 2,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
-      }
-    ],
-    "currentFavouriteCard": {
-      "name": "Giant Skeleton",
-      "rarity": "epic",
-      "elixirCost": 6,
-      "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png"
     }
   },
   "#LGQC0JPLU": {
