@@ -1,6 +1,9 @@
+import calendar
+from datetime import datetime, timedelta, timezone
+
+
 class ClanEvents:
     ROLE_ORDER = {"member": 0, "elder": 1, "coLeader": 2, "leader": 3}
-    TROPHY_STEP = 1000
 
     def detect(self, before, after):
         events = []
@@ -36,10 +39,6 @@ class ClanEvents:
         if not old or not new:
             return []
         events = []
-        old_best = old.get("bestTrophies", 0) // self.TROPHY_STEP
-        new_best = new.get("bestTrophies", 0) // self.TROPHY_STEP
-        if new_best > old_best and old_best > 0:
-            events.append(self._event("trophies", member, value=new_best * self.TROPHY_STEP))
         if new.get("expLevel", 0) > old.get("expLevel", 0) > 0:
             events.append(self._event("king_level", member, level=new["expLevel"]))
         old_league = (old.get("currentPathOfLegendSeasonResult") or {}).get("leagueNumber") or 0
@@ -53,10 +52,8 @@ class ClanEvents:
             return []
         upgraded = []
         evolved = []
-        unlocked = []
         for name, (level, evolution) in new.items():
             if name not in old:
-                unlocked.append(name)
                 continue
             old_level, old_evolution = old[name]
             if level > old_level:
@@ -69,8 +66,6 @@ class ClanEvents:
             events.append(self._event("cards", member, cards=upgraded))
         if evolved:
             events.append(self._event("evolution", member, cards=evolved))
-        if unlocked:
-            events.append(self._event("unlocked", member, cards=unlocked))
         return events
 
     @staticmethod
@@ -98,6 +93,45 @@ class WarWeekEvents:
         return events
 
 
+class Anniversaries:
+    MONTHS = (1, 3, 6, 12)
+    WINDOW = timedelta(days=2)
+
+    def detect(self, registry, now, logged):
+        seen = {(event["tag"], event["months"]) for event in logged if event.get("type") == "anniversary"}
+        events = []
+        for tag, record in registry.items():
+            start = self._start(record)
+            if not record.get("in_clan") or start is None:
+                continue
+            for months in self._milestones(start, now):
+                moment = self._add_months(start, months)
+                if (tag, months) in seen or not now - self.WINDOW <= moment <= now:
+                    continue
+                events.append({"type": "anniversary", "tag": tag, "name": record["name"], "months": months, "approx": record.get("joined_precision") == "approx"})
+        return events
+
+    @staticmethod
+    def _start(record):
+        if record.get("joined_precision") == "before":
+            return None
+        value = record.get("joined") or record.get("first_seen")
+        start = datetime.fromisoformat(value)
+        return start if start.tzinfo else start.replace(tzinfo=timezone.utc)
+
+    def _milestones(self, start, now):
+        years = (now.year - start.year) + 1
+        return [*self.MONTHS, *(12 * year for year in range(2, years + 1))]
+
+    @staticmethod
+    def _add_months(start, months):
+        month = start.month - 1 + months
+        year = start.year + month // 12
+        month = month % 12 + 1
+        day = min(start.day, calendar.monthrange(year, month)[1])
+        return start.replace(year=year, month=month, day=day)
+
+
 class EventLog:
     PATH = "history/events.json"
     LIMIT = 2000
@@ -105,10 +139,13 @@ class EventLog:
     def __init__(self, store):
         self._store = store
 
+    def read(self):
+        return self._store.read(self.PATH, [])
+
     def append(self, stamp, events):
         if not events:
             return 0
-        log = self._store.read(self.PATH, [])
+        log = self.read()
         log.extend({**event, "at": self.moment(event.get("at") or stamp)} for event in events)
         log.sort(key=lambda event: event["at"])
         self._store.write(self.PATH, log[-self.LIMIT:])

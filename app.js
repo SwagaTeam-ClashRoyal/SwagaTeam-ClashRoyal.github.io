@@ -842,17 +842,27 @@ class EventFeed {
     promoted: "social",
     demoted: "social",
     arena: "trophy",
-    trophies: "trophy-ribbon",
     king_level: "experience",
     league: "tournament",
     cards: "cards",
     evolution: "star-level",
-    unlocked: "cards",
+    anniversary: "crown-blue",
     war_week: "clan-war",
   };
 
   constructor(events) {
-    this.events = [...events].reverse();
+    this.events = events.filter((event) => event.type in EventFeed.ICONS).reverse();
+  }
+
+  static period(months) {
+    if (months === 1) return "Месяц";
+    if (months === 6) return "Полгода";
+    if (months === 12) return "Год";
+    if (months % 12 === 0) {
+      const years = months / 12;
+      return `${years} ${years % 10 >= 2 && years % 10 <= 4 && (years % 100 < 12 || years % 100 > 14) ? "года" : "лет"}`;
+    }
+    return `${months} ${months >= 2 && months <= 4 ? "месяца" : "месяцев"}`;
   }
 
   describe(event) {
@@ -867,16 +877,14 @@ class EventFeed {
       case "promoted": return `Повышение: ${role(event.previous)} → ${role(event.role)}`;
       case "demoted": return `Понижение: ${role(event.previous)} → ${role(event.role)}`;
       case "arena": return `Новая арена: ${event.arena}`;
-      case "trophies": return `Рекорд: ${Elements.number(event.value)} кубков`;
       case "king_level": return `Уровень короля ${event.level}`;
       case "league": return `Path of Legends: лига ${event.league}`;
       case "cards": return `Прокачка: ${cards(event.cards.map((card) => `${card.name} до ${card.level}`))}`;
       case "evolution": return `Эволюция: ${cards(event.cards)}`;
-      case "unlocked": return `Новая карта: ${cards(event.cards)}`;
+      case "anniversary": return `${EventFeed.period(event.months)} в клане`;
       case "war_week": {
-        const change = event.trophy_change > 0 ? `+${event.trophy_change}` : `${event.trophy_change}`;
         const best = event.best ? `, лучший боец ${event.best.name} (${Elements.number(event.best.fame)})` : "";
-        return `${event.rank} место, ${Elements.number(event.fame)} медалей, кубки КВ ${change}${best}`;
+        return `${event.rank} место${best}`;
       }
       default: return event.type;
     }
@@ -901,7 +909,7 @@ class EventFeed {
       }
       list.appendChild(this.item(event, date));
     }
-    const nodes = [Elements.create("p", "hint", "Что происходит в клане: вступления, повышения, прокачка карт, новые арены и итоги недель КВ."), feed];
+    const nodes = [Elements.create("p", "hint", "Что происходит в клане: вступления, повышения, юбилеи, прокачка карт, новые арены и итоги недель КВ."), feed];
     if (this.events.length > limit) {
       const more = Elements.create("button", "feed-more", "Показать ещё");
       more.addEventListener("click", () => this.render(container, limit + EventFeed.PAGE));

@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 from .badge import ClanBadge
 from .cards import CardLevels
-from .events import ClanEvents, EventLog, WarWeekEvents
+from .events import Anniversaries, ClanEvents, EventLog, WarWeekEvents
 from .players import PlayerProfiles
 from .ranking_history import RankingHistory
 from .rankings import ClanRankings
@@ -43,8 +43,13 @@ class Collector:
         rankings = ClanRankings(self._store, self._client, self._clan_tag).update(clan)
         RankingHistory(self._store).record(now.date().isoformat(), clan, rankings)
         after = {"members": clan.get("memberList", []), "players": players, "cards": cards}
-        events = ClanEvents().detect(before, after) + WarWeekEvents().detect(archived)
-        logged = EventLog(self._store).append(stamp, events)
+        event_log = EventLog(self._store)
+        events = (
+            ClanEvents().detect(before, after)
+            + WarWeekEvents().detect(archived)
+            + Anniversaries().detect(self._store.read(MemberRegistry.PATH, {}), now, event_log.read())
+        )
+        logged = event_log.append(stamp, events)
         badge = ClanBadge(self._store).update(clan)
         self._store.write("current/meta.json", {"clan_tag": self._clan_tag, "updated_at": stamp})
         print(f"Members in clan: {members}")
