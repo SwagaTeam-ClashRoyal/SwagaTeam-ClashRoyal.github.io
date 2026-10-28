@@ -510,5 +510,30 @@
     "tag": "#VGVQG0CVG",
     "name": "¿ G1ntex21 ?",
     "at": "2026-10-28T17:51:25+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#GQQL9YLYQ",
+    "name": "Ter",
+    "cards": [
+      {
+        "name": "Flying Machine",
+        "level": 12
+      },
+      {
+        "name": "Giant",
+        "level": 11
+      }
+    ],
+    "at": "2026-10-28T18:54:54+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#GQQL9YLYQ",
+    "name": "Ter",
+    "cards": [
+      "Goblin Cage"
+    ],
+    "at": "2026-10-28T18:54:54+00:00"
   }
 ]
