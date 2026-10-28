@@ -907,15 +907,15 @@
   },
   "#8LRPG2VPQ": {
     "expLevel": 43,
-    "trophies": 13058,
+    "trophies": 13085,
     "bestTrophies": 13090,
-    "wins": 2325,
-    "losses": 2023,
-    "battleCount": 4348,
-    "threeCrownWins": 1167,
+    "wins": 2328,
+    "losses": 2025,
+    "battleCount": 4353,
+    "threeCrownWins": 1168,
     "warDayWins": 0,
     "clanCardsCollected": 460,
-    "totalDonations": 14635,
+    "totalDonations": 14643,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -990,11 +990,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Mega Knight",
-      "rarity": "legendary",
-      "elixirCost": 7,
+      "name": "Elite Barbarians",
+      "rarity": "common",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
     }
   },
   "#P08LLGYLQ": {
@@ -3257,15 +3257,15 @@
   },
   "#V0RCP20LR": {
     "expLevel": 58,
-    "trophies": 3193,
+    "trophies": 3283,
     "bestTrophies": 3397,
-    "wins": 3171,
-    "losses": 2769,
-    "battleCount": 5940,
-    "threeCrownWins": 2540,
+    "wins": 3175,
+    "losses": 2770,
+    "battleCount": 5945,
+    "threeCrownWins": 2544,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 19902,
+    "totalDonations": 19918,
     "currentPathOfLegendSeasonResult": null,
     "lastPathOfLegendSeasonResult": null,
     "bestPathOfLegendSeasonResult": null,

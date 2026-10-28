@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113311,
+  "clanScore": 113327,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1896,
+  "donationsPerWeek": 1920,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -203,9 +203,9 @@
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261028T015609.000Z",
+      "lastSeen": "20261028T022805.000Z",
       "expLevel": 0,
-      "trophies": 13058,
+      "trophies": 13085,
       "arena": {
         "id": 54000143,
         "name": "Little Prince's Tavern",
@@ -213,7 +213,7 @@
       },
       "clanRank": 11,
       "previousClanRank": 11,
-      "donations": 186,
+      "donations": 194,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -304,7 +304,7 @@
       "clanRank": 16,
       "previousClanRank": 16,
       "donations": 76,
-      "donationsReceived": 152,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -538,7 +538,7 @@
       "clanRank": 29,
       "previousClanRank": 30,
       "donations": 44,
-      "donationsReceived": 48,
+      "donationsReceived": 56,
       "clanChestPoints": 0
     },
     {
@@ -671,9 +671,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261027T165732.000Z",
+      "lastSeen": "20261028T024626.000Z",
       "expLevel": 0,
-      "trophies": 3193,
+      "trophies": 3283,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -681,8 +681,8 @@
       },
       "clanRank": 37,
       "previousClanRank": 38,
-      "donations": 114,
-      "donationsReceived": 120,
+      "donations": 130,
+      "donationsReceived": 128,
       "clanChestPoints": 0
     }
   ]
