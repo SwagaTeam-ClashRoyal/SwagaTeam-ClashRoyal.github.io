@@ -1,5 +1,6 @@
 import os
 import sys
+from datetime import datetime, timezone
 
 from .api import ApiError, ClashRoyaleClient
 from .collector import Collector
@@ -24,7 +25,7 @@ class Application:
         except ApiError as error:
             sys.exit(f"API error: {error}")
         if notifier and os.environ.get("TELEGRAM_PREVIEW") == "true":
-            notifier.preview(self.races(store))
+            notifier.preview(datetime.now(timezone.utc), store.read(Collector.CLAN_PATH, {}), store.read("current/river_race.json", {}), self.races(store))
 
     @staticmethod
     def notifier(store):

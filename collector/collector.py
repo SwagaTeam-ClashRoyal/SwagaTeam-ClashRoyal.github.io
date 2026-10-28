@@ -53,7 +53,7 @@ class Collector:
         logged = event_log.append(stamp, events)
         badge = ClanBadge(self._store).update(clan)
         if self._notifier:
-            self._notifier.notify(now, river_race, archived)
+            self._notifier.notify(now, clan, river_race, archived)
         self._store.write("current/meta.json", {"clan_tag": self._clan_tag, "updated_at": stamp})
         print(f"Members in clan: {members}")
         print(f"New river races archived: {len(archived)}")
