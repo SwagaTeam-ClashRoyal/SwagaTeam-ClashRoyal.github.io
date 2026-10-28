@@ -553,16 +553,27 @@ class Roster {
     member: "участник",
   };
 
-  constructor(clan, members, list, watch) {
+  constructor(clan, members, players, list, watch) {
     this.clan = clan;
     this.members = members;
+    this.players = players;
     this.list = list;
     this.watch = watch;
     this.trackingStart = Object.values(members).map((record) => record.first_seen.slice(0, 10)).sort()[0];
   }
 
+  league(tag, season) {
+    return this.players[tag]?.[season]?.leagueNumber ?? 0;
+  }
+
   render() {
-    const rows = [...this.clan.memberList].sort((a, b) => a.clanRank - b.clanRank);
+    const rows = [...this.clan.memberList].sort(
+      (a, b) =>
+        b.trophies - a.trophies ||
+        this.league(b.tag, "currentPathOfLegendSeasonResult") - this.league(a.tag, "currentPathOfLegendSeasonResult") ||
+        this.league(b.tag, "bestPathOfLegendSeasonResult") - this.league(a.tag, "bestPathOfLegendSeasonResult") ||
+        a.clanRank - b.clanRank,
+    );
     const list = this.list.render(rows, (row) => {
       const status = this.watch.status(row);
       return {
@@ -1197,7 +1208,7 @@ class ClanApp {
       const history = new WeeklyHistory(calendar);
       const membership = new Membership(data.clan);
       const list = new RankingList(membership);
-      const roster = new Roster(data.clan, data.members, list, new KickWatch(calendar, war));
+      const roster = new Roster(data.clan, data.members, data.players, list, new KickWatch(calendar, war));
       const boards = new RankingBoards(data.clan, data.rankings, data.rankingHistory);
       this.tabs = {
         clan: new ClanTab(history, new ClanSummary(data.clan, boards, data.badge), roster),
