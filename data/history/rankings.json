@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-10-27",
+    "score": {
+      "trophies": 113311,
+      "war": 2055
+    },
+    "global": {
+      "trophies": {
+        "rank": null,
+        "cutoff": 139816
+      },
+      "war": {
+        "rank": null,
+        "cutoff": 4385
+      }
+    },
+    "local": {
+      "war": {
+        "rank": null,
+        "cutoff": 2620
+      }
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "score": {
+      "trophies": 113324,
+      "war": 2055
+    },
+    "global": {
+      "trophies": {
+        "rank": null,
+        "cutoff": 139832
+      },
+      "war": {
+        "rank": null,
+        "cutoff": 4385
+      }
+    },
+    "local": {
+      "trophies": {
+        "rank": null,
+        "cutoff": 133426
+      },
+      "war": {
+        "rank": null,
+        "cutoff": 2621
+      }
+    }
+  }
+]

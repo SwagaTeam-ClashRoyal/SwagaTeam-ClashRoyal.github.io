@@ -1,0 +1,156 @@
+[
+  {
+    "type": "war_week",
+    "at": "2026-08-24T09:39:05+00:00",
+    "season": 135,
+    "week": 3,
+    "rank": 2,
+    "fame": 7693,
+    "trophy_change": 10,
+    "best": {
+      "tag": "#R9CUL98Y8",
+      "name": "❄️shyberka❄️",
+      "fame": 2500
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-08-31T09:45:24+00:00",
+    "season": 135,
+    "week": 4,
+    "rank": 2,
+    "fame": 10000,
+    "trophy_change": 15,
+    "best": {
+      "tag": "#U0QJL29PY",
+      "name": "egor",
+      "fame": 2600
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-09-07T09:39:03+00:00",
+    "season": 135,
+    "week": 5,
+    "rank": 3,
+    "fame": 12650,
+    "trophy_change": -25,
+    "best": {
+      "tag": "#U0QJL29PY",
+      "name": "egor",
+      "fame": 2200
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-09-14T09:56:06+00:00",
+    "season": 136,
+    "week": 1,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#2G2VYP9G",
+      "name": "THE BOSS G.",
+      "fame": 2100
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-09-21T09:56:05+00:00",
+    "season": 136,
+    "week": 2,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#2G2VYP9G",
+      "name": "THE BOSS G.",
+      "fame": 1850
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-09-28T09:56:05+00:00",
+    "season": 136,
+    "week": 3,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#2G2VYP9G",
+      "name": "THE BOSS G.",
+      "fame": 2700
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-10-05T09:56:05+00:00",
+    "season": 136,
+    "week": 4,
+    "rank": 1,
+    "fame": 10600,
+    "trophy_change": 100,
+    "best": {
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "fame": 1450
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-10-12T09:52:06+00:00",
+    "season": 137,
+    "week": 1,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#PL82RPJUJ",
+      "name": ")))",
+      "fame": 2400
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-10-19T09:52:06+00:00",
+    "season": 137,
+    "week": 2,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#V0RCP20LR",
+      "name": "подписични черв",
+      "fame": 2700
+    }
+  },
+  {
+    "type": "war_week",
+    "at": "2026-10-26T09:52:05+00:00",
+    "season": 137,
+    "week": 3,
+    "rank": 1,
+    "fame": 10000,
+    "trophy_change": 20,
+    "best": {
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "fame": 2650
+    }
+  },
+  {
+    "type": "arena",
+    "tag": "#9RJPRQLL2",
+    "name": "Morj",
+    "arena": "Legendary Arena",
+    "raw": "Arena_L10",
+    "at": "2026-10-27T11:43:29+00:00"
+  },
+  {
+    "type": "left",
+    "tag": "#8LJQ29VPG",
+    "name": "buxiir",
+    "at": "2026-10-27T15:51:45+00:00"
+  }
+]

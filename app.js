@@ -16,13 +16,15 @@ class DataSource {
       this.load("history/river_races/index.json"),
       this.load("current/players.json").catch(() => ({})),
     ]);
-    const [rankings, badge, renders] = await Promise.all([
+    const [rankings, badge, renders, rankingHistory, events] = await Promise.all([
       this.load("current/rankings.json").catch(() => null),
       this.load("current/badge.json").catch(() => null),
       this.renders(),
+      this.load("history/rankings.json").catch(() => []),
+      this.load("history/events.json").catch(() => []),
     ]);
     const races = await Promise.all(index.map((name) => this.load(`history/river_races/${name}`)));
-    return { meta, clan, race, members, races, players, rankings, badge, renders };
+    return { meta, clan, race, members, races, players, rankings, badge, renders, rankingHistory, events };
   }
 
   async renders() {
@@ -592,13 +594,91 @@ class Roster {
   }
 }
 
-class ClanSummary {
-  static TYPES = { open: "открытый", inviteOnly: "по приглашению", closed: "закрытый" };
-  static RANKING_SIZE = 1000;
+class RankingBoards {
+  static SIZE = 1000;
 
-  constructor(clan, rankings, badge) {
+  constructor(clan, rankings, history) {
     this.clan = clan;
     this.rankings = rankings;
+    this.history = history;
+  }
+
+  list() {
+    if (!this.rankings) return [];
+    const local = this.clan.location?.name === "Russia" ? "Россия" : this.rankings.location;
+    return [
+      { key: "global-trophies", scope: "global", board: "trophies", label: "Мир, кубки", icon: "trophy", own: this.clan.clanScore },
+      { key: "global-war", scope: "global", board: "war", label: "Мир, КВ", icon: "cw-trophy", own: this.clan.clanWarTrophies },
+      { key: "local-trophies", scope: "local", board: "trophies", label: `${local}, кубки`, icon: "trophy", own: this.clan.clanScore },
+      { key: "local-war", scope: "local", board: "war", label: `${local}, КВ`, icon: "cw-trophy", own: this.clan.clanWarTrophies },
+    ]
+      .map((entry) => ({ ...entry, current: this.rankings[entry.scope]?.[entry.board] }))
+      .filter((entry) => entry.current);
+  }
+
+  status({ current, own }) {
+    if (current.rank) return `${Elements.number(current.rank)} место`;
+    const gap = current.cutoff ? current.cutoff - own : null;
+    return gap > 0
+      ? `не в топ-${RankingBoards.SIZE}, не хватает ${Elements.number(gap)}`
+      : `не в топ-${RankingBoards.SIZE}`;
+  }
+
+  trend({ scope, board, current, own }) {
+    const today = this.history.at(-1)?.date;
+    const previous = this.history.filter((entry) => entry.date < today).at(-1);
+    const before = previous?.[scope]?.[board];
+    if (!before) return null;
+    if (current.rank && before.rank) return { delta: before.rank - current.rank, unit: "мест" };
+    if (current.rank || before.rank) return { delta: current.rank ? 1 : -1, unit: null };
+    if (!current.cutoff || !before.cutoff) return null;
+    return { delta: (before.cutoff - previous.score[board]) - (current.cutoff - own), unit: "кубков" };
+  }
+
+  points({ scope, board }) {
+    return this.history
+      .filter((entry) => entry[scope]?.[board])
+      .map((entry) => {
+        const { rank, cutoff } = entry[scope][board];
+        const score = entry.score[board];
+        const date = new Date(`${entry.date}T00:00:00`);
+        return {
+          label: WeeklyHistory.short(date),
+          title: date.toLocaleDateString("ru-RU"),
+          value: rank || !cutoff ? 0 : Math.max(cutoff - score, 0),
+          rank,
+          cutoff,
+          score,
+        };
+      });
+  }
+}
+
+class TrendMark {
+  static render(trend) {
+    if (!trend) return null;
+    const direction = trend.delta > 0 ? "up" : trend.delta < 0 ? "down" : "flat";
+    const arrow = { up: "▲", down: "▼", flat: "±0" }[direction];
+    const mark = Elements.create("span", `trend trend-${direction}`, trend.unit && trend.delta !== 0 ? `${arrow} ${Elements.number(Math.abs(trend.delta))}` : arrow);
+    mark.title = TrendMark.describe(trend, direction);
+    return mark;
+  }
+
+  static describe(trend, direction) {
+    if (direction === "flat") return "За день без изменений";
+    if (!trend.unit) return direction === "up" ? "За день вошли в рейтинг" : "За день выпали из рейтинга";
+    const amount = `${Elements.number(Math.abs(trend.delta))} ${trend.unit}`;
+    if (trend.unit === "мест") return direction === "up" ? `За день поднялись на ${amount}` : `За день опустились на ${amount}`;
+    return direction === "up" ? `За день приблизились к топу на ${amount}` : `За день отстали от топа ещё на ${amount}`;
+  }
+}
+
+class ClanSummary {
+  static TYPES = { open: "открытый", inviteOnly: "по приглашению", closed: "закрытый" };
+
+  constructor(clan, boards, badge) {
+    this.clan = clan;
+    this.boards = boards;
     this.badge = badge;
     this.open = false;
   }
@@ -629,42 +709,92 @@ class ClanSummary {
       this.open = more.open;
     });
     more.appendChild(Elements.create("summary", null, "Кубки, донат, вход и места в рейтингах"));
-    const stats = Elements.create("dl", "stats");
-    const add = (term, value) => stats.append(Elements.create("dt", null, term), Elements.create("dd", null, value));
-    add("Кубки клана", Elements.number(this.clan.clanScore));
-    add("Кубки КВ", Elements.number(this.clan.clanWarTrophies));
-    add("Участников", `${this.clan.members} из 50`);
-    add("Донат за неделю", Elements.number(this.clan.donationsPerWeek));
-    add("Вход", `от ${Elements.number(this.clan.requiredTrophies)} кубков, ${ClanSummary.TYPES[this.clan.type] ?? this.clan.type}`);
-    if (this.clan.location?.name) add("Страна", this.clan.location.name === "Russia" ? "Россия" : this.clan.location.name);
-    more.appendChild(stats);
-    if (this.rankings) more.append(Elements.create("h3", "subheading", "Место в рейтингах"), this.rankingList());
+    more.appendChild(this.infoGrid());
+    const boards = this.boards.list();
+    if (boards.length > 0) {
+      more.append(Elements.create("h3", "subheading", "Место в рейтингах"), this.rankingList(boards));
+    }
     card.appendChild(more);
     return card;
   }
 
-  rankingList() {
-    const stats = Elements.create("dl", "stats");
-    const local = this.clan.location?.name === "Russia" ? "Россия" : this.rankings.location;
-    const boards = [
-      ["Мир, кубки", this.rankings.global?.trophies, this.clan.clanScore],
-      ["Мир, КВ", this.rankings.global?.war, this.clan.clanWarTrophies],
-      [`${local}, кубки`, this.rankings.local?.trophies, this.clan.clanScore],
-      [`${local}, КВ`, this.rankings.local?.war, this.clan.clanWarTrophies],
+  infoGrid() {
+    const grid = Elements.create("ul", "info-grid");
+    const tiles = [
+      ["trophy", "Кубки клана", Elements.number(this.clan.clanScore)],
+      ["cw-trophy", "Кубки КВ", Elements.number(this.clan.clanWarTrophies)],
+      ["people", "Участников", `${this.clan.members} из 50`],
+      ["cards", "Донат за неделю", Elements.number(this.clan.donationsPerWeek)],
+      ["social", "Вход", `от ${Elements.number(this.clan.requiredTrophies)}, ${ClanSummary.TYPES[this.clan.type] ?? this.clan.type}`],
     ];
-    for (const [term, board, own] of boards) {
-      if (!board) continue;
-      stats.append(Elements.create("dt", null, term), Elements.create("dd", null, this.position(board, own)));
+    if (this.clan.location?.name) tiles.push(["region", "Страна", this.clan.location.name === "Russia" ? "Россия" : this.clan.location.name]);
+    for (const [icon, label, value] of tiles) {
+      const tile = Elements.create("li", "info-tile");
+      const text = Elements.create("div");
+      text.append(Elements.create("span", "info-label", label), Elements.create("span", "info-value", value));
+      tile.append(Elements.icon(icon, label), text);
+      grid.appendChild(tile);
     }
-    return stats;
+    return grid;
   }
 
-  position(board, own) {
-    if (board.rank) return `${Elements.number(board.rank)} место`;
-    const gap = board.cutoff ? board.cutoff - own : null;
-    return gap > 0
-      ? `не в топ-${ClanSummary.RANKING_SIZE}, не хватает ${Elements.number(gap)}`
-      : `не в топ-${ClanSummary.RANKING_SIZE}`;
+  rankingList(boards) {
+    const list = Elements.create("ul", "rank-list");
+    for (const entry of boards) {
+      const row = Elements.create("a", "rank-row");
+      row.href = `#rankings/${entry.key}`;
+      const text = Elements.create("div");
+      text.append(Elements.create("span", "info-value", entry.label), Elements.create("span", "info-label", this.boards.status(entry)));
+      row.append(Elements.icon(entry.icon, entry.label), text);
+      const trend = TrendMark.render(this.boards.trend(entry));
+      if (trend) row.appendChild(trend);
+      row.appendChild(Elements.create("span", "chevron", "›"));
+      const item = Elements.create("li");
+      item.appendChild(row);
+      list.appendChild(item);
+    }
+    return list;
+  }
+}
+
+class RankingsView {
+  constructor(boards) {
+    this.boards = boards;
+  }
+
+  render(container, focus) {
+    const back = Elements.create("a", "back", "← назад");
+    back.href = "#clan";
+    const boards = this.boards.list();
+    container.replaceChildren(
+      back,
+      Elements.create("p", "hint", "Сколько кубков клану не хватает до топ-1000 рейтинга, по дням. Чем ниже столбец, тем ближе топ. Наведи или нажми на столбец, чтобы увидеть цифры."),
+      ...boards.map((entry) => this.chart(entry)),
+    );
+    document.getElementById(`board-${focus}`)?.scrollIntoView();
+  }
+
+  chart(entry) {
+    const section = Elements.create("section", "ranking-chart");
+    section.id = `board-${entry.key}`;
+    const head = Elements.create("div", "ranking-head");
+    head.append(Elements.icon(entry.icon, entry.label), Elements.create("h2", "section-title", entry.label));
+    const trend = TrendMark.render(this.boards.trend(entry));
+    if (trend) head.appendChild(trend);
+    section.append(
+      head,
+      new BarChart({
+        title: this.boards.status(entry),
+        subtitle: `данные с ${this.boards.history[0] ? new Date(`${this.boards.history[0].date}T00:00:00`).toLocaleDateString("ru-RU") : "сегодня"}`,
+        valueLabel: "Не хватает",
+        periodLabel: "День",
+        extra: (point) => [
+          `Наши кубки: ${Elements.number(point.score)}`,
+          point.rank ? `Место: ${Elements.number(point.rank)}` : `Порог топ-${RankingBoards.SIZE}: ${Elements.number(point.cutoff)}`,
+        ],
+      }).render(this.boards.points(entry)),
+    );
+    return section;
   }
 }
 
@@ -700,6 +830,121 @@ class ClanTab {
         .render(this.history.clan((participants) => participants.filter((participant) => participant.decksUsed > 0).length)),
     );
     return block;
+  }
+}
+
+class EventFeed {
+  static PAGE = 60;
+  static CARDS_SHOWN = 3;
+  static ICONS = {
+    joined: "people",
+    left: "people",
+    promoted: "social",
+    demoted: "social",
+    arena: "trophy",
+    trophies: "trophy-ribbon",
+    king_level: "experience",
+    league: "tournament",
+    cards: "cards",
+    evolution: "star-level",
+    unlocked: "cards",
+    war_week: "clan-war",
+  };
+
+  constructor(events) {
+    this.events = [...events].reverse();
+  }
+
+  describe(event) {
+    const role = (key) => Roster.ROLES[key] ?? key;
+    const cards = (list) => {
+      const shown = list.slice(0, EventFeed.CARDS_SHOWN).join(", ");
+      return list.length > EventFeed.CARDS_SHOWN ? `${shown} и ещё ${list.length - EventFeed.CARDS_SHOWN}` : shown;
+    };
+    switch (event.type) {
+      case "joined": return "Новый участник клана";
+      case "left": return "Выход из клана";
+      case "promoted": return `Повышение: ${role(event.previous)} → ${role(event.role)}`;
+      case "demoted": return `Понижение: ${role(event.previous)} → ${role(event.role)}`;
+      case "arena": return `Новая арена: ${event.arena}`;
+      case "trophies": return `Рекорд: ${Elements.number(event.value)} кубков`;
+      case "king_level": return `Уровень короля ${event.level}`;
+      case "league": return `Path of Legends: лига ${event.league}`;
+      case "cards": return `Прокачка: ${cards(event.cards.map((card) => `${card.name} до ${card.level}`))}`;
+      case "evolution": return `Эволюция: ${cards(event.cards)}`;
+      case "unlocked": return `Новая карта: ${cards(event.cards)}`;
+      case "war_week": {
+        const change = event.trophy_change > 0 ? `+${event.trophy_change}` : `${event.trophy_change}`;
+        const best = event.best ? `, лучший боец ${event.best.name} (${Elements.number(event.best.fame)})` : "";
+        return `${event.rank} место, ${Elements.number(event.fame)} медалей, кубки КВ ${change}${best}`;
+      }
+      default: return event.type;
+    }
+  }
+
+  render(container, limit = EventFeed.PAGE) {
+    if (this.events.length === 0) {
+      container.replaceChildren(Elements.create("p", "empty", "Событий пока нет."));
+      return;
+    }
+    const feed = Elements.create("div", "feed");
+    let day = null;
+    let list = null;
+    for (const event of this.events.slice(0, limit)) {
+      const date = new Date(event.at);
+      const key = date.toLocaleDateString("ru-RU");
+      if (key !== day) {
+        day = key;
+        feed.appendChild(Elements.create("h2", "section-title", this.dayTitle(date)));
+        list = Elements.create("ul", "feed-list");
+        feed.appendChild(list);
+      }
+      list.appendChild(this.item(event, date));
+    }
+    const nodes = [Elements.create("p", "hint", "Что происходит в клане: вступления, повышения, прокачка карт, новые арены и итоги недель КВ."), feed];
+    if (this.events.length > limit) {
+      const more = Elements.create("button", "feed-more", "Показать ещё");
+      more.addEventListener("click", () => this.render(container, limit + EventFeed.PAGE));
+      nodes.push(more);
+    }
+    container.replaceChildren(...nodes);
+  }
+
+  item(event, date) {
+    const item = Elements.create("li", `feed-item feed-${event.type}`);
+    const text = Elements.create("div", "feed-text");
+    if (event.type === "war_week") {
+      text.appendChild(Elements.create("span", "feed-who", `Неделя КВ ${event.week}, сезон ${event.season}`));
+    } else {
+      const who = Elements.create("a", "feed-who", event.name);
+      who.href = `#player/${event.tag.replace("#", "")}`;
+      text.appendChild(who);
+    }
+    text.appendChild(Elements.create("span", "feed-what", this.describe(event)));
+    const time = Elements.create("time", "feed-time", date.toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" }));
+    time.dateTime = event.at;
+    item.append(Elements.icon(EventFeed.ICONS[event.type] ?? "loading", ""), text, time);
+    return item;
+  }
+
+  dayTitle(date) {
+    const today = new Date();
+    const yesterday = new Date(today.getTime() - RaceCalendar.DAY);
+    if (date.toDateString() === today.toDateString()) return "Сегодня";
+    if (date.toDateString() === yesterday.toDateString()) return "Вчера";
+    return date.toLocaleDateString("ru-RU", { day: "numeric", month: "long", year: date.getFullYear() === today.getFullYear() ? undefined : "numeric" });
+  }
+}
+
+class EventsTab {
+  title = "События";
+
+  constructor(feed) {
+    this.feed = feed;
+  }
+
+  render(container) {
+    this.feed.render(container);
   }
 }
 
@@ -772,13 +1017,13 @@ class ProfileView {
     const back = Elements.create("a", "back", "← назад");
     back.href = "#clan";
     const medals = this.hallOfFame(tag);
-    this.rails.show(member ? profile.currentDeck ?? [] : []);
+    this.rails.show(profile.currentDeck ?? []);
     container.replaceChildren(
       back,
       this.header(tag, name, member, profile, appearances),
       ...(medals.length > 0 ? [this.medals(medals)] : []),
       this.contribution(tag, record, appearances, medals),
-      ...(member ? [this.deck(profile)] : []),
+      ...(member || profile.currentDeck?.length ? [this.deck(profile, Boolean(member))] : []),
       new BarChart({ title: "Медали за неделю КВ", valueLabel: "Медали", referenceLabel: "Медиана клана" })
         .render(this.history.player(tag, "fame")),
       new BarChart({ title: "Колоды за неделю КВ", subtitle: "из 16 возможных", valueLabel: "Колоды", referenceLabel: "Медиана клана", max: 16, step: 4 })
@@ -864,7 +1109,7 @@ class ProfileView {
     return `Ultimate Champion, ${Elements.number(result.trophies)}${place}`;
   }
 
-  deck(profile) {
+  deck(profile, current) {
     const section = Elements.create("section", "deck-block");
     const cards = profile.currentDeck ?? [];
     if (cards.length === 0) {
@@ -873,7 +1118,7 @@ class ProfileView {
     }
     const elixir = cards.reduce((sum, card) => sum + (card.elixirCost ?? 0), 0) / cards.length;
     section.append(
-      Elements.create("h3", null, "Текущая колода"),
+      Elements.create("h3", null, current ? "Текущая колода" : "Последняя колода в клане"),
       Elements.create("p", "details", `средний эликсир ${elixir.toFixed(1)}`),
     );
     const grid = Elements.create("ul", "deck");
@@ -942,12 +1187,15 @@ class ClanApp {
       const membership = new Membership(data.clan);
       const list = new RankingList(membership);
       const roster = new Roster(data.clan, data.members, list, new KickWatch(calendar, war));
+      const boards = new RankingBoards(data.clan, data.rankings, data.rankingHistory);
       this.tabs = {
-        clan: new ClanTab(history, new ClanSummary(data.clan, data.rankings, data.badge), roster),
+        clan: new ClanTab(history, new ClanSummary(data.clan, boards, data.badge), roster),
         war: new WarTab(calendar, war, list),
         donations: new DonationTab(calendar, new DonationRanking(calendar, data.members), list, membership),
         hall: new HallOfFameTab(calendar, war, list),
+        events: new EventsTab(new EventFeed(data.events)),
       };
+      this.rankings = new RankingsView(boards);
       this.rails = new DeckRails(document.getElementById("stage"), data.renders);
       this.profile = new ProfileView(data, { roster, history, donations: new DonationHistory(data.members), membership, calendar, war, rails: this.rails });
       const badge = ClanSummary.badgeUrl(data.badge);
@@ -991,6 +1239,12 @@ class ClanApp {
       this.highlight(null);
       this.profile.render(this.content, `#${route.slice("player/".length).toUpperCase()}`);
       window.scrollTo(0, 0);
+      return;
+    }
+    if (route === "rankings" || route.startsWith("rankings/")) {
+      this.highlight("clan");
+      window.scrollTo(0, 0);
+      this.rankings.render(this.content, route.slice("rankings/".length));
       return;
     }
     if (route === "about") {

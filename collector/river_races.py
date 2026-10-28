@@ -6,13 +6,14 @@ class RiverRaceArchive:
         self._clan_tag = clan_tag.upper()
 
     def update(self, log):
-        added = 0
+        added = []
         for race in log.get("items", []):
             relative = f"{self.DIRECTORY}/{race['seasonId']:03d}-{race['sectionIndex']:02d}.json"
             if self._store.exists(relative):
                 continue
-            self._store.write(relative, self._compact(race))
-            added += 1
+            compact = self._compact(race)
+            self._store.write(relative, compact)
+            added.append(compact)
         races = [name for name in self._store.list(self.DIRECTORY) if name != "index.json"]
         self._store.write(f"{self.DIRECTORY}/index.json", races)
         return added

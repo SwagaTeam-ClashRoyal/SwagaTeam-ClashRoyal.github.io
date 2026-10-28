@@ -50,7 +50,7 @@ class BarChart {
   static PADDING = { top: 12, right: 8, bottom: 28, left: 44 };
   static MAX_BAR = 24;
 
-  constructor({ title, subtitle, valueLabel, referenceLabel, format = (value) => value.toLocaleString("ru-RU"), max, step }) {
+  constructor({ title, subtitle, valueLabel, referenceLabel, format = (value) => value.toLocaleString("ru-RU"), max, step, periodLabel = "Неделя", extra }) {
     this.title = title;
     this.subtitle = subtitle;
     this.valueLabel = valueLabel;
@@ -58,6 +58,8 @@ class BarChart {
     this.format = format;
     this.max = max;
     this.step = step;
+    this.periodLabel = periodLabel;
+    this.extra = extra;
   }
 
   render(points) {
@@ -145,6 +147,7 @@ class BarChart {
     if (this.referenceLabel && point.reference !== undefined && point.reference !== null) {
       lines.push(`${this.referenceLabel}: ${this.format(point.reference)}`);
     }
+    if (this.extra) lines.push(...this.extra(point));
     return lines;
   }
 
@@ -154,7 +157,7 @@ class BarChart {
     summary.textContent = "Таблица";
     const table = document.createElement("table");
     const head = table.createTHead().insertRow();
-    for (const text of ["Неделя", this.valueLabel, this.referenceLabel].filter(Boolean)) {
+    for (const text of [this.periodLabel, this.valueLabel, this.referenceLabel].filter(Boolean)) {
       const cell = document.createElement("th");
       cell.textContent = text;
       head.appendChild(cell);

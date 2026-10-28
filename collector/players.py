@@ -23,17 +23,22 @@ class PlayerProfiles:
         self._store = store
         self._client = client
 
-    def update(self, members):
-        players = {}
+    def previous(self):
+        return self._store.read(self.PATH, {})
+
+    def fetch(self, members):
+        profiles = {}
         for member in members:
             try:
-                profile = self._client.player(member["tag"])
+                profiles[member["tag"]] = self._client.player(member["tag"])
             except ApiError as error:
                 print(f"Skipped player {member['tag']}: {error}")
-                continue
-            players[member["tag"]] = self._compact(profile)
-        self._store.write(self.PATH, players)
-        return players
+        return profiles
+
+    def update(self, profiles):
+        current = {tag: self._compact(profile) for tag, profile in profiles.items()}
+        self._store.write(self.PATH, {**self.previous(), **current})
+        return current
 
     def _compact(self, profile):
         data = {field: profile[field] for field in self.FIELDS if field in profile}
