@@ -909,13 +909,13 @@
     "expLevel": 43,
     "trophies": 13058,
     "bestTrophies": 13090,
-    "wins": 2320,
-    "losses": 2022,
-    "battleCount": 4342,
+    "wins": 2325,
+    "losses": 2023,
+    "battleCount": 4348,
     "threeCrownWins": 1167,
     "warDayWins": 0,
     "clanCardsCollected": 460,
-    "totalDonations": 14627,
+    "totalDonations": 14635,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -990,11 +990,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Bowler",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Mega Knight",
+      "rarity": "legendary",
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/SU4qFXmbQXWjvASxVI6z9IJuTYolx4A0MKK90sTIE88.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     }
   },
   "#P08LLGYLQ": {
