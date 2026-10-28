@@ -823,7 +823,7 @@
     "threeCrownWins": 599,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 30111,
+    "totalDonations": 30127,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1353,15 +1353,15 @@
   },
   "#29GJQ0G9Q": {
     "expLevel": 63,
-    "trophies": 11492,
-    "bestTrophies": 11492,
-    "wins": 3635,
+    "trophies": 11523,
+    "bestTrophies": 11523,
+    "wins": 3636,
     "losses": 2819,
-    "battleCount": 6454,
+    "battleCount": 6455,
     "threeCrownWins": 2721,
     "warDayWins": 87,
     "clanCardsCollected": 215555,
-    "totalDonations": 72693,
+    "totalDonations": 72701,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1391,6 +1391,13 @@
         "elixirCost": 5,
         "evolved": true,
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png"
+      },
+      {
+        "name": "Golden Knight",
+        "rarity": "champion",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "The Log",
@@ -1992,13 +1999,13 @@
     "expLevel": 38,
     "trophies": 9617,
     "bestTrophies": 9825,
-    "wins": 2262,
-    "losses": 2092,
-    "battleCount": 4354,
+    "wins": 2263,
+    "losses": 2094,
+    "battleCount": 4357,
     "threeCrownWins": 781,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17371,
+    "totalDonations": 17379,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2073,21 +2080,21 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Electro Giant",
-      "rarity": "epic",
-      "elixirCost": 7,
+      "name": "Elixir Collector",
+      "rarity": "rare",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png"
     }
   },
   "#9RJPRQLL2": {
     "expLevel": 20,
     "trophies": 9535,
     "bestTrophies": 9562,
-    "wins": 996,
-    "losses": 663,
-    "battleCount": 1659,
-    "threeCrownWins": 496,
+    "wins": 997,
+    "losses": 664,
+    "battleCount": 1661,
+    "threeCrownWins": 498,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 2593,
@@ -3432,8 +3439,8 @@
     "trophies": 3464,
     "bestTrophies": 3526,
     "wins": 245,
-    "losses": 212,
-    "battleCount": 457,
+    "losses": 214,
+    "battleCount": 459,
     "threeCrownWins": 154,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -3500,11 +3507,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Spear Goblins",
+      "rarity": "common",
+      "elixirCost": 2,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png"
     }
   }
 }

@@ -535,5 +535,33 @@
       "Goblin Cage"
     ],
     "at": "2026-10-28T18:54:54+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#YQ2VLPJ0L",
+    "name": "arch1tector",
+    "cards": [
+      {
+        "name": "Lava Hound",
+        "level": 14
+      },
+      {
+        "name": "Witch",
+        "level": 12
+      },
+      {
+        "name": "Goblin Curse",
+        "level": 12
+      }
+    ],
+    "at": "2026-10-28T20:48:50+00:00"
+  },
+  {
+    "type": "arena",
+    "tag": "#29GJQ0G9Q",
+    "name": "✨R_U_B_I_N✨",
+    "arena": "Summit of Heroes",
+    "raw": "Arena_L14",
+    "at": "2026-10-28T20:48:50+00:00"
   }
 ]
