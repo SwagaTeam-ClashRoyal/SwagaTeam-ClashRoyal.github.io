@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113377,
+  "clanScore": 113396,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2458,
+  "donationsPerWeek": 2554,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -34,7 +34,7 @@
       "clanRank": 1,
       "previousClanRank": 3,
       "donations": 60,
-      "donationsReceived": 216,
+      "donationsReceived": 232,
       "clanChestPoints": 0
     },
     {
@@ -185,7 +185,7 @@
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261028T141007.000Z",
+      "lastSeen": "20261028T163027.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -195,8 +195,8 @@
       },
       "clanRank": 10,
       "previousClanRank": 10,
-      "donations": 116,
-      "donationsReceived": 150,
+      "donations": 158,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -268,7 +268,7 @@
       "clanRank": 14,
       "previousClanRank": 14,
       "donations": 0,
-      "donationsReceived": 46,
+      "donationsReceived": 62,
       "clanChestPoints": 0
     },
     {
@@ -322,7 +322,7 @@
       "clanRank": 17,
       "previousClanRank": 17,
       "donations": 222,
-      "donationsReceived": 192,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -448,7 +448,25 @@
       "clanRank": 24,
       "previousClanRank": 24,
       "donations": 254,
-      "donationsReceived": 240,
+      "donationsReceived": 260,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CJR008LV9",
+      "name": "cook",
+      "role": "member",
+      "lastSeen": "20261028T162541.000Z",
+      "expLevel": 0,
+      "trophies": 9365,
+      "arena": {
+        "id": 54000020,
+        "name": "Valkalla",
+        "rawName": "Arena_L9"
+      },
+      "clanRank": 25,
+      "previousClanRank": 26,
+      "donations": 302,
+      "donationsReceived": 168,
       "clanChestPoints": 0
     },
     {
@@ -463,28 +481,10 @@
         "name": "Valkalla",
         "rawName": "Arena_L9"
       },
-      "clanRank": 25,
+      "clanRank": 26,
       "previousClanRank": 25,
       "donations": 84,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#CJR008LV9",
-      "name": "cook",
-      "role": "member",
-      "lastSeen": "20261028T120821.000Z",
-      "expLevel": 0,
-      "trophies": 9204,
-      "arena": {
-        "id": 54000020,
-        "name": "Valkalla",
-        "rawName": "Arena_L9"
-      },
-      "clanRank": 26,
-      "previousClanRank": 26,
-      "donations": 248,
-      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -502,7 +502,7 @@
       "clanRank": 27,
       "previousClanRank": 27,
       "donations": 10,
-      "donationsReceived": 224,
+      "donationsReceived": 232,
       "clanChestPoints": 0
     },
     {
@@ -556,7 +556,7 @@
       "clanRank": 30,
       "previousClanRank": 30,
       "donations": 34,
-      "donationsReceived": 30,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -599,7 +599,7 @@
       "tag": "#9282CQQ90",
       "name": "Чушпан",
       "role": "member",
-      "lastSeen": "20261028T150450.000Z",
+      "lastSeen": "20261028T161154.000Z",
       "expLevel": 0,
       "trophies": 6785,
       "arena": {

@@ -488,5 +488,21 @@
       }
     ],
     "at": "2026-10-28T14:59:14+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#CJR008LV9",
+    "name": "cook",
+    "cards": [
+      {
+        "name": "Tombstone",
+        "level": 11
+      },
+      {
+        "name": "Elixir Collector",
+        "level": 11
+      }
+    ],
+    "at": "2026-10-28T16:56:33+00:00"
   }
 ]
