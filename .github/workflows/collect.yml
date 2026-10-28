@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+    inputs:
+      telegram_preview:
+        description: "Send sample Telegram messages"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,6 +31,9 @@ jobs:
         run: python -m collector
         env:
           CR_API_KEY: ${{ secrets.CR_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_PREVIEW: ${{ inputs.telegram_preview }}
 
       - name: Commit data
         run: |

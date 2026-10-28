@@ -14,10 +14,11 @@ from .snapshot import DailySnapshot
 class Collector:
     CLAN_PATH = "current/clan.json"
 
-    def __init__(self, client, store, clan_tag):
+    def __init__(self, client, store, clan_tag, notifier=None):
         self._client = client
         self._store = store
         self._clan_tag = clan_tag
+        self._notifier = notifier
 
     def run(self, now=None):
         now = now or datetime.now(timezone.utc)
@@ -51,6 +52,8 @@ class Collector:
         )
         logged = event_log.append(stamp, events)
         badge = ClanBadge(self._store).update(clan)
+        if self._notifier:
+            self._notifier.notify(now, river_race, archived)
         self._store.write("current/meta.json", {"clan_tag": self._clan_tag, "updated_at": stamp})
         print(f"Members in clan: {members}")
         print(f"New river races archived: {len(archived)}")
