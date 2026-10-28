@@ -176,5 +176,26 @@
       }
     ],
     "at": "2026-10-28T04:51:16+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#CJR008LV9",
+    "name": "cook",
+    "cards": [
+      {
+        "name": "Lumberjack",
+        "level": 11
+      }
+    ],
+    "at": "2026-10-28T06:45:28+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#CJR008LV9",
+    "name": "cook",
+    "cards": [
+      "Cannon"
+    ],
+    "at": "2026-10-28T06:45:28+00:00"
   }
 ]
