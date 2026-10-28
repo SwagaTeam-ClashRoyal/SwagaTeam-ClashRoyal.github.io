@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113338,
+  "clanScore": 113341,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,17 +13,17 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2143,
+  "donationsPerWeek": 2151,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 37,
   "memberList": [
     {
-      "tag": "#LV0GVYYL8",
-      "name": "kkyo",
-      "role": "coLeader",
-      "lastSeen": "20261028T065337.000Z",
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261028T070533.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -32,16 +32,16 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 1,
-      "previousClanRank": 1,
-      "donations": 186,
-      "donationsReceived": 160,
+      "previousClanRank": 2,
+      "donations": 42,
+      "donationsReceived": 184,
       "clanChestPoints": 0
     },
     {
-      "tag": "#9JQ8PCJ",
-      "name": "lastiq",
-      "role": "member",
-      "lastSeen": "20261028T064723.000Z",
+      "tag": "#LV0GVYYL8",
+      "name": "kkyo",
+      "role": "coLeader",
+      "lastSeen": "20261028T070033.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -50,9 +50,9 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
-      "previousClanRank": 2,
-      "donations": 42,
-      "donationsReceived": 184,
+      "previousClanRank": 1,
+      "donations": 186,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -239,7 +239,7 @@
       "tag": "#Q2RJCVYUQ",
       "name": "NEVIDIMKA YT",
       "role": "member",
-      "lastSeen": "20261028T064024.000Z",
+      "lastSeen": "20261028T072824.000Z",
       "expLevel": 0,
       "trophies": 12150,
       "arena": {
@@ -502,7 +502,7 @@
       "clanRank": 27,
       "previousClanRank": 28,
       "donations": 10,
-      "donationsReceived": 160,
+      "donationsReceived": 168,
       "clanChestPoints": 0
     },
     {
@@ -581,9 +581,9 @@
       "tag": "#JGL98Q9G2",
       "name": "(LP)Wasabi",
       "role": "member",
-      "lastSeen": "20261028T050223.000Z",
+      "lastSeen": "20261028T073739.000Z",
       "expLevel": 0,
-      "trophies": 7500,
+      "trophies": 7530,
       "arena": {
         "id": 54000017,
         "name": "Boot Camp",
@@ -617,7 +617,7 @@
       "tag": "#GQP92GLC8",
       "name": "Adawell",
       "role": "member",
-      "lastSeen": "20261027T163053.000Z",
+      "lastSeen": "20261028T073721.000Z",
       "expLevel": 0,
       "trophies": 6379,
       "arena": {
@@ -627,7 +627,7 @@
       },
       "clanRank": 34,
       "previousClanRank": 35,
-      "donations": 16,
+      "donations": 24,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },

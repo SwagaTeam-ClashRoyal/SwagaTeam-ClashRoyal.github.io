@@ -273,8 +273,8 @@
     "trophies": 14000,
     "bestTrophies": 14000,
     "wins": 10992,
-    "losses": 10634,
-    "battleCount": 21626,
+    "losses": 10635,
+    "battleCount": 21627,
     "threeCrownWins": 5589,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
@@ -353,11 +353,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Hog Rider",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
     }
   },
   "#R98U8U290": {
@@ -1100,10 +1100,10 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3519,
-    "losses": 2980,
-    "battleCount": 6499,
-    "threeCrownWins": 2399,
+    "wins": 3522,
+    "losses": 2982,
+    "battleCount": 6504,
+    "threeCrownWins": 2401,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 22325,
@@ -1181,11 +1181,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
-      "rarity": "epic",
+      "name": "Ronin",
+      "rarity": "legendary",
       "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -2804,11 +2804,11 @@
   },
   "#JGL98Q9G2": {
     "expLevel": 34,
-    "trophies": 7500,
+    "trophies": 7530,
     "bestTrophies": 7648,
-    "wins": 874,
-    "losses": 701,
-    "battleCount": 1575,
+    "wins": 877,
+    "losses": 703,
+    "battleCount": 1580,
     "threeCrownWins": 330,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2887,11 +2887,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Tesla",
-      "rarity": "common",
+      "name": "Furnace",
+      "rarity": "rare",
       "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png"
     }
   },
   "#9282CQQ90": {
@@ -2990,13 +2990,13 @@
     "expLevel": 27,
     "trophies": 6379,
     "bestTrophies": 6380,
-    "wins": 574,
+    "wins": 575,
     "losses": 493,
-    "battleCount": 1067,
-    "threeCrownWins": 386,
+    "battleCount": 1068,
+    "threeCrownWins": 387,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 501,
+    "totalDonations": 509,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
