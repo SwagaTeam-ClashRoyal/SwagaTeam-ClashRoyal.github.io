@@ -272,10 +272,10 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 10995,
-    "losses": 10640,
-    "battleCount": 21635,
-    "threeCrownWins": 5589,
+    "wins": 10996,
+    "losses": 10642,
+    "battleCount": 21638,
+    "threeCrownWins": 5590,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
     "totalDonations": 138451,
@@ -353,11 +353,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Baby Dragon",
+      "name": "Witch",
       "rarity": "epic",
-      "elixirCost": 4,
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
     }
   },
   "#R98U8U290": {
@@ -1100,9 +1100,9 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3522,
-    "losses": 2983,
-    "battleCount": 6505,
+    "wins": 3523,
+    "losses": 2984,
+    "battleCount": 6507,
     "threeCrownWins": 2401,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -1181,11 +1181,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Ronin",
-      "rarity": "legendary",
-      "elixirCost": 5,
+      "name": "Battle Ram",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -1221,13 +1221,6 @@
         "elixirCost": 4,
         "evolved": true,
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
-      },
-      {
-        "name": "Golden Knight",
-        "rarity": "champion",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Royal Ghost",
@@ -2037,13 +2030,6 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
       },
       {
-        "name": "Golden Knight",
-        "rarity": "champion",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
-      },
-      {
         "name": "Valkyrie",
         "rarity": "rare",
         "elixirCost": 4,
@@ -2096,15 +2082,15 @@
   },
   "#9RJPRQLL2": {
     "expLevel": 20,
-    "trophies": 9533,
-    "bestTrophies": 9533,
-    "wins": 995,
+    "trophies": 9562,
+    "bestTrophies": 9562,
+    "wins": 996,
     "losses": 661,
-    "battleCount": 1656,
+    "battleCount": 1657,
     "threeCrownWins": 496,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 2533,
+    "totalDonations": 2585,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2374,9 +2360,9 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2587,
-    "losses": 2771,
-    "battleCount": 5358,
+    "wins": 2588,
+    "losses": 2772,
+    "battleCount": 5360,
     "threeCrownWins": 1626,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
@@ -2912,10 +2898,10 @@
     "expLevel": 39,
     "trophies": 6785,
     "bestTrophies": 6785,
-    "wins": 2465,
-    "losses": 2596,
-    "battleCount": 5061,
-    "threeCrownWins": 1803,
+    "wins": 2469,
+    "losses": 2597,
+    "battleCount": 5066,
+    "threeCrownWins": 1804,
     "warDayWins": 31,
     "clanCardsCollected": 71356,
     "totalDonations": 37103,
@@ -2993,11 +2979,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Elite Barbarians",
-      "rarity": "common",
-      "elixirCost": 6,
+      "name": "Battle Ram",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
     }
   },
   "#GQP92GLC8": {
@@ -3186,12 +3172,12 @@
   },
   "#8JRL80GY0": {
     "expLevel": 21,
-    "trophies": 5376,
+    "trophies": 5404,
     "bestTrophies": 5439,
-    "wins": 776,
-    "losses": 731,
-    "battleCount": 1507,
-    "threeCrownWins": 498,
+    "wins": 779,
+    "losses": 733,
+    "battleCount": 1512,
+    "threeCrownWins": 499,
     "warDayWins": 1,
     "clanCardsCollected": 3550,
     "totalDonations": 14,
@@ -3269,11 +3255,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Mortar",
+      "rarity": "common",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png"
     }
   },
   "#V0RCP20LR": {
