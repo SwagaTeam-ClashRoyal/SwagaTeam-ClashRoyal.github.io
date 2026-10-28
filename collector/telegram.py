@@ -79,40 +79,49 @@ class WarDay:
 class WarMessages:
     SITE = "https://swagateam-clashroyal.github.io/"
     TOP = 5
-    DECKS = 4
+    PLACES = {1: "🥇", 2: "🥈", 3: "🥉"}
 
     def defense(self):
         return (
-            "<b>Поставьте защиту на корабль</b>\n"
-            "Начались дни тренировки, защиту уже можно ставить. "
-            "В четверг начнутся боевые дни."
+            "🛡️ <b>Поставьте защиту на корабль</b> ⚓\n\n"
+            "🏋️ Начались дни тренировки, защиту уже можно ставить.\n"
+            "⚔️ В четверг начнутся боевые дни."
         )
 
-    def battle(self, hours, place, own, leader, players):
-        lines = [
-            f"<b>До конца боевого дня около {round(hours)} ч</b>",
-            f"Мы на {place} месте: {self.number(own)} медалей, у лидера {self.number(leader)}.",
+    def battle(self, hours, place, own, leader, idle):
+        return "\n".join([
+            f"⏰ <b>До конца боевого дня около {round(hours)} ч</b>",
             "",
-            "Ещё не отыграли:",
-        ]
-        lines += [f"{self.player(player)}: {player.get('decksUsedToday', 0)} из {self.DECKS}" for player in players]
-        return "\n".join(lines)
+            f"📍 Мы на {place} месте: {self.number(own)} медалей, у лидера {self.number(leader)}.",
+            f"😴 Ни одной колоды сегодня не сыграли: {idle} {self.people(idle)}.",
+            "",
+            f'⚔️ <a href="{self.SITE}#war">Кто сколько сыграл, на сайте</a>',
+        ])
 
     def results(self, race):
         lines = [
-            f"<b>Итоги КВ: сезон {race['season_id']}, неделя {race['section_index'] + 1}</b>",
-            f"{race['rank']} место, {self.number(race['fame'])} медалей, кубки КВ {self.signed(race.get('trophy_change', 0))}",
+            f"🏁 <b>Итоги КВ: сезон {race['season_id']}, неделя {race['section_index'] + 1}</b>",
+            "",
+            f"{self.PLACES.get(race['rank'], '🚩')} {race['rank']} место",
+            f"🏅 {self.number(race['fame'])} медалей",
+            f"🏆 Кубки КВ: {self.signed(race.get('trophy_change', 0))}",
         ]
         fighters = sorted(race.get("participants", []), key=lambda participant: -participant.get("fame", 0))
         fighters = [fighter for fighter in fighters if fighter.get("fame", 0) > 0][: self.TOP]
         if fighters:
-            lines += ["", "Лучшие бойцы:"]
-            lines += [f"{place}. {self.player(fighter)}: {self.number(fighter['fame'])}" for place, fighter in enumerate(fighters, 1)]
-        lines += ["", f'<a href="{self.SITE}#war">Вся статистика на сайте</a>']
+            lines += ["", "💪 <b>Лучшие бойцы:</b>"]
+            lines += [f"{self.PLACES.get(place, f'{place}.')} {self.player(fighter)}: {self.number(fighter['fame'])}" for place, fighter in enumerate(fighters, 1)]
+        lines += ["", f'📊 <a href="{self.SITE}#war">Вся статистика на сайте</a>']
         return "\n".join(lines)
 
     def player(self, fighter):
         return f'<a href="{self.SITE}#player/{fighter["tag"].replace("#", "")}">{html.escape(fighter["name"])}</a>'
+
+    @staticmethod
+    def people(count):
+        if count % 10 in (2, 3, 4) and count % 100 not in (12, 13, 14):
+            return "человека"
+        return "человек"
 
     @staticmethod
     def number(value):
@@ -152,8 +161,7 @@ class BattleStanding:
     def idle(self):
         members = {member["tag"] for member in self._clan.get("memberList", [])}
         players = [player for player in self.own.get("participants", []) if player["tag"] in members]
-        players = [player for player in players if player.get("decksUsedToday", 0) < self._messages.DECKS]
-        return sorted(players, key=lambda player: (player.get("decksUsedToday", 0), player["name"].lower()))
+        return sum(1 for player in players if player.get("decksUsedToday", 0) == 0)
 
     def message(self, hours):
         leader = self.clans[0].get("fame", 0) if self.clans else 0
