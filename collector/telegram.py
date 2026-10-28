@@ -77,7 +77,7 @@ class WarDay:
 
 
 class WarMessages:
-    SITE = "https://swagateam-clashroyal.github.io/"
+    SITE = "https://swaga-team.github.io/"
     TOP = 5
     PLACES = {1: "🥇", 2: "🥈", 3: "🥉"}
 
