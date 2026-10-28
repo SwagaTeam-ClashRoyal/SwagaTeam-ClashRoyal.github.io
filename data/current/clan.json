@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113396,
+  "clanScore": 113751,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,11 +13,11 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2554,
+  "donationsPerWeek": 2600,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
-  "members": 37,
+  "members": 38,
   "memberList": [
     {
       "tag": "#9JQ8PCJ",
@@ -34,7 +34,7 @@
       "clanRank": 1,
       "previousClanRank": 3,
       "donations": 60,
-      "donationsReceived": 232,
+      "donationsReceived": 240,
       "clanChestPoints": 0
     },
     {
@@ -268,7 +268,7 @@
       "clanRank": 14,
       "previousClanRank": 14,
       "donations": 0,
-      "donationsReceived": 62,
+      "donationsReceived": 64,
       "clanChestPoints": 0
     },
     {
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261028T155554.000Z",
+      "lastSeen": "20261028T173555.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -429,7 +429,7 @@
       },
       "clanRank": 23,
       "previousClanRank": 23,
-      "donations": 129,
+      "donations": 149,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -448,7 +448,7 @@
       "clanRank": 24,
       "previousClanRank": 24,
       "donations": 254,
-      "donationsReceived": 260,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {
@@ -466,7 +466,7 @@
       "clanRank": 25,
       "previousClanRank": 26,
       "donations": 302,
-      "donationsReceived": 168,
+      "donationsReceived": 184,
       "clanChestPoints": 0
     },
     {
@@ -671,9 +671,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261028T062427.000Z",
+      "lastSeen": "20261028T174125.000Z",
       "expLevel": 0,
-      "trophies": 3253,
+      "trophies": 3343,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -681,8 +681,26 @@
       },
       "clanRank": 37,
       "previousClanRank": 37,
-      "donations": 174,
+      "donations": 200,
       "donationsReceived": 160,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VGVQG0CVG",
+      "name": "¿ G1ntex21 ?",
+      "role": "member",
+      "lastSeen": "20261028T170012.000Z",
+      "expLevel": 0,
+      "trophies": 3464,
+      "arena": {
+        "id": 54000024,
+        "name": "Electro Valley",
+        "rawName": "Arena_Electric"
+      },
+      "clanRank": 38,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
       "clanChestPoints": 0
     }
   ]
