@@ -563,5 +563,17 @@
     "arena": "Summit of Heroes",
     "raw": "Arena_L14",
     "at": "2026-10-28T20:48:50+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#29GJQ0G9Q",
+    "name": "✨R_U_B_I_N✨",
+    "cards": [
+      {
+        "name": "Ice Wizard",
+        "level": 13
+      }
+    ],
+    "at": "2026-10-28T21:47:00+00:00"
   }
 ]
