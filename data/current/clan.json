@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113730,
+  "clanScore": 113741,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2640,
+  "donationsPerWeek": 2656,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -203,7 +203,7 @@
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261028T114512.000Z",
+      "lastSeen": "20261028T194339.000Z",
       "expLevel": 0,
       "trophies": 13146,
       "arena": {
@@ -213,7 +213,7 @@
       },
       "clanRank": 11,
       "previousClanRank": 11,
-      "donations": 222,
+      "donations": 230,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -311,9 +311,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261028T183804.000Z",
+      "lastSeen": "20261028T190108.000Z",
       "expLevel": 0,
-      "trophies": 11332,
+      "trophies": 11390,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -437,9 +437,9 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261028T151002.000Z",
+      "lastSeen": "20261028T194349.000Z",
       "expLevel": 0,
-      "trophies": 9562,
+      "trophies": 9535,
       "arena": {
         "id": 54000031,
         "name": "Legendary Arena",
@@ -447,7 +447,7 @@
       },
       "clanRank": 24,
       "previousClanRank": 24,
-      "donations": 254,
+      "donations": 262,
       "donationsReceived": 280,
       "clanChestPoints": 0
     },
@@ -668,6 +668,24 @@
       "clanChestPoints": 0
     },
     {
+      "tag": "#VGVQG0CVG",
+      "name": "¿ G1ntex21 ?",
+      "role": "member",
+      "lastSeen": "20261028T194522.000Z",
+      "expLevel": 0,
+      "trophies": 3464,
+      "arena": {
+        "id": 54000024,
+        "name": "Electro Valley",
+        "rawName": "Arena_Electric"
+      },
+      "clanRank": 37,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
@@ -679,28 +697,10 @@
         "name": "Hog Mountain",
         "rawName": "Arena_L"
       },
-      "clanRank": 37,
+      "clanRank": 38,
       "previousClanRank": 37,
       "donations": 200,
-      "donationsReceived": 184,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#VGVQG0CVG",
-      "name": "¿ G1ntex21 ?",
-      "role": "member",
-      "lastSeen": "20261028T170012.000Z",
-      "expLevel": 0,
-      "trophies": 3464,
-      "arena": {
-        "id": 54000024,
-        "name": "Electro Valley",
-        "rawName": "Arena_Electric"
-      },
-      "clanRank": 38,
-      "previousClanRank": 0,
-      "donations": 0,
-      "donationsReceived": 0,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     }
   ]
