@@ -575,5 +575,25 @@
       }
     ],
     "at": "2026-10-28T21:47:00+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#GQQL9YLYQ",
+    "name": "Ter",
+    "cards": [
+      {
+        "name": "Goblin Gang",
+        "level": 12
+      },
+      {
+        "name": "Arrows",
+        "level": 12
+      },
+      {
+        "name": "Furnace",
+        "level": 12
+      }
+    ],
+    "at": "2026-10-28T23:43:06+00:00"
   }
 ]
