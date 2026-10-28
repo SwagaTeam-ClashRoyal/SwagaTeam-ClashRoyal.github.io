@@ -239,7 +239,7 @@
         "repairPoints": 0,
         "boatAttacks": 0,
         "decksUsed": 0,
-        "decksUsedToday": 0
+        "decksUsedToday": 1
       },
       {
         "tag": "#P08LLGYLQ",
@@ -1425,7 +1425,7 @@
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 0,
-          "decksUsedToday": 0
+          "decksUsedToday": 1
         },
         {
           "tag": "#P08LLGYLQ",
