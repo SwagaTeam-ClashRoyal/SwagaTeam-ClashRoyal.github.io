@@ -882,10 +882,7 @@ class EventFeed {
       case "cards": return `Прокачка: ${cards(event.cards.map((card) => `${card.name} до ${card.level}`))}`;
       case "evolution": return `Эволюция: ${cards(event.cards)}`;
       case "anniversary": return `${EventFeed.period(event.months)} в клане`;
-      case "war_week": {
-        const best = event.best ? `, лучший боец ${event.best.name} (${Elements.number(event.best.fame)})` : "";
-        return `${event.rank} место${best}`;
-      }
+      case "war_week": return `${event.rank} место`;
       default: return event.type;
     }
   }
@@ -928,7 +925,13 @@ class EventFeed {
       who.href = `#player/${event.tag.replace("#", "")}`;
       text.appendChild(who);
     }
-    text.appendChild(Elements.create("span", "feed-what", this.describe(event)));
+    const what = Elements.create("span", "feed-what", this.describe(event));
+    if (event.type === "war_week" && event.best) {
+      const best = Elements.create("a", "feed-player", event.best.name);
+      best.href = `#player/${event.best.tag.replace("#", "")}`;
+      what.append(", лучший боец ", best, ` (${Elements.number(event.best.fame)})`);
+    }
+    text.appendChild(what);
     const time = Elements.create("time", "feed-time", date.toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" }));
     time.dateTime = event.at;
     item.append(Elements.icon(EventFeed.ICONS[event.type] ?? "loading", ""), text, time);

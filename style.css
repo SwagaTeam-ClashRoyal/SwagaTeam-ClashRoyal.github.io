@@ -1385,8 +1385,15 @@ a.member.released {
   white-space: nowrap;
 }
 
-a.feed-who:hover {
+a.feed-who:hover,
+.feed-player:hover {
   color: var(--accent);
+}
+
+.feed-player {
+  color: #1d2433;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .feed-what {
