@@ -237,5 +237,47 @@
       }
     ],
     "at": "2026-10-28T08:03:23+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#9JQ8PCJ",
+    "name": "lastiq",
+    "cards": [
+      "Battle Ram"
+    ],
+    "at": "2026-10-28T10:51:41+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#LV0GVYYL8",
+    "name": "kkyo",
+    "cards": [
+      "Lumberjack"
+    ],
+    "at": "2026-10-28T10:51:41+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#8LRPG2VPQ",
+    "name": "CHLE N EGRA",
+    "cards": [
+      {
+        "name": "Skeletons",
+        "level": 14
+      }
+    ],
+    "at": "2026-10-28T10:51:41+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#9RJPRQLL2",
+    "name": "Morj",
+    "cards": [
+      {
+        "name": "Witch",
+        "level": 12
+      }
+    ],
+    "at": "2026-10-28T10:51:41+00:00"
   }
 ]
