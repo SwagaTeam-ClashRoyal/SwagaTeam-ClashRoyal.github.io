@@ -186,7 +186,7 @@
     "threeCrownWins": 1067,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 34264,
+    "totalDonations": 34288,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2535,11 +2535,11 @@
   },
   "#UY2UPL2GV": {
     "expLevel": 32,
-    "trophies": 8212,
-    "bestTrophies": 8241,
-    "wins": 910,
-    "losses": 630,
-    "battleCount": 1540,
+    "trophies": 8275,
+    "bestTrophies": 8275,
+    "wins": 914,
+    "losses": 632,
+    "battleCount": 1546,
     "threeCrownWins": 411,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -3179,11 +3179,11 @@
   },
   "#8JRL80GY0": {
     "expLevel": 21,
-    "trophies": 5406,
+    "trophies": 5374,
     "bestTrophies": 5439,
-    "wins": 771,
-    "losses": 725,
-    "battleCount": 1496,
+    "wins": 772,
+    "losses": 727,
+    "battleCount": 1499,
     "threeCrownWins": 496,
     "warDayWins": 1,
     "clanCardsCollected": 3550,
@@ -3226,11 +3226,11 @@
         "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
       },
       {
-        "name": "Prince",
-        "rarity": "epic",
-        "elixirCost": 5,
+        "name": "Skeleton Dragons",
+        "rarity": "common",
+        "elixirCost": 4,
         "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
+        "icon": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png"
       },
       {
         "name": "Sparky",
@@ -3254,11 +3254,11 @@
         "icon": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png"
       },
       {
-        "name": "Baby Dragon",
-        "rarity": "epic",
+        "name": "Inferno Dragon",
+        "rarity": "legendary",
         "elixirCost": 4,
         "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png"
+        "icon": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png"
       }
     ],
     "currentFavouriteCard": {
