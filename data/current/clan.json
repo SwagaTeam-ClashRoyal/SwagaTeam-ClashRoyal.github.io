@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113327,
+  "clanScore": 113324,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1920,
+  "donationsPerWeek": 1936,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 37,
   "memberList": [
+    {
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "role": "elder",
+      "lastSeen": "20261028T033252.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 4,
+      "donations": 140,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#CGPUY8P2",
       "name": "BIG BOY",
@@ -31,7 +49,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 7,
       "donations": 118,
       "donationsReceived": 120,
@@ -49,7 +67,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 1,
       "donations": 128,
       "donationsReceived": 120,
@@ -67,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 4,
       "previousClanRank": 2,
       "donations": 34,
       "donationsReceived": 160,
@@ -85,7 +103,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 5,
       "previousClanRank": 5,
       "donations": 54,
       "donationsReceived": 0,
@@ -103,28 +121,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 5,
+      "clanRank": 6,
       "previousClanRank": 3,
       "donations": 28,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#QP0PPC0QU",
-      "name": "pshkzzz",
-      "role": "elder",
-      "lastSeen": "20261027T033538.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 6,
-      "previousClanRank": 4,
-      "donations": 140,
-      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -401,7 +401,7 @@
       "tag": "#CC9J8Y902",
       "name": "Michael",
       "role": "member",
-      "lastSeen": "20261028T001634.000Z",
+      "lastSeen": "20261028T031417.000Z",
       "expLevel": 0,
       "trophies": 9821,
       "arena": {
@@ -411,7 +411,7 @@
       },
       "clanRank": 22,
       "previousClanRank": 23,
-      "donations": 40,
+      "donations": 56,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -527,9 +527,9 @@
       "tag": "#UY2UPL2GV",
       "name": "\"Erick\"",
       "role": "member",
-      "lastSeen": "20261028T005926.000Z",
+      "lastSeen": "20261028T034522.000Z",
       "expLevel": 0,
-      "trophies": 8241,
+      "trophies": 8212,
       "arena": {
         "id": 54000018,
         "name": "Clash Fest",
@@ -538,7 +538,7 @@
       "clanRank": 29,
       "previousClanRank": 30,
       "donations": 44,
-      "donationsReceived": 56,
+      "donationsReceived": 64,
       "clanChestPoints": 0
     },
     {
@@ -682,7 +682,7 @@
       "clanRank": 37,
       "previousClanRank": 38,
       "donations": 130,
-      "donationsReceived": 128,
+      "donationsReceived": 136,
       "clanChestPoints": 0
     }
   ]
