@@ -1723,9 +1723,9 @@
     "expLevel": 35,
     "trophies": 10033,
     "bestTrophies": 10203,
-    "wins": 2465,
-    "losses": 2163,
-    "battleCount": 4628,
+    "wins": 2468,
+    "losses": 2165,
+    "battleCount": 4633,
     "threeCrownWins": 887,
     "warDayWins": 40,
     "clanCardsCollected": 109447,
@@ -1804,11 +1804,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Executioner",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Electro Wizard",
+      "rarity": "legendary",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png"
     }
   },
   "#CY0LPRRUJ": {
@@ -2273,15 +2273,15 @@
   },
   "#CJR008LV9": {
     "expLevel": 39,
-    "trophies": 9208,
-    "bestTrophies": 9208,
-    "wins": 1148,
-    "losses": 994,
-    "battleCount": 2142,
+    "trophies": 9204,
+    "bestTrophies": 9237,
+    "wins": 1151,
+    "losses": 997,
+    "battleCount": 2148,
     "threeCrownWins": 656,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 3920,
+    "totalDonations": 3930,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2367,9 +2367,9 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2585,
-    "losses": 2769,
-    "battleCount": 5354,
+    "wins": 2586,
+    "losses": 2771,
+    "battleCount": 5357,
     "threeCrownWins": 1626,
     "warDayWins": 6,
     "clanCardsCollected": 5920,

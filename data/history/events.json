@@ -436,5 +436,21 @@
       }
     ],
     "at": "2026-10-28T12:59:53+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#CJR008LV9",
+    "name": "cook",
+    "cards": [
+      {
+        "name": "Barbarian Hut",
+        "level": 11
+      },
+      {
+        "name": "Bandit",
+        "level": 11
+      }
+    ],
+    "at": "2026-10-28T14:03:49+00:00"
   }
 ]
