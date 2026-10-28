@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113329,
+  "clanScore": 113333,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 1960,
+  "donationsPerWeek": 1979,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -23,7 +23,7 @@
       "tag": "#LV0GVYYL8",
       "name": "kkyo",
       "role": "coLeader",
-      "lastSeen": "20261028T040858.000Z",
+      "lastSeen": "20261028T042915.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -34,7 +34,7 @@
       "clanRank": 1,
       "previousClanRank": 1,
       "donations": 152,
-      "donationsReceived": 120,
+      "donationsReceived": 130,
       "clanChestPoints": 0
     },
     {
@@ -412,7 +412,7 @@
       "clanRank": 22,
       "previousClanRank": 23,
       "donations": 56,
-      "donationsReceived": 48,
+      "donationsReceived": 49,
       "clanChestPoints": 0
     },
     {
@@ -506,6 +506,24 @@
       "clanChestPoints": 0
     },
     {
+      "tag": "#UY2UPL2GV",
+      "name": "\"Erick\"",
+      "role": "member",
+      "lastSeen": "20261028T042949.000Z",
+      "expLevel": 0,
+      "trophies": 8312,
+      "arena": {
+        "id": 54000018,
+        "name": "Clash Fest",
+        "rawName": "Arena_L7"
+      },
+      "clanRank": 28,
+      "previousClanRank": 30,
+      "donations": 63,
+      "donationsReceived": 72,
+      "clanChestPoints": 0
+    },
+    {
       "tag": "#LGQC0JPLU",
       "name": "am012",
       "role": "member",
@@ -517,28 +535,10 @@
         "name": "Clash Fest",
         "rawName": "Arena_L7"
       },
-      "clanRank": 28,
+      "clanRank": 29,
       "previousClanRank": 29,
       "donations": 0,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#UY2UPL2GV",
-      "name": "\"Erick\"",
-      "role": "member",
-      "lastSeen": "20261028T034522.000Z",
-      "expLevel": 0,
-      "trophies": 8275,
-      "arena": {
-        "id": 54000018,
-        "name": "Clash Fest",
-        "rawName": "Arena_L7"
-      },
-      "clanRank": 29,
-      "previousClanRank": 30,
-      "donations": 44,
-      "donationsReceived": 72,
       "clanChestPoints": 0
     },
     {
@@ -655,7 +655,7 @@
       "role": "member",
       "lastSeen": "20261028T040049.000Z",
       "expLevel": 0,
-      "trophies": 5374,
+      "trophies": 5376,
       "arena": {
         "id": 54000012,
         "name": "Miner's Mine",
@@ -682,7 +682,7 @@
       "clanRank": 37,
       "previousClanRank": 38,
       "donations": 130,
-      "donationsReceived": 144,
+      "donationsReceived": 152,
       "clanChestPoints": 0
     }
   ]
