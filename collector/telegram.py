@@ -110,7 +110,7 @@ class WarMessages:
         fighters = [fighter for fighter in fighters if fighter.get("fame", 0) > 0][: self.TOP]
         if fighters:
             lines += ["", "💪 <b>Лучшие бойцы:</b>"]
-            lines += [f"{place}️⃣ {self.player(fighter)}: {self.number(fighter['fame'])}" for place, fighter in enumerate(fighters, 1)]
+            lines += [f"{place}. {self.player(fighter)}: {self.number(fighter['fame'])}" for place, fighter in enumerate(fighters, 1)]
         lines += ["", f'📊 <a href="{self.SITE}#war">Вся статистика на сайте</a>']
         return "\n".join(lines)
 
