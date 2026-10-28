@@ -371,5 +371,70 @@
       }
     ],
     "at": "2026-10-28T11:49:49+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#R98U8U290",
+    "name": "tenkuu.☁️",
+    "cards": [
+      {
+        "name": "Mirror",
+        "level": 14
+      }
+    ],
+    "at": "2026-10-28T12:59:53+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#8UCG80RYR",
+    "name": "Daisy Sprout",
+    "cards": [
+      "Balloon"
+    ],
+    "at": "2026-10-28T12:59:53+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#8LRPG2VPQ",
+    "name": "CHLE N EGRA",
+    "cards": [
+      {
+        "name": "Tesla",
+        "level": 14
+      },
+      {
+        "name": "Lightning",
+        "level": 12
+      },
+      {
+        "name": "Inferno Tower",
+        "level": 12
+      },
+      {
+        "name": "Electro Spirit",
+        "level": 12
+      },
+      {
+        "name": "Musketeer",
+        "level": 12
+      },
+      {
+        "name": "Goblin Machine",
+        "level": 12
+      },
+      {
+        "name": "Minion Giant",
+        "level": 12
+      },
+      {
+        "name": "Golem",
+        "level": 11
+      },
+      {
+        "name": "Heal Spirit",
+        "level": 11
+      }
+    ],
+    "at": "2026-10-28T12:59:53+00:00"
   }
 ]

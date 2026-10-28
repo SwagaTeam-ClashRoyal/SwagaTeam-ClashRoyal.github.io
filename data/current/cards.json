@@ -2249,7 +2249,7 @@
       0
     ],
     "Mirror": [
-      13,
+      14,
       0
     ],
     "Royal Ghost": [
@@ -2856,7 +2856,7 @@
     ],
     "Balloon": [
       16,
-      0
+      2
     ],
     "Arrows": [
       15,
@@ -4953,7 +4953,7 @@
       0
     ],
     "Golem": [
-      10,
+      11,
       0
     ],
     "Wall Breakers": [
@@ -4969,7 +4969,7 @@
       0
     ],
     "Lightning": [
-      11,
+      12,
       0
     ],
     "Skeletons": [
@@ -5085,7 +5085,7 @@
       0
     ],
     "Inferno Tower": [
-      11,
+      12,
       0
     ],
     "Royal Giant": [
@@ -5141,7 +5141,7 @@
       0
     ],
     "Electro Spirit": [
-      11,
+      12,
       0
     ],
     "Battle Healer": [
@@ -5169,7 +5169,7 @@
       0
     ],
     "Tesla": [
-      11,
+      14,
       1
     ],
     "Zappies": [
@@ -5205,7 +5205,7 @@
       0
     ],
     "Musketeer": [
-      11,
+      12,
       0
     ],
     "Baby Dragon": [
@@ -5257,7 +5257,7 @@
       0
     ],
     "Heal Spirit": [
-      10,
+      11,
       0
     ],
     "Rascals": [
@@ -5389,7 +5389,7 @@
       0
     ],
     "Goblin Machine": [
-      11,
+      12,
       0
     ],
     "Lava Hound": [
@@ -5429,7 +5429,7 @@
       0
     ],
     "Minion Giant": [
-      11,
+      12,
       0
     ]
   },
