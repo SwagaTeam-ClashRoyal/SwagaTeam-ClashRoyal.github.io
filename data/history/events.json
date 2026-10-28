@@ -279,5 +279,81 @@
       }
     ],
     "at": "2026-10-28T10:51:41+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#222YY9YCC",
+    "name": "king abolfazl",
+    "cards": [
+      {
+        "name": "Barbarian Barrel",
+        "level": 8
+      },
+      {
+        "name": "Zappies",
+        "level": 8
+      },
+      {
+        "name": "Goblin Giant",
+        "level": 8
+      },
+      {
+        "name": "Electro Dragon",
+        "level": 8
+      },
+      {
+        "name": "Goblin Cage",
+        "level": 8
+      },
+      {
+        "name": "Royal Delivery",
+        "level": 8
+      },
+      {
+        "name": "Skeleton Dragons",
+        "level": 8
+      },
+      {
+        "name": "Goblin Drill",
+        "level": 8
+      },
+      {
+        "name": "Suspicious Bush",
+        "level": 8
+      },
+      {
+        "name": "Minion Giant",
+        "level": 8
+      },
+      {
+        "name": "Goblin Curse",
+        "level": 8
+      },
+      {
+        "name": "Cannon Cart",
+        "level": 7
+      },
+      {
+        "name": "Giant Snowball",
+        "level": 7
+      },
+      {
+        "name": "Heal Spirit",
+        "level": 7
+      },
+      {
+        "name": "Royal Recruits",
+        "level": 7
+      },
+      {
+        "name": "Bomb Tower",
+        "level": 7
+      },
+      {
+        "name": "Berserker",
+        "level": 7
+      }
+    ],
+    "at": "2026-10-28T11:26:17+00:00"
   }
 ]

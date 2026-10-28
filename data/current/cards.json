@@ -9375,7 +9375,7 @@
       0
     ],
     "Cannon Cart": [
-      6,
+      7,
       0
     ],
     "Fisherman": [
@@ -9427,7 +9427,7 @@
       0
     ],
     "Barbarian Barrel": [
-      7,
+      8,
       0
     ],
     "Balloon": [
@@ -9463,11 +9463,11 @@
       0
     ],
     "Giant Snowball": [
-      6,
+      7,
       0
     ],
     "Heal Spirit": [
-      6,
+      7,
       0
     ],
     "Three Musketeers": [
@@ -9519,11 +9519,11 @@
       0
     ],
     "Royal Recruits": [
-      6,
+      7,
       0
     ],
     "Bomb Tower": [
-      6,
+      7,
       0
     ],
     "Poison": [
@@ -9555,7 +9555,7 @@
       0
     ],
     "Zappies": [
-      7,
+      8,
       0
     ],
     "X-Bow": [
@@ -9571,7 +9571,7 @@
       0
     ],
     "Goblin Giant": [
-      7,
+      8,
       0
     ],
     "Zap": [
@@ -9579,7 +9579,7 @@
       0
     ],
     "Electro Dragon": [
-      7,
+      8,
       0
     ],
     "Earthquake": [
@@ -9591,7 +9591,7 @@
       0
     ],
     "Goblin Cage": [
-      7,
+      8,
       0
     ],
     "Inferno Tower": [
@@ -9603,11 +9603,11 @@
       0
     ],
     "Royal Delivery": [
-      7,
+      8,
       0
     ],
     "Skeleton Dragons": [
-      7,
+      8,
       0
     ],
     "Witch": [
@@ -9655,7 +9655,7 @@
       0
     ],
     "Goblin Drill": [
-      7,
+      8,
       0
     ],
     "Miner": [
@@ -9795,7 +9795,7 @@
       0
     ],
     "Suspicious Bush": [
-      7,
+      8,
       0
     ],
     "Goblin Machine": [
@@ -9807,7 +9807,7 @@
       0
     ],
     "Minion Giant": [
-      7,
+      8,
       0
     ],
     "Goblin Demolisher": [
@@ -9815,7 +9815,7 @@
       0
     ],
     "Berserker": [
-      6,
+      7,
       0
     ],
     "Boss Bandit": [
@@ -9847,10 +9847,14 @@
       0
     ],
     "Goblin Curse": [
-      7,
+      8,
       0
     ],
     "Goblinstein": [
+      11,
+      0
+    ],
+    "Mighty Miner": [
       11,
       0
     ]

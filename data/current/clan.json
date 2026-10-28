@@ -4,7 +4,7 @@
   "type": "open",
   "description": "набирается клан активных игроков, неактив 2 кв кик, неделя оффлайна также, участие в клановых ивентах обязательно! Swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113358,
+  "clanScore": 113349,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2216,
+  "donationsPerWeek": 2226,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -239,7 +239,7 @@
       "tag": "#Q2RJCVYUQ",
       "name": "NEVIDIMKA YT",
       "role": "member",
-      "lastSeen": "20261028T072824.000Z",
+      "lastSeen": "20261028T105400.000Z",
       "expLevel": 0,
       "trophies": 12150,
       "arena": {
@@ -365,9 +365,9 @@
       "tag": "#222YY9YCC",
       "name": "king abolfazl",
       "role": "member",
-      "lastSeen": "20261028T105050.000Z",
+      "lastSeen": "20261028T110806.000Z",
       "expLevel": 0,
-      "trophies": 10100,
+      "trophies": 10065,
       "arena": {
         "id": 54000117,
         "name": "Lumberlove Cabin",
@@ -376,7 +376,7 @@
       "clanRank": 20,
       "previousClanRank": 20,
       "donations": 0,
-      "donationsReceived": 120,
+      "donationsReceived": 130,
       "clanChestPoints": 0
     },
     {
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261028T094020.000Z",
+      "lastSeen": "20261028T111400.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -429,7 +429,7 @@
       },
       "clanRank": 23,
       "previousClanRank": 23,
-      "donations": 119,
+      "donations": 129,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
