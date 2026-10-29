@@ -601,7 +601,7 @@
       "tag": "#GYULR0",
       "name": "99% 1 star",
       "badgeId": 16000107,
-      "fame": 600,
+      "fame": 800,
       "repairPoints": 0,
       "participants": [
         {
@@ -706,15 +706,6 @@
         {
           "tag": "#PRU00LVP",
           "name": "anti_creative",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#Y280RP9L8",
-          "name": "DARK",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -855,6 +846,15 @@
           "boatAttacks": 0,
           "decksUsed": 0,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#Y280RP9L8",
+          "name": "DARK",
+          "fame": 200,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
         },
         {
           "tag": "#9R8UGLPV8",
