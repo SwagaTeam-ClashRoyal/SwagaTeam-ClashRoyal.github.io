@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113713,
+  "clanScore": 113716,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 3000,
+  "donationsPerWeek": 3016,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
+    {
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261029T130934.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 1,
+      "donations": 162,
+      "donationsReceived": 200,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#9JQ8PCJ",
       "name": "lastiq",
@@ -31,10 +49,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 3,
       "donations": 88,
-      "donationsReceived": 256,
+      "donationsReceived": 264,
       "clanChestPoints": 0
     },
     {
@@ -49,28 +67,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 5,
       "donations": 46,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261029T100505.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 3,
-      "previousClanRank": 1,
-      "donations": 146,
-      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -610,7 +610,7 @@
       "clanRank": 33,
       "previousClanRank": 33,
       "donations": 92,
-      "donationsReceived": 8,
+      "donationsReceived": 16,
       "clanChestPoints": 0
     },
     {
@@ -655,7 +655,7 @@
       "role": "member",
       "lastSeen": "20261029T125156.000Z",
       "expLevel": 0,
-      "trophies": 5288,
+      "trophies": 5318,
       "arena": {
         "id": 54000012,
         "name": "Miner's Mine",
