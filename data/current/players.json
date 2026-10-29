@@ -916,9 +916,9 @@
     "expLevel": 43,
     "trophies": 13058,
     "bestTrophies": 13146,
-    "wins": 2335,
-    "losses": 2037,
-    "battleCount": 4372,
+    "wins": 2338,
+    "losses": 2038,
+    "battleCount": 4376,
     "threeCrownWins": 1170,
     "warDayWins": 0,
     "clanCardsCollected": 460,
@@ -997,11 +997,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Fireball",
-      "rarity": "rare",
-      "elixirCost": 4,
+      "name": "Cannon Cart",
+      "rarity": "epic",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
     }
   },
   "#P08LLGYLQ": {
