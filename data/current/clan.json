@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 114100,
+  "clanScore": 114268,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,11 +13,11 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 3320,
+  "donationsPerWeek": 3406,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
-  "members": 39,
+  "members": 40,
   "memberList": [
     {
       "tag": "#8UCG80RYR",
@@ -178,14 +178,14 @@
       "clanRank": 9,
       "previousClanRank": 9,
       "donations": 66,
-      "donationsReceived": 100,
+      "donationsReceived": 120,
       "clanChestPoints": 0
     },
     {
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261029T170955.000Z",
+      "lastSeen": "20261029T202216.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -195,15 +195,15 @@
       },
       "clanRank": 10,
       "previousClanRank": 10,
-      "donations": 200,
-      "donationsReceived": 180,
+      "donations": 240,
+      "donationsReceived": 190,
       "clanChestPoints": 0
     },
     {
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261029T020311.000Z",
+      "lastSeen": "20261029T202410.000Z",
       "expLevel": 0,
       "trophies": 13058,
       "arena": {
@@ -213,7 +213,7 @@
       },
       "clanRank": 11,
       "previousClanRank": 11,
-      "donations": 254,
+      "donations": 300,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -268,7 +268,7 @@
       "clanRank": 14,
       "previousClanRank": 14,
       "donations": 10,
-      "donationsReceived": 88,
+      "donationsReceived": 104,
       "clanChestPoints": 0
     },
     {
@@ -313,7 +313,7 @@
       "role": "member",
       "lastSeen": "20261029T194257.000Z",
       "expLevel": 0,
-      "trophies": 11456,
+      "trophies": 11426,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -322,7 +322,7 @@
       "clanRank": 17,
       "previousClanRank": 17,
       "donations": 318,
-      "donationsReceived": 264,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {
@@ -376,7 +376,7 @@
       "clanRank": 20,
       "previousClanRank": 20,
       "donations": 0,
-      "donationsReceived": 180,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -491,7 +491,7 @@
       "tag": "#22JLP29RV",
       "name": "Kale",
       "role": "member",
-      "lastSeen": "20261029T181317.000Z",
+      "lastSeen": "20261029T200656.000Z",
       "expLevel": 0,
       "trophies": 8741,
       "arena": {
@@ -502,7 +502,7 @@
       "clanRank": 27,
       "previousClanRank": 27,
       "donations": 10,
-      "donationsReceived": 268,
+      "donationsReceived": 272,
       "clanChestPoints": 0
     },
     {
@@ -599,7 +599,7 @@
       "tag": "#9282CQQ90",
       "name": "Чушпан",
       "role": "member",
-      "lastSeen": "20261029T194540.000Z",
+      "lastSeen": "20261029T200325.000Z",
       "expLevel": 0,
       "trophies": 6785,
       "arena": {
@@ -671,9 +671,9 @@
       "tag": "#20CY2VYYYY",
       "name": "gigiti",
       "role": "member",
-      "lastSeen": "20261029T173740.000Z",
+      "lastSeen": "20261029T195945.000Z",
       "expLevel": 0,
-      "trophies": 3550,
+      "trophies": 3610,
       "arena": {
         "id": 54000024,
         "name": "Electro Valley",
@@ -719,6 +719,24 @@
       "previousClanRank": 38,
       "donations": 216,
       "donationsReceived": 240,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VJQQLCJP8",
+      "name": "Генри lll",
+      "role": "member",
+      "lastSeen": "20261029T203915.000Z",
+      "expLevel": 0,
+      "trophies": 1700,
+      "arena": {
+        "id": 54000006,
+        "name": "P.E.K.K.A's Playhouse",
+        "rawName": "Arena6"
+      },
+      "clanRank": 40,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
       "clanChestPoints": 0
     }
   ]

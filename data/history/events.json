@@ -718,5 +718,23 @@
       }
     ],
     "at": "2026-10-29T18:56:29+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#20CY2VYYYY",
+    "name": "gigiti",
+    "cards": [
+      {
+        "name": "Balloon",
+        "level": 8
+      }
+    ],
+    "at": "2026-10-29T20:50:15+00:00"
+  },
+  {
+    "type": "joined",
+    "tag": "#VJQQLCJP8",
+    "name": "Генри lll",
+    "at": "2026-10-29T20:50:15+00:00"
   }
 ]
