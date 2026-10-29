@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113716,
+  "clanScore": 113714,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,17 +13,17 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 3032,
+  "donationsPerWeek": 3132,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
     {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261029T154712.000Z",
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261029T164317.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -32,16 +32,16 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 1,
-      "previousClanRank": 1,
-      "donations": 162,
-      "donationsReceived": 200,
+      "previousClanRank": 3,
+      "donations": 96,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {
-      "tag": "#9JQ8PCJ",
-      "name": "lastiq",
-      "role": "member",
-      "lastSeen": "20261029T141735.000Z",
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261029T163949.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -50,9 +50,9 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
-      "previousClanRank": 3,
-      "donations": 88,
-      "donationsReceived": 272,
+      "previousClanRank": 1,
+      "donations": 178,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -221,7 +221,7 @@
       "tag": "#P08LLGYLQ",
       "name": "Luka13",
       "role": "member",
-      "lastSeen": "20261029T095000.000Z",
+      "lastSeen": "20261029T160511.000Z",
       "expLevel": 0,
       "trophies": 12774,
       "arena": {
@@ -257,7 +257,7 @@
       "tag": "#J9Y9Y9YRG",
       "name": "Sinner",
       "role": "member",
-      "lastSeen": "20261028T142555.000Z",
+      "lastSeen": "20261029T165601.000Z",
       "expLevel": 0,
       "trophies": 11790,
       "arena": {
@@ -267,7 +267,7 @@
       },
       "clanRank": 14,
       "previousClanRank": 14,
-      "donations": 0,
+      "donations": 10,
       "donationsReceived": 64,
       "clanChestPoints": 0
     },
@@ -401,7 +401,7 @@
       "tag": "#CC9J8Y902",
       "name": "Michael",
       "role": "member",
-      "lastSeen": "20261028T031417.000Z",
+      "lastSeen": "20261029T164224.000Z",
       "expLevel": 0,
       "trophies": 9821,
       "arena": {
@@ -437,7 +437,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261029T121914.000Z",
+      "lastSeen": "20261029T164837.000Z",
       "expLevel": 0,
       "trophies": 9535,
       "arena": {
@@ -447,17 +447,17 @@
       },
       "clanRank": 24,
       "previousClanRank": 24,
-      "donations": 316,
-      "donationsReceived": 320,
+      "donations": 332,
+      "donationsReceived": 340,
       "clanChestPoints": 0
     },
     {
       "tag": "#CJR008LV9",
       "name": "cook",
       "role": "member",
-      "lastSeen": "20261029T091551.000Z",
+      "lastSeen": "20261029T161242.000Z",
       "expLevel": 0,
-      "trophies": 9332,
+      "trophies": 9402,
       "arena": {
         "id": 54000020,
         "name": "Valkalla",
@@ -465,8 +465,8 @@
       },
       "clanRank": 25,
       "previousClanRank": 25,
-      "donations": 322,
-      "donationsReceived": 240,
+      "donations": 356,
+      "donationsReceived": 272,
       "clanChestPoints": 0
     },
     {
@@ -610,7 +610,7 @@
       "clanRank": 33,
       "previousClanRank": 33,
       "donations": 92,
-      "donationsReceived": 24,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -653,9 +653,9 @@
       "tag": "#8JRL80GY0",
       "name": "vickymaddy",
       "role": "member",
-      "lastSeen": "20261029T125156.000Z",
+      "lastSeen": "20261029T160237.000Z",
       "expLevel": 0,
-      "trophies": 5318,
+      "trophies": 5320,
       "arena": {
         "id": 54000012,
         "name": "Miner's Mine",
@@ -689,9 +689,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261028T174125.000Z",
+      "lastSeen": "20261029T165156.000Z",
       "expLevel": 0,
-      "trophies": 3343,
+      "trophies": 3225,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -699,8 +699,8 @@
       },
       "clanRank": 38,
       "previousClanRank": 38,
-      "donations": 200,
-      "donationsReceived": 200,
+      "donations": 216,
+      "donationsReceived": 224,
       "clanChestPoints": 0
     }
   ]

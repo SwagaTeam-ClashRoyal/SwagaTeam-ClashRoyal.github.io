@@ -11371,7 +11371,7 @@
       0
     ],
     "Barbarian Hut": [
-      10,
+      11,
       0
     ],
     "Golem": [
@@ -12467,7 +12467,7 @@
       0
     ],
     "Zap": [
-      11,
+      12,
       0
     ],
     "Rocket": [
@@ -12639,7 +12639,7 @@
       1
     ],
     "Wall Breakers": [
-      13,
+      14,
       0
     ],
     "Rascals": [
@@ -17327,7 +17327,7 @@
       0
     ],
     "Royal Recruits": [
-      4,
+      8,
       0
     ],
     "Heal Spirit": [
@@ -17587,6 +17587,10 @@
       0
     ],
     "Goblin Machine": [
+      9,
+      0
+    ],
+    "Night Witch": [
       9,
       0
     ]
