@@ -610,7 +610,7 @@
       "tag": "#GYULR0",
       "name": "99% 1 star",
       "badgeId": 16000107,
-      "fame": 800,
+      "fame": 1300,
       "repairPoints": 0,
       "participants": [
         {
@@ -715,15 +715,6 @@
         {
           "tag": "#PRU00LVP",
           "name": "anti_creative",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#Q8J0V02",
-          "name": "Booze4U",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -864,6 +855,15 @@
           "boatAttacks": 0,
           "decksUsed": 1,
           "decksUsedToday": 1
+        },
+        {
+          "tag": "#Q8J0V02",
+          "name": "Booze4U",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 3,
+          "decksUsedToday": 3
         },
         {
           "tag": "#9R8UGLPV8",
