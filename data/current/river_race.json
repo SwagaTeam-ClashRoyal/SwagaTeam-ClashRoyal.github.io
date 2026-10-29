@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 0,
+    "fame": 600,
     "repairPoints": 0,
     "participants": [
       {
@@ -305,15 +305,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#9JQ8PCJ",
-        "name": "lastiq",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#JU2L2U8LG",
         "name": "адцкий гей",
         "fame": 0,
@@ -352,15 +343,6 @@
       {
         "tag": "#9RJJQY80",
         "name": "RekT",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#CGPUY8P2",
-        "name": "BIG BOY",
         "fame": 0,
         "repairPoints": 0,
         "boatAttacks": 0,
@@ -582,6 +564,24 @@
         "boatAttacks": 0,
         "decksUsed": 0,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#CGPUY8P2",
+        "name": "BIG BOY",
+        "fame": 100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 1,
+        "decksUsedToday": 1
+      },
+      {
+        "tag": "#9JQ8PCJ",
+        "name": "lastiq",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 4,
+        "decksUsedToday": 4
       }
     ],
     "periodPoints": 0,
@@ -1208,7 +1208,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 0,
+      "fame": 600,
       "repairPoints": 0,
       "participants": [
         {
@@ -1509,15 +1509,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#9JQ8PCJ",
-          "name": "lastiq",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#JU2L2U8LG",
           "name": "адцкий гей",
           "fame": 0,
@@ -1556,15 +1547,6 @@
         {
           "tag": "#9RJJQY80",
           "name": "RekT",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#CGPUY8P2",
-          "name": "BIG BOY",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -1786,6 +1768,24 @@
           "boatAttacks": 0,
           "decksUsed": 0,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#CGPUY8P2",
+          "name": "BIG BOY",
+          "fame": 100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
+        },
+        {
+          "tag": "#9JQ8PCJ",
+          "name": "lastiq",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,

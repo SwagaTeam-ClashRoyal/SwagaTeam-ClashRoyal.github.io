@@ -96,12 +96,12 @@
     "trophies": 14000,
     "bestTrophies": 14000,
     "wins": 3685,
-    "losses": 2062,
-    "battleCount": 5747,
+    "losses": 2063,
+    "battleCount": 5748,
     "threeCrownWins": 1073,
     "warDayWins": 30,
     "clanCardsCollected": 92376,
-    "totalDonations": 40598,
+    "totalDonations": 40626,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 5,
       "trophies": 0,
@@ -186,7 +186,7 @@
     "threeCrownWins": 1067,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 34366,
+    "totalDonations": 34384,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -272,13 +272,13 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 10998,
-    "losses": 10646,
-    "battleCount": 21644,
-    "threeCrownWins": 5590,
+    "wins": 11000,
+    "losses": 10650,
+    "battleCount": 21650,
+    "threeCrownWins": 5591,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
-    "totalDonations": 138461,
+    "totalDonations": 138479,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -353,11 +353,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
+      "name": "Baby Dragon",
       "rarity": "epic",
-      "elixirCost": 5,
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png"
     }
   },
   "#R98U8U290": {
@@ -456,13 +456,13 @@
     "expLevel": 67,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 3924,
+    "wins": 3925,
     "losses": 3010,
-    "battleCount": 6934,
+    "battleCount": 6935,
     "threeCrownWins": 1188,
     "warDayWins": 0,
     "clanCardsCollected": 1220,
-    "totalDonations": 28951,
+    "totalDonations": 28959,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2299,13 +2299,6 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
       },
       {
-        "name": "Goblinstein",
-        "rarity": "champion",
-        "elixirCost": 5,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png"
-      },
-      {
         "name": "Electro Wizard",
         "rarity": "legendary",
         "elixirCost": 4,
@@ -2990,13 +2983,13 @@
     "expLevel": 27,
     "trophies": 6379,
     "bestTrophies": 6380,
-    "wins": 575,
-    "losses": 496,
-    "battleCount": 1071,
-    "threeCrownWins": 387,
+    "wins": 576,
+    "losses": 497,
+    "battleCount": 1073,
+    "threeCrownWins": 388,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 509,
+    "totalDonations": 519,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
