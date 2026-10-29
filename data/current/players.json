@@ -1100,10 +1100,10 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3525,
-    "losses": 2992,
-    "battleCount": 6517,
-    "threeCrownWins": 2402,
+    "wins": 3532,
+    "losses": 2997,
+    "battleCount": 6529,
+    "threeCrownWins": 2404,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 22325,
@@ -1999,13 +1999,13 @@
     "expLevel": 38,
     "trophies": 9617,
     "bestTrophies": 9825,
-    "wins": 2267,
-    "losses": 2099,
-    "battleCount": 4366,
-    "threeCrownWins": 781,
+    "wins": 2271,
+    "losses": 2100,
+    "battleCount": 4371,
+    "threeCrownWins": 782,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17387,
+    "totalDonations": 17425,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2080,11 +2080,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Dark Prince",
-      "rarity": "epic",
-      "elixirCost": 4,
+      "name": "Elixir Collector",
+      "rarity": "rare",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png"
     }
   },
   "#9RJPRQLL2": {
@@ -2120,13 +2120,6 @@
         "elixirCost": 6,
         "evolved": true,
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
-      },
-      {
-        "name": "Golden Knight",
-        "rarity": "champion",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Valkyrie",
@@ -2273,15 +2266,15 @@
   },
   "#CJR008LV9": {
     "expLevel": 39,
-    "trophies": 9365,
+    "trophies": 9362,
     "bestTrophies": 9365,
-    "wins": 1157,
-    "losses": 998,
-    "battleCount": 2155,
+    "wins": 1158,
+    "losses": 999,
+    "battleCount": 2157,
     "threeCrownWins": 657,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 3984,
+    "totalDonations": 4004,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2304,6 +2297,13 @@
         "elixirCost": 7,
         "evolved": true,
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      },
+      {
+        "name": "Goblinstein",
+        "rarity": "champion",
+        "elixirCost": 5,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png"
       },
       {
         "name": "Electro Wizard",
@@ -2349,11 +2349,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Elite Barbarians",
-      "rarity": "common",
-      "elixirCost": 6,
+      "name": "Mega Knight",
+      "rarity": "legendary",
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     }
   },
   "#22JLP29RV": {
@@ -3172,12 +3172,12 @@
   },
   "#8JRL80GY0": {
     "expLevel": 21,
-    "trophies": 5404,
+    "trophies": 5346,
     "bestTrophies": 5439,
-    "wins": 779,
-    "losses": 733,
-    "battleCount": 1512,
-    "threeCrownWins": 499,
+    "wins": 781,
+    "losses": 737,
+    "battleCount": 1518,
+    "threeCrownWins": 500,
     "warDayWins": 1,
     "clanCardsCollected": 3550,
     "totalDonations": 14,
@@ -3255,11 +3255,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Mortar",
-      "rarity": "common",
-      "elixirCost": 4,
+      "name": "Witch",
+      "rarity": "epic",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
     }
   },
   "#V0RCP20LR": {
