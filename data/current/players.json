@@ -3,13 +3,13 @@
     "expLevel": 60,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 3521,
-    "losses": 4109,
-    "battleCount": 7630,
+    "wins": 3522,
+    "losses": 4110,
+    "battleCount": 7632,
     "threeCrownWins": 1009,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 16915,
+    "totalDonations": 16931,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -27,11 +27,11 @@
     },
     "currentDeck": [
       {
-        "name": "Goblin Barrel",
-        "rarity": "epic",
-        "elixirCost": 3,
+        "name": "Valkyrie",
+        "rarity": "rare",
+        "elixirCost": 4,
         "evolved": true,
-        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
+        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
       },
       {
         "name": "Cannon",
@@ -41,20 +41,6 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png"
       },
       {
-        "name": "Tornado",
-        "rarity": "epic",
-        "elixirCost": 3,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png"
-      },
-      {
-        "name": "Magic Archer",
-        "rarity": "legendary",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png"
-      },
-      {
         "name": "Firecracker",
         "rarity": "common",
         "elixirCost": 3,
@@ -62,11 +48,25 @@
         "icon": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png"
       },
       {
-        "name": "Miner",
-        "rarity": "legendary",
+        "name": "Tornado",
+        "rarity": "epic",
         "elixirCost": 3,
         "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/Y4yWvdwBCg2FpAZgs8T09Gy34WOwpLZW-ttL52Ae8NE.png"
+        "icon": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png"
+      },
+      {
+        "name": "Ice Spirit",
+        "rarity": "common",
+        "elixirCost": 1,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png"
+      },
+      {
+        "name": "Hog Rider",
+        "rarity": "rare",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
       },
       {
         "name": "The Log",
@@ -74,14 +74,21 @@
         "elixirCost": 2,
         "evolved": false,
         "icon": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
+      },
+      {
+        "name": "Rocket",
+        "rarity": "rare",
+        "elixirCost": 6,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/Ie07nQNK9CjhKOa4-arFAewi4EroqaA-86Xo7r5tx94.png"
       }
     ],
     "currentFavouriteCard": {
-      "name": "Tesla",
-      "rarity": "common",
+      "name": "Valkyrie",
+      "rarity": "rare",
       "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
     }
   },
   "#CGPUY8P2": {
@@ -910,12 +917,12 @@
     "trophies": 13058,
     "bestTrophies": 13146,
     "wins": 2335,
-    "losses": 2036,
-    "battleCount": 4371,
+    "losses": 2037,
+    "battleCount": 4372,
     "threeCrownWins": 1170,
     "warDayWins": 0,
     "clanCardsCollected": 460,
-    "totalDonations": 14695,
+    "totalDonations": 14703,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -990,11 +997,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Elite Barbarians",
-      "rarity": "common",
-      "elixirCost": 6,
+      "name": "Fireball",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
     }
   },
   "#P08LLGYLQ": {

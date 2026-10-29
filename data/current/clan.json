@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2712,
+  "donationsPerWeek": 2736,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
+    {
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "role": "elder",
+      "lastSeen": "20261029T013703.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 4,
+      "donations": 156,
+      "donationsReceived": 48,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#CGPUY8P2",
       "name": "BIG BOY",
@@ -31,10 +49,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 3,
       "donations": 118,
-      "donationsReceived": 152,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -49,7 +67,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 2,
       "donations": 212,
       "donationsReceived": 200,
@@ -67,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 4,
       "previousClanRank": 1,
       "donations": 60,
       "donationsReceived": 240,
@@ -85,7 +103,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 5,
       "previousClanRank": 5,
       "donations": 54,
       "donationsReceived": 0,
@@ -103,28 +121,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 5,
+      "clanRank": 6,
       "previousClanRank": 6,
       "donations": 38,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#QP0PPC0QU",
-      "name": "pshkzzz",
-      "role": "elder",
-      "lastSeen": "20261028T033252.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 6,
-      "previousClanRank": 4,
-      "donations": 140,
-      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -203,7 +203,7 @@
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261028T232649.000Z",
+      "lastSeen": "20261029T012457.000Z",
       "expLevel": 0,
       "trophies": 13058,
       "arena": {
@@ -213,7 +213,7 @@
       },
       "clanRank": 11,
       "previousClanRank": 11,
-      "donations": 246,
+      "donations": 254,
       "donationsReceived": 40,
       "clanChestPoints": 0
     },
@@ -304,7 +304,7 @@
       "clanRank": 16,
       "previousClanRank": 16,
       "donations": 84,
-      "donationsReceived": 184,
+      "donationsReceived": 192,
       "clanChestPoints": 0
     },
     {
