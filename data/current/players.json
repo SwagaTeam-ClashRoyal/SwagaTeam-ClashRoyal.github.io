@@ -1008,10 +1008,10 @@
     "expLevel": 56,
     "trophies": 12774,
     "bestTrophies": 12780,
-    "wins": 3281,
-    "losses": 1830,
-    "battleCount": 5111,
-    "threeCrownWins": 1196,
+    "wins": 3284,
+    "losses": 1831,
+    "battleCount": 5115,
+    "threeCrownWins": 1197,
     "warDayWins": 19,
     "clanCardsCollected": 45839,
     "totalDonations": 18818,
@@ -1089,11 +1089,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Cannon Cart",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Three Musketeers",
+      "rarity": "rare",
+      "elixirCost": 9,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png"
     }
   },
   "#Q2RJCVYUQ": {
@@ -1101,8 +1101,8 @@
     "trophies": 12150,
     "bestTrophies": 12267,
     "wins": 3532,
-    "losses": 2997,
-    "battleCount": 6529,
+    "losses": 2998,
+    "battleCount": 6530,
     "threeCrownWins": 2404,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -1181,11 +1181,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Goblinstein",
-      "rarity": "champion",
-      "elixirCost": 5,
+      "name": "Night Witch",
+      "rarity": "legendary",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/NpCrXDEDBBJgNv9QrBAcJmmMFbS7pe3KCY8xJ5VB18A.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -1999,13 +1999,13 @@
     "expLevel": 38,
     "trophies": 9617,
     "bestTrophies": 9825,
-    "wins": 2271,
-    "losses": 2100,
-    "battleCount": 4371,
+    "wins": 2272,
+    "losses": 2101,
+    "battleCount": 4373,
     "threeCrownWins": 782,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17425,
+    "totalDonations": 17433,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2080,11 +2080,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Elixir Collector",
-      "rarity": "rare",
-      "elixirCost": 6,
+      "name": "Inferno Dragon",
+      "rarity": "legendary",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png"
     }
   },
   "#9RJPRQLL2": {
@@ -2266,11 +2266,11 @@
   },
   "#CJR008LV9": {
     "expLevel": 39,
-    "trophies": 9362,
-    "bestTrophies": 9365,
-    "wins": 1158,
-    "losses": 999,
-    "battleCount": 2157,
+    "trophies": 9332,
+    "bestTrophies": 9392,
+    "wins": 1159,
+    "losses": 1001,
+    "battleCount": 2160,
     "threeCrownWins": 657,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2804,11 +2804,11 @@
   },
   "#JGL98Q9G2": {
     "expLevel": 34,
-    "trophies": 7530,
+    "trophies": 7534,
     "bestTrophies": 7648,
-    "wins": 882,
-    "losses": 705,
-    "battleCount": 1587,
+    "wins": 884,
+    "losses": 707,
+    "battleCount": 1591,
     "threeCrownWins": 331,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2851,11 +2851,11 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
       },
       {
-        "name": "Electro Spirit",
-        "rarity": "common",
-        "elixirCost": 1,
+        "name": "Goblin Barrel",
+        "rarity": "epic",
+        "elixirCost": 3,
         "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WKd4-IAFsgPpMo7dDi9sujmYjRhOMEWiE07OUJpvD9g.png"
+        "icon": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
       },
       {
         "name": "Cannon",
@@ -2887,11 +2887,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Electro Dragon",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Musketeer",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
     }
   },
   "#9282CQQ90": {
