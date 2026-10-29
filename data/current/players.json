@@ -371,9 +371,9 @@
     "expLevel": 62,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 2911,
-    "losses": 2489,
-    "battleCount": 5400,
+    "wins": 2912,
+    "losses": 2491,
+    "battleCount": 5403,
     "threeCrownWins": 1102,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -452,11 +452,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Poison",
-      "rarity": "epic",
-      "elixirCost": 4,
+      "name": "Ronin",
+      "rarity": "legendary",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/98HDkG2189yOULcVG9jz2QbJKtfuhH21DIrIjkOjxI8.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
     }
   },
   "#8UCG80RYR": {
@@ -832,8 +832,8 @@
     "trophies": 13178,
     "bestTrophies": 13178,
     "wins": 2305,
-    "losses": 1631,
-    "battleCount": 3936,
+    "losses": 1632,
+    "battleCount": 3937,
     "threeCrownWins": 600,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2096,15 +2096,15 @@
   },
   "#9RJPRQLL2": {
     "expLevel": 20,
-    "trophies": 9504,
+    "trophies": 9533,
     "bestTrophies": 9562,
-    "wins": 1001,
+    "wins": 1002,
     "losses": 667,
-    "battleCount": 1668,
-    "threeCrownWins": 499,
+    "battleCount": 1669,
+    "threeCrownWins": 500,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 2671,
+    "totalDonations": 2679,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -3452,10 +3452,10 @@
     "expLevel": 3,
     "trophies": 3464,
     "bestTrophies": 3526,
-    "wins": 245,
-    "losses": 214,
-    "battleCount": 459,
-    "threeCrownWins": 154,
+    "wins": 246,
+    "losses": 216,
+    "battleCount": 462,
+    "threeCrownWins": 155,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 66,
@@ -3521,11 +3521,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Spear Goblins",
-      "rarity": "common",
-      "elixirCost": 2,
+      "name": "Ram Rider",
+      "rarity": "legendary",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png"
     }
   },
   "#20CY2VYYYY": {
@@ -3610,12 +3610,12 @@
   },
   "#VJQQLCJP8": {
     "expLevel": 1,
-    "trophies": 1700,
-    "bestTrophies": 1700,
-    "wins": 61,
+    "trophies": 1846,
+    "bestTrophies": 1846,
+    "wins": 66,
     "losses": 5,
-    "battleCount": 66,
-    "threeCrownWins": 44,
+    "battleCount": 71,
+    "threeCrownWins": 47,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 10,
