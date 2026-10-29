@@ -1100,10 +1100,10 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3523,
-    "losses": 2984,
-    "battleCount": 6507,
-    "threeCrownWins": 2401,
+    "wins": 3525,
+    "losses": 2992,
+    "battleCount": 6517,
+    "threeCrownWins": 2402,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 22325,
@@ -1181,11 +1181,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Battle Ram",
-      "rarity": "rare",
-      "elixirCost": 4,
+      "name": "Goblinstein",
+      "rarity": "champion",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -2091,13 +2091,13 @@
     "expLevel": 20,
     "trophies": 9535,
     "bestTrophies": 9562,
-    "wins": 997,
-    "losses": 664,
-    "battleCount": 1661,
-    "threeCrownWins": 498,
+    "wins": 998,
+    "losses": 665,
+    "battleCount": 1663,
+    "threeCrownWins": 499,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 2593,
+    "totalDonations": 2621,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
