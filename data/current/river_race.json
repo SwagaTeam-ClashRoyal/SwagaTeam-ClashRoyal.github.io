@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 1300,
+    "fame": 2400,
     "repairPoints": 0,
     "participants": [
       {
@@ -118,15 +118,6 @@
       {
         "tag": "#8JRL80GY0",
         "name": "vickymaddy",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#PQQ2JYL2G",
-        "name": "MFbren",
         "fame": 0,
         "repairPoints": 0,
         "boatAttacks": 0,
@@ -422,15 +413,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#U0QJL29PY",
-        "name": "egor",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#8P2L9LRPL",
         "name": "Grigor1224",
         "fame": 0,
@@ -557,6 +539,15 @@
         "decksUsedToday": 0
       },
       {
+        "tag": "#20CY2VYYYY",
+        "name": "gigiti",
+        "fame": 100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 1,
+        "decksUsedToday": 1
+      },
+      {
         "tag": "#CGPUY8P2",
         "name": "BIG BOY",
         "fame": 300,
@@ -564,6 +555,15 @@
         "boatAttacks": 0,
         "decksUsed": 2,
         "decksUsedToday": 2
+      },
+      {
+        "tag": "#PQQ2JYL2G",
+        "name": "MFbren",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 4,
+        "decksUsedToday": 4
       },
       {
         "tag": "#9JQ8PCJ",
@@ -582,6 +582,15 @@
         "boatAttacks": 0,
         "decksUsed": 3,
         "decksUsedToday": 3
+      },
+      {
+        "tag": "#U0QJL29PY",
+        "name": "egor",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 4,
+        "decksUsedToday": 4
       }
     ],
     "periodPoints": 0,
@@ -864,7 +873,7 @@
       "tag": "#RVU89Q",
       "name": "Les Dragounets",
       "badgeId": 16000078,
-      "fame": 2100,
+      "fame": 2600,
       "repairPoints": 0,
       "participants": [
         {
@@ -1156,15 +1165,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#P9QYRQ2R",
-          "name": "reurti",
-          "fame": 200,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 1,
-          "decksUsedToday": 1
-        },
-        {
           "tag": "#YQ8YQJ8P",
           "name": "<C5>yanisking",
           "fame": 400,
@@ -1199,6 +1199,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 4
+        },
+        {
+          "tag": "#P9QYRQ2R",
+          "name": "reurti",
+          "fame": 700,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,
@@ -1208,7 +1217,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 1300,
+      "fame": 2400,
       "repairPoints": 0,
       "participants": [
         {
@@ -1322,15 +1331,6 @@
         {
           "tag": "#8JRL80GY0",
           "name": "vickymaddy",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#PQQ2JYL2G",
-          "name": "MFbren",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -1626,15 +1626,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#U0QJL29PY",
-          "name": "egor",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#8P2L9LRPL",
           "name": "Grigor1224",
           "fame": 0,
@@ -1761,6 +1752,15 @@
           "decksUsedToday": 0
         },
         {
+          "tag": "#20CY2VYYYY",
+          "name": "gigiti",
+          "fame": 100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
+        },
+        {
           "tag": "#CGPUY8P2",
           "name": "BIG BOY",
           "fame": 300,
@@ -1768,6 +1768,15 @@
           "boatAttacks": 0,
           "decksUsed": 2,
           "decksUsedToday": 2
+        },
+        {
+          "tag": "#PQQ2JYL2G",
+          "name": "MFbren",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
         },
         {
           "tag": "#9JQ8PCJ",
@@ -1786,6 +1795,15 @@
           "boatAttacks": 0,
           "decksUsed": 3,
           "decksUsedToday": 3
+        },
+        {
+          "tag": "#U0QJL29PY",
+          "name": "egor",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,
