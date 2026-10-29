@@ -595,5 +595,21 @@
       }
     ],
     "at": "2026-10-28T23:43:06+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#JGL98Q9G2",
+    "name": "(LP)Wasabi",
+    "cards": [
+      {
+        "name": "Goblin Barrel",
+        "level": 12
+      },
+      {
+        "name": "Ice Wizard",
+        "level": 12
+      }
+    ],
+    "at": "2026-10-29T07:00:18+00:00"
   }
 ]
