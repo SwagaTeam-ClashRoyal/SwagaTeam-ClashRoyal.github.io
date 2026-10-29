@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 700,
+    "fame": 1100,
     "repairPoints": 0,
     "participants": [
       {
@@ -566,15 +566,6 @@
         "decksUsedToday": 1
       },
       {
-        "tag": "#9282CQQ90",
-        "name": "Чушпан",
-        "fame": 100,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 1,
-        "decksUsedToday": 1
-      },
-      {
         "tag": "#9JQ8PCJ",
         "name": "lastiq",
         "fame": 500,
@@ -582,6 +573,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 4
+      },
+      {
+        "tag": "#9282CQQ90",
+        "name": "Чушпан",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 3,
+        "decksUsedToday": 3
       }
     ],
     "periodPoints": 0,
@@ -1208,7 +1208,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 700,
+      "fame": 1100,
       "repairPoints": 0,
       "participants": [
         {
@@ -1770,15 +1770,6 @@
           "decksUsedToday": 1
         },
         {
-          "tag": "#9282CQQ90",
-          "name": "Чушпан",
-          "fame": 100,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 1,
-          "decksUsedToday": 1
-        },
-        {
           "tag": "#9JQ8PCJ",
           "name": "lastiq",
           "fame": 500,
@@ -1786,6 +1777,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 4
+        },
+        {
+          "tag": "#9282CQQ90",
+          "name": "Чушпан",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 3,
+          "decksUsedToday": 3
         }
       ],
       "periodPoints": 0,

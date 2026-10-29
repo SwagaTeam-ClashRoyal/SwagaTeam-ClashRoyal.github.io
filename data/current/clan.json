@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 113716,
+  "clanScore": 113713,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2974,
+  "donationsPerWeek": 3000,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -34,7 +34,7 @@
       "clanRank": 1,
       "previousClanRank": 3,
       "donations": 88,
-      "donationsReceived": 248,
+      "donationsReceived": 256,
       "clanChestPoints": 0
     },
     {
@@ -70,7 +70,7 @@
       "clanRank": 3,
       "previousClanRank": 1,
       "donations": 146,
-      "donationsReceived": 190,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
@@ -419,7 +419,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261029T084735.000Z",
+      "lastSeen": "20261029T122313.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -437,7 +437,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261029T073600.000Z",
+      "lastSeen": "20261029T121914.000Z",
       "expLevel": 0,
       "trophies": 9535,
       "arena": {
@@ -447,7 +447,7 @@
       },
       "clanRank": 24,
       "previousClanRank": 24,
-      "donations": 290,
+      "donations": 316,
       "donationsReceived": 320,
       "clanChestPoints": 0
     },
@@ -563,9 +563,9 @@
       "tag": "#VJPQ089PL",
       "name": "Dimaster_HUY",
       "role": "member",
-      "lastSeen": "20261029T053908.000Z",
+      "lastSeen": "20261029T122424.000Z",
       "expLevel": 0,
-      "trophies": 7815,
+      "trophies": 7843,
       "arena": {
         "id": 54000017,
         "name": "Boot Camp",
@@ -599,7 +599,7 @@
       "tag": "#9282CQQ90",
       "name": "Чушпан",
       "role": "member",
-      "lastSeen": "20261029T114843.000Z",
+      "lastSeen": "20261029T115410.000Z",
       "expLevel": 0,
       "trophies": 6785,
       "arena": {
@@ -610,7 +610,7 @@
       "clanRank": 33,
       "previousClanRank": 33,
       "donations": 92,
-      "donationsReceived": 0,
+      "donationsReceived": 8,
       "clanChestPoints": 0
     },
     {
@@ -653,9 +653,9 @@
       "tag": "#8JRL80GY0",
       "name": "vickymaddy",
       "role": "member",
-      "lastSeen": "20261029T081751.000Z",
+      "lastSeen": "20261029T125156.000Z",
       "expLevel": 0,
-      "trophies": 5346,
+      "trophies": 5288,
       "arena": {
         "id": 54000012,
         "name": "Miner's Mine",
