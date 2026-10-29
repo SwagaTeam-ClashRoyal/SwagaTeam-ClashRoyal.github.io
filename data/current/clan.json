@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2956,
+  "donationsPerWeek": 2974,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 38,
   "memberList": [
+    {
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261029T114527.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 3,
+      "donations": 88,
+      "donationsReceived": 248,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#8UCG80RYR",
       "name": "Daisy Sprout",
@@ -31,28 +49,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
-      "previousClanRank": 6,
+      "clanRank": 2,
+      "previousClanRank": 5,
       "donations": 46,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#9JQ8PCJ",
-      "name": "lastiq",
-      "role": "member",
-      "lastSeen": "20261029T101649.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 2,
-      "previousClanRank": 1,
-      "donations": 88,
-      "donationsReceived": 240,
       "clanChestPoints": 0
     },
     {
@@ -68,9 +68,9 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 3,
-      "previousClanRank": 3,
+      "previousClanRank": 1,
       "donations": 146,
-      "donationsReceived": 180,
+      "donationsReceived": 190,
       "clanChestPoints": 0
     },
     {
@@ -104,7 +104,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 5,
-      "previousClanRank": 4,
+      "previousClanRank": 6,
       "donations": 156,
       "donationsReceived": 80,
       "clanChestPoints": 0
@@ -122,7 +122,7 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 6,
-      "previousClanRank": 5,
+      "previousClanRank": 4,
       "donations": 54,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -464,7 +464,7 @@
         "rawName": "Arena_L9"
       },
       "clanRank": 25,
-      "previousClanRank": 26,
+      "previousClanRank": 25,
       "donations": 322,
       "donationsReceived": 240,
       "clanChestPoints": 0
@@ -482,7 +482,7 @@
         "rawName": "Arena_L9"
       },
       "clanRank": 26,
-      "previousClanRank": 25,
+      "previousClanRank": 26,
       "donations": 84,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -599,7 +599,7 @@
       "tag": "#9282CQQ90",
       "name": "Чушпан",
       "role": "member",
-      "lastSeen": "20261028T161154.000Z",
+      "lastSeen": "20261029T114843.000Z",
       "expLevel": 0,
       "trophies": 6785,
       "arena": {
@@ -609,7 +609,7 @@
       },
       "clanRank": 33,
       "previousClanRank": 33,
-      "donations": 74,
+      "donations": 92,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -680,7 +680,7 @@
         "rawName": "Arena_Electric"
       },
       "clanRank": 37,
-      "previousClanRank": 0,
+      "previousClanRank": 37,
       "donations": 0,
       "donationsReceived": 0,
       "clanChestPoints": 0
@@ -698,7 +698,7 @@
         "rawName": "Arena_L"
       },
       "clanRank": 38,
-      "previousClanRank": 37,
+      "previousClanRank": 38,
       "donations": 200,
       "donationsReceived": 200,
       "clanChestPoints": 0
