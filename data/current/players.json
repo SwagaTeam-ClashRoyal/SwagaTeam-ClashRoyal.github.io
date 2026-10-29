@@ -923,13 +923,13 @@
     "expLevel": 43,
     "trophies": 13058,
     "bestTrophies": 13146,
-    "wins": 2338,
-    "losses": 2038,
-    "battleCount": 4376,
-    "threeCrownWins": 1170,
+    "wins": 2341,
+    "losses": 2040,
+    "battleCount": 4381,
+    "threeCrownWins": 1171,
     "warDayWins": 0,
     "clanCardsCollected": 460,
-    "totalDonations": 14749,
+    "totalDonations": 14757,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1004,11 +1004,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Cannon Cart",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Mega Knight",
+      "rarity": "legendary",
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
     }
   },
   "#P08LLGYLQ": {
@@ -2006,13 +2006,13 @@
     "expLevel": 38,
     "trophies": 9617,
     "bestTrophies": 9825,
-    "wins": 2277,
-    "losses": 2102,
-    "battleCount": 4379,
+    "wins": 2278,
+    "losses": 2103,
+    "battleCount": 4381,
     "threeCrownWins": 784,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17453,
+    "totalDonations": 17467,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2087,20 +2087,20 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Zappies",
-      "rarity": "rare",
+      "name": "Dark Prince",
+      "rarity": "epic",
       "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/QZfHRpLRmutZbCr5fpLnTpIp89vLI6NrAwzGZ8tHEc4.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
     }
   },
   "#9RJPRQLL2": {
     "expLevel": 20,
-    "trophies": 9533,
+    "trophies": 9562,
     "bestTrophies": 9562,
-    "wins": 1002,
+    "wins": 1004,
     "losses": 667,
-    "battleCount": 1669,
+    "battleCount": 1671,
     "threeCrownWins": 500,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2374,10 +2374,10 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2589,
-    "losses": 2773,
-    "battleCount": 5362,
-    "threeCrownWins": 1626,
+    "wins": 2590,
+    "losses": 2774,
+    "battleCount": 5364,
+    "threeCrownWins": 1627,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
     "totalDonations": 26159,
@@ -2455,11 +2455,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Balloon",
+      "name": "Electro Giant",
       "rarity": "epic",
-      "elixirCost": 5,
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png"
     }
   },
   "#LGQC0JPLU": {
@@ -3612,10 +3612,10 @@
     "expLevel": 1,
     "trophies": 1846,
     "bestTrophies": 1846,
-    "wins": 66,
-    "losses": 5,
-    "battleCount": 71,
-    "threeCrownWins": 47,
+    "wins": 69,
+    "losses": 7,
+    "battleCount": 76,
+    "threeCrownWins": 49,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 10,

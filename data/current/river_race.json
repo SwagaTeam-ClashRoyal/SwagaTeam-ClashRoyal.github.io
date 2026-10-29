@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 3500,
+    "fame": 4500,
     "repairPoints": 0,
     "participants": [
       {
@@ -172,15 +172,6 @@
       {
         "tag": "#VGVQG0CVG",
         "name": "¿ G1ntex21 ?",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#VJQQLCJP8",
-        "name": "Генри lll",
         "fame": 0,
         "repairPoints": 0,
         "boatAttacks": 0,
@@ -440,15 +431,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#8LRPG2VPQ",
-        "name": "CHLE N EGRA",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#VPUY80L2L",
         "name": "❤️L❤️A❤️",
         "fame": 0,
@@ -566,6 +548,15 @@
         "decksUsedToday": 4
       },
       {
+        "tag": "#VJQQLCJP8",
+        "name": "Генри lll",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 4,
+        "decksUsedToday": 4
+      },
+      {
         "tag": "#9JQ8PCJ",
         "name": "lastiq",
         "fame": 500,
@@ -591,6 +582,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 4
+      },
+      {
+        "tag": "#8LRPG2VPQ",
+        "name": "CHLE N EGRA",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 3,
+        "decksUsedToday": 3
       },
       {
         "tag": "#GQQL9YLYQ",
@@ -1226,7 +1226,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 3500,
+      "fame": 4500,
       "repairPoints": 0,
       "participants": [
         {
@@ -1394,15 +1394,6 @@
         {
           "tag": "#VGVQG0CVG",
           "name": "¿ G1ntex21 ?",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#VJQQLCJP8",
-          "name": "Генри lll",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -1662,15 +1653,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#8LRPG2VPQ",
-          "name": "CHLE N EGRA",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#VPUY80L2L",
           "name": "❤️L❤️A❤️",
           "fame": 0,
@@ -1788,6 +1770,15 @@
           "decksUsedToday": 4
         },
         {
+          "tag": "#VJQQLCJP8",
+          "name": "Генри lll",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
+        },
+        {
           "tag": "#9JQ8PCJ",
           "name": "lastiq",
           "fame": 500,
@@ -1815,6 +1806,15 @@
           "decksUsedToday": 4
         },
         {
+          "tag": "#8LRPG2VPQ",
+          "name": "CHLE N EGRA",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 3,
+          "decksUsedToday": 3
+        },
+        {
           "tag": "#GQQL9YLYQ",
           "name": "Ter",
           "fame": 600,
@@ -1831,7 +1831,7 @@
       "tag": "#YVCJJJYL",
       "name": "Kaiser Wilhelm",
       "badgeId": 16000080,
-      "fame": 2100,
+      "fame": 2400,
       "repairPoints": 0,
       "participants": [
         {
@@ -2321,17 +2321,17 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#PCRGLCYPG",
-          "name": "KingOJ",
-          "fame": 200,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 2,
-          "decksUsedToday": 2
-        },
-        {
           "tag": "#RVQ8V0RYU",
           "name": "Aadit DBSS",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#PCRGLCYPG",
+          "name": "KingOJ",
           "fame": 500,
           "repairPoints": 0,
           "boatAttacks": 0,
