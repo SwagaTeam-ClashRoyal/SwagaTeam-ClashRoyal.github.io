@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 2736,
+  "donationsPerWeek": 2752,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -52,7 +52,7 @@
       "clanRank": 2,
       "previousClanRank": 4,
       "donations": 156,
-      "donationsReceived": 48,
+      "donationsReceived": 56,
       "clanChestPoints": 0
     },
     {
@@ -304,14 +304,14 @@
       "clanRank": 16,
       "previousClanRank": 16,
       "donations": 84,
-      "donationsReceived": 192,
+      "donationsReceived": 200,
       "clanChestPoints": 0
     },
     {
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261028T190108.000Z",
+      "lastSeen": "20261029T042359.000Z",
       "expLevel": 0,
       "trophies": 11390,
       "arena": {
@@ -321,7 +321,7 @@
       },
       "clanRank": 17,
       "previousClanRank": 17,
-      "donations": 238,
+      "donations": 254,
       "donationsReceived": 200,
       "clanChestPoints": 0
     },
