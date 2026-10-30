@@ -44,6 +44,15 @@
         "decksUsedToday": 0
       },
       {
+        "tag": "#PLUQRR22G",
+        "name": "ветмо",
+        "fame": 0,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 0,
+        "decksUsedToday": 0
+      },
+      {
         "tag": "#Y9L9PGRR0",
         "name": "Euphoretick",
         "fame": 0,
@@ -1259,6 +1268,15 @@
         {
           "tag": "#CJR008LV9",
           "name": "cook",
+          "fame": 0,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 0,
+          "decksUsedToday": 0
+        },
+        {
+          "tag": "#PLUQRR22G",
+          "name": "ветмо",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
