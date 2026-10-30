@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 6350,
+    "fame": 7250,
     "repairPoints": 0,
     "participants": [
       {
@@ -548,30 +548,12 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#VJQQLCJP8",
-        "name": "Генри lll",
-        "fame": 500,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 4,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#LV0GVYYL8",
         "name": "kkyo",
         "fame": 500,
         "repairPoints": 0,
         "boatAttacks": 0,
         "decksUsed": 2,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#9JQ8PCJ",
-        "name": "lastiq",
-        "fame": 500,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 4,
         "decksUsedToday": 0
       },
       {
@@ -618,6 +600,24 @@
         "boatAttacks": 0,
         "decksUsed": 3,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#9JQ8PCJ",
+        "name": "lastiq",
+        "fame": 700,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 6,
+        "decksUsedToday": 2
+      },
+      {
+        "tag": "#VJQQLCJP8",
+        "name": "Генри lll",
+        "fame": 1200,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 8,
+        "decksUsedToday": 4
       }
     ],
     "periodPoints": 0,
@@ -628,7 +628,7 @@
       "tag": "#GYULR0",
       "name": "99% 1 star",
       "badgeId": 16000107,
-      "fame": 2300,
+      "fame": 2800,
       "repairPoints": 0,
       "participants": [
         {
@@ -875,15 +875,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#9R8UGLPV8",
-          "name": "Lil Cool",
-          "fame": 600,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#2CUG0229",
           "name": "done",
           "fame": 900,
@@ -891,6 +882,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#9R8UGLPV8",
+          "name": "Lil Cool",
+          "fame": 1100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 6,
+          "decksUsedToday": 2
         }
       ],
       "periodPoints": 0,
@@ -900,7 +900,7 @@
       "tag": "#RVU89Q",
       "name": "Les Dragounets",
       "badgeId": 16000078,
-      "fame": 2800,
+      "fame": 3400,
       "repairPoints": 0,
       "participants": [
         {
@@ -1192,15 +1192,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#PCPU00V99",
-          "name": "kaaris",
-          "fame": 400,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#2VVU0LYVJ",
           "name": "canam29",
           "fame": 500,
@@ -1235,6 +1226,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#PCPU00V99",
+          "name": "kaaris",
+          "fame": 1000,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 7,
+          "decksUsedToday": 3
         }
       ],
       "periodPoints": 0,
@@ -1244,7 +1244,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 6350,
+      "fame": 7250,
       "repairPoints": 0,
       "participants": [
         {
@@ -1788,30 +1788,12 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#VJQQLCJP8",
-          "name": "Генри lll",
-          "fame": 500,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#LV0GVYYL8",
           "name": "kkyo",
           "fame": 500,
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 2,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#9JQ8PCJ",
-          "name": "lastiq",
-          "fame": 500,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
           "decksUsedToday": 0
         },
         {
@@ -1858,6 +1840,24 @@
           "boatAttacks": 0,
           "decksUsed": 3,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#9JQ8PCJ",
+          "name": "lastiq",
+          "fame": 700,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 6,
+          "decksUsedToday": 2
+        },
+        {
+          "tag": "#VJQQLCJP8",
+          "name": "Генри lll",
+          "fame": 1200,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,
