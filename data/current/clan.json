@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 116781,
+  "clanScore": 116795,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4014,
+  "donationsPerWeek": 4024,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -329,9 +329,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T154920.000Z",
+      "lastSeen": "20261030T161920.000Z",
       "expLevel": 0,
-      "trophies": 11368,
+      "trophies": 11428,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -340,7 +340,7 @@
       "clanRank": 18,
       "previousClanRank": 17,
       "donations": 382,
-      "donationsReceived": 330,
+      "donationsReceived": 340,
       "clanChestPoints": 0
     },
     {
@@ -761,9 +761,9 @@
       "tag": "#VJQQLCJP8",
       "name": "Генри lll",
       "role": "member",
-      "lastSeen": "20261030T125222.000Z",
+      "lastSeen": "20261030T164059.000Z",
       "expLevel": 0,
-      "trophies": 2352,
+      "trophies": 2323,
       "arena": {
         "id": 54000009,
         "name": "Frozen Peak",
@@ -771,7 +771,7 @@
       },
       "clanRank": 42,
       "previousClanRank": 40,
-      "donations": 28,
+      "donations": 38,
       "donationsReceived": 40,
       "clanChestPoints": 0
     }
