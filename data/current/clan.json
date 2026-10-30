@@ -20,6 +20,24 @@
   "members": 40,
   "memberList": [
     {
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "role": "elder",
+      "lastSeen": "20261030T015202.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 5,
+      "donations": 156,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
       "tag": "#R98U8U290",
       "name": "tenkuu.☁️",
       "role": "member",
@@ -31,7 +49,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 6,
       "donations": 54,
       "donationsReceived": 0,
@@ -49,7 +67,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 1,
       "donations": 54,
       "donationsReceived": 0,
@@ -67,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 4,
       "previousClanRank": 2,
       "donations": 96,
       "donationsReceived": 280,
@@ -85,7 +103,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 5,
       "previousClanRank": 3,
       "donations": 178,
       "donationsReceived": 200,
@@ -103,28 +121,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 5,
+      "clanRank": 6,
       "previousClanRank": 4,
       "donations": 248,
       "donationsReceived": 240,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#QP0PPC0QU",
-      "name": "pshkzzz",
-      "role": "elder",
-      "lastSeen": "20261029T013703.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 6,
-      "previousClanRank": 5,
-      "donations": 156,
-      "donationsReceived": 80,
       "clanChestPoints": 0
     },
     {
@@ -203,7 +203,7 @@
       "tag": "#8LRPG2VPQ",
       "name": "CHLE N EGRA",
       "role": "member",
-      "lastSeen": "20261030T002823.000Z",
+      "lastSeen": "20261030T010342.000Z",
       "expLevel": 0,
       "trophies": 13177,
       "arena": {

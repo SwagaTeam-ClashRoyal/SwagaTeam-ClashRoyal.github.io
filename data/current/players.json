@@ -3,9 +3,9 @@
     "expLevel": 60,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 3522,
-    "losses": 4110,
-    "battleCount": 7632,
+    "wins": 3523,
+    "losses": 4111,
+    "battleCount": 7634,
     "threeCrownWins": 1009,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -84,11 +84,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Valkyrie",
-      "rarity": "rare",
-      "elixirCost": 4,
+      "name": "Goblinstein",
+      "rarity": "champion",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png"
     }
   },
   "#CGPUY8P2": {
@@ -923,10 +923,10 @@
     "expLevel": 43,
     "trophies": 13177,
     "bestTrophies": 13177,
-    "wins": 2347,
+    "wins": 2348,
     "losses": 2044,
-    "battleCount": 4391,
-    "threeCrownWins": 1172,
+    "battleCount": 4392,
+    "threeCrownWins": 1173,
     "warDayWins": 0,
     "clanCardsCollected": 460,
     "totalDonations": 14757,
@@ -1004,11 +1004,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Elite Barbarians",
-      "rarity": "common",
-      "elixirCost": 6,
+      "name": "Ram Rider",
+      "rarity": "legendary",
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png"
     }
   },
   "#P08LLGYLQ": {
