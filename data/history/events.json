@@ -941,5 +941,73 @@
       }
     ],
     "at": "2026-10-30T12:59:26+00:00"
+  },
+  {
+    "type": "league",
+    "tag": "#8UCG80RYR",
+    "name": "Daisy Sprout",
+    "league": 2,
+    "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#JGL98Q9G2",
+    "name": "(LP)Wasabi",
+    "cards": [
+      {
+        "name": "Tesla",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "arena",
+    "tag": "#GQP92GLC8",
+    "name": "Adawell",
+    "arena": "Silent Sanctuary",
+    "raw": "Arena_L4",
+    "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "arena",
+    "tag": "#VJQQLCJP8",
+    "name": "Генри lll",
+    "arena": "Frozen Peak",
+    "raw": "Arena8",
+    "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#VJQQLCJP8",
+    "name": "Генри lll",
+    "cards": [
+      {
+        "name": "Valkyrie",
+        "level": 9
+      },
+      {
+        "name": "Bomb Tower",
+        "level": 9
+      },
+      {
+        "name": "Royal Giant",
+        "level": 9
+      },
+      {
+        "name": "Royal Recruits",
+        "level": 8
+      }
+    ],
+    "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#VJQQLCJP8",
+    "name": "Генри lll",
+    "cards": [
+      "Goblin Cage"
+    ],
+    "at": "2026-10-30T14:05:09+00:00"
   }
 ]

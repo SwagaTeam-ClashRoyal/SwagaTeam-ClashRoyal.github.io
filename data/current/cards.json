@@ -15547,7 +15547,7 @@
       0
     ],
     "Tesla": [
-      9,
+      10,
       0
     ],
     "Rune Giant": [
@@ -18584,7 +18584,7 @@
     ],
     "Goblin Cage": [
       9,
-      0
+      1
     ],
     "Tombstone": [
       6,
@@ -18599,7 +18599,7 @@
       0
     ],
     "Valkyrie": [
-      8,
+      9,
       0
     ],
     "Goblin Curse": [
@@ -18639,7 +18639,7 @@
       0
     ],
     "Bomb Tower": [
-      7,
+      9,
       0
     ],
     "Wizard": [
@@ -18715,15 +18715,27 @@
       0
     ],
     "Royal Recruits": [
-      7,
+      8,
       0
     ],
     "Royal Giant": [
-      8,
+      9,
       0
     ],
     "Three Musketeers": [
       6,
+      0
+    ],
+    "Royal Hogs": [
+      8,
+      0
+    ],
+    "Ice Spirit": [
+      7,
+      0
+    ],
+    "Freeze": [
+      7,
       0
     ]
   },

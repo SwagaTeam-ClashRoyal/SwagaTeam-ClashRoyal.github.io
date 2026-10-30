@@ -900,7 +900,7 @@
       "tag": "#RVU89Q",
       "name": "Les Dragounets",
       "badgeId": 16000078,
-      "fame": 3500,
+      "fame": 4100,
       "repairPoints": 0,
       "participants": [
         {
@@ -1192,15 +1192,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#2VVU0LYVJ",
-          "name": "canam29",
-          "fame": 500,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#YQ8YQJ8P",
           "name": "<C5>yanisking",
           "fame": 600,
@@ -1230,6 +1221,15 @@
         {
           "tag": "#PCPU00V99",
           "name": "kaaris",
+          "fame": 1100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#2VVU0LYVJ",
+          "name": "canam29",
           "fame": 1100,
           "repairPoints": 0,
           "boatAttacks": 0,
