@@ -1062,5 +1062,27 @@
     "arena": "Summit of Heroes",
     "raw": "Arena_L14",
     "at": "2026-10-30T19:51:13+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#J9Y9Y9YRG",
+    "name": "Sinner",
+    "cards": [
+      {
+        "name": "Baby Dragon",
+        "level": 11
+      },
+      {
+        "name": "Fireball",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T20:46:37+00:00"
+  },
+  {
+    "type": "left",
+    "tag": "#UJ0CY2UPC",
+    "name": "да",
+    "at": "2026-10-30T20:46:37+00:00"
   }
 ]

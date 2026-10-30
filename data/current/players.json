@@ -186,7 +186,7 @@
     "threeCrownWins": 1067,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 34480,
+    "totalDonations": 34506,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1190,12 +1190,12 @@
   },
   "#J9Y9Y9YRG": {
     "expLevel": 1,
-    "trophies": 11790,
+    "trophies": 11816,
     "bestTrophies": 11846,
-    "wins": 1552,
-    "losses": 507,
-    "battleCount": 2059,
-    "threeCrownWins": 484,
+    "wins": 1556,
+    "losses": 509,
+    "battleCount": 2065,
+    "threeCrownWins": 485,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 30,
@@ -1221,6 +1221,13 @@
         "elixirCost": 4,
         "evolved": true,
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
+      },
+      {
+        "name": "Golden Knight",
+        "rarity": "champion",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Royal Ghost",
@@ -1266,11 +1273,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Inferno Dragon",
+      "name": "Lava Hound",
       "rarity": "legendary",
-      "elixirCost": 4,
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/unicRQ975sBY2oLtfgZbAI56ZvaWz7azj-vXTLxc0r8.png"
     }
   },
   "#PL82RPJUJ": {
