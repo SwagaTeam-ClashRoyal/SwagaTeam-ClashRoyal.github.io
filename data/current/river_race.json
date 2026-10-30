@@ -2382,7 +2382,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 3450,
+      "fame": 4050,
       "repairPoints": 0,
       "participants": [
         {
@@ -2647,15 +2647,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#28Q2PLY82",
-          "name": "hefeweizen007",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#2LGJGGG02",
           "name": "ユウキ・ジ・エンド",
           "fame": 0,
@@ -2802,6 +2793,15 @@
         {
           "tag": "#9QGRPU9GQ",
           "name": "량테",
+          "fame": 600,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#28Q2PLY82",
+          "name": "hefeweizen007",
           "fame": 600,
           "repairPoints": 0,
           "boatAttacks": 0,

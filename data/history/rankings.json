@@ -93,9 +93,13 @@
       }
     },
     "local": {
+      "trophies": {
+        "rank": null,
+        "cutoff": 133581
+      },
       "war": {
         "rank": null,
-        "cutoff": 2639
+        "cutoff": 2640
       }
     }
   }
