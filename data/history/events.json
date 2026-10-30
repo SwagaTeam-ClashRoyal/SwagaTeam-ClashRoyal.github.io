@@ -1009,5 +1009,21 @@
       "Goblin Cage"
     ],
     "at": "2026-10-30T14:05:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#28G90Y9JL",
+    "name": "GamerPro",
+    "cards": [
+      {
+        "name": "Wall Breakers",
+        "level": 16
+      },
+      {
+        "name": "Cannon",
+        "level": 15
+      }
+    ],
+    "at": "2026-10-30T17:48:30+00:00"
   }
 ]

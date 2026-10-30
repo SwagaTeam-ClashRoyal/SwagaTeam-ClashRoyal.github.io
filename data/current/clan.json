@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 116795,
+  "clanScore": 116794,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,12 +13,48 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4024,
+  "donationsPerWeek": 4076,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 42,
   "memberList": [
+    {
+      "tag": "#28G90Y9JL",
+      "name": "GamerPro",
+      "role": "member",
+      "lastSeen": "20261030T171506.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 7,
+      "donations": 16,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261030T170422.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 2,
+      "previousClanRank": 4,
+      "donations": 178,
+      "donationsReceived": 200,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#LV0GVYYL8",
       "name": "kkyo",
@@ -31,7 +67,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 3,
       "previousClanRank": 5,
       "donations": 344,
       "donationsReceived": 320,
@@ -49,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 4,
       "previousClanRank": 1,
       "donations": 54,
       "donationsReceived": 0,
@@ -67,7 +103,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 5,
       "previousClanRank": 2,
       "donations": 82,
       "donationsReceived": 0,
@@ -85,10 +121,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 6,
       "previousClanRank": 3,
       "donations": 96,
-      "donationsReceived": 318,
+      "donationsReceived": 320,
       "clanChestPoints": 0
     },
     {
@@ -103,46 +139,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 5,
+      "clanRank": 7,
       "previousClanRank": 6,
       "donations": 156,
       "donationsReceived": 80,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261030T072129.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 6,
-      "previousClanRank": 4,
-      "donations": 178,
-      "donationsReceived": 200,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#28G90Y9JL",
-      "name": "GamerPro",
-      "role": "member",
-      "lastSeen": "20261026T172837.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 7,
-      "previousClanRank": 7,
-      "donations": 16,
-      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -185,7 +185,7 @@
       "tag": "#YQ2VLPJ0L",
       "name": "arch1tector",
       "role": "member",
-      "lastSeen": "20261030T090900.000Z",
+      "lastSeen": "20261030T172355.000Z",
       "expLevel": 0,
       "trophies": 13178,
       "arena": {
@@ -195,8 +195,8 @@
       },
       "clanRank": 10,
       "previousClanRank": 10,
-      "donations": 278,
-      "donationsReceived": 240,
+      "donations": 298,
+      "donationsReceived": 260,
       "clanChestPoints": 0
     },
     {
@@ -329,9 +329,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T161920.000Z",
+      "lastSeen": "20261030T172631.000Z",
       "expLevel": 0,
-      "trophies": 11428,
+      "trophies": 11425,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -339,8 +339,8 @@
       },
       "clanRank": 18,
       "previousClanRank": 17,
-      "donations": 382,
-      "donationsReceived": 340,
+      "donations": 392,
+      "donationsReceived": 360,
       "clanChestPoints": 0
     },
     {
@@ -383,7 +383,7 @@
       "tag": "#PLUQRR22G",
       "name": "ветмо",
       "role": "member",
-      "lastSeen": "20261030T061642.000Z",
+      "lastSeen": "20261030T173029.000Z",
       "expLevel": 0,
       "trophies": 10371,
       "arena": {
@@ -393,7 +393,7 @@
       },
       "clanRank": 21,
       "previousClanRank": 0,
-      "donations": 0,
+      "donations": 22,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -509,7 +509,7 @@
       "tag": "#JU2L2U8LG",
       "name": "адцкий гей",
       "role": "member",
-      "lastSeen": "20261030T102730.000Z",
+      "lastSeen": "20261030T170455.000Z",
       "expLevel": 0,
       "trophies": 9243,
       "arena": {
@@ -754,7 +754,7 @@
       "clanRank": 41,
       "previousClanRank": 39,
       "donations": 278,
-      "donationsReceived": 270,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {

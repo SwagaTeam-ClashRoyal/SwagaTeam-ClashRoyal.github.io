@@ -548,9 +548,9 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 2816,
+    "wins": 2820,
     "losses": 1467,
-    "battleCount": 4283,
+    "battleCount": 4287,
     "threeCrownWins": 1020,
     "warDayWins": 13,
     "clanCardsCollected": 23160,
@@ -629,11 +629,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Goblin Gang",
+      "name": "Knight",
       "rarity": "common",
       "elixirCost": 3,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
     }
   },
   "#UJ0CY2UPC": {
@@ -824,13 +824,13 @@
     "expLevel": 58,
     "trophies": 13178,
     "bestTrophies": 13178,
-    "wins": 2308,
+    "wins": 2311,
     "losses": 1635,
-    "battleCount": 3943,
+    "battleCount": 3946,
     "threeCrownWins": 600,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 30231,
+    "totalDonations": 30251,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -905,11 +905,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Bomb Tower",
+      "name": "Dart Goblin",
       "rarity": "rare",
-      "elixirCost": 4,
+      "elixirCost": 3,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png"
     }
   },
   "#8LRPG2VPQ": {
@@ -1445,15 +1445,15 @@
   },
   "#PQQ2JYL2G": {
     "expLevel": 48,
-    "trophies": 11428,
+    "trophies": 11425,
     "bestTrophies": 11456,
-    "wins": 2215,
-    "losses": 2436,
-    "battleCount": 4651,
+    "wins": 2216,
+    "losses": 2437,
+    "battleCount": 4653,
     "threeCrownWins": 1064,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 12069,
+    "totalDonations": 12079,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2177,8 +2177,8 @@
     "trophies": 9243,
     "bestTrophies": 9243,
     "wins": 1025,
-    "losses": 803,
-    "battleCount": 1828,
+    "losses": 804,
+    "battleCount": 1829,
     "threeCrownWins": 526,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -3671,13 +3671,13 @@
     "expLevel": 55,
     "trophies": 10371,
     "bestTrophies": 10435,
-    "wins": 2903,
-    "losses": 3457,
-    "battleCount": 6360,
-    "threeCrownWins": 1446,
+    "wins": 2904,
+    "losses": 3460,
+    "battleCount": 6364,
+    "threeCrownWins": 1447,
     "warDayWins": 3,
     "clanCardsCollected": 4080,
-    "totalDonations": 18123,
+    "totalDonations": 18145,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -3752,11 +3752,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Fireball",
-      "rarity": "rare",
-      "elixirCost": 4,
+      "name": "Ice Wizard",
+      "rarity": "legendary",
+      "elixirCost": 3,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/W3dkw0HTw9n1jB-zbknY2w3wHuyuLxSRIAV5fUT1SEY.png"
     }
   },
   "#9GVPRJQLL": {
