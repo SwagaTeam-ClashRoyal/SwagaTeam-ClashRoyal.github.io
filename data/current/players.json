@@ -272,10 +272,10 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 11004,
+    "wins": 11005,
     "losses": 10655,
-    "battleCount": 21659,
-    "threeCrownWins": 5591,
+    "battleCount": 21660,
+    "threeCrownWins": 5592,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
     "totalDonations": 138487,
@@ -824,9 +824,9 @@
     "expLevel": 58,
     "trophies": 13178,
     "bestTrophies": 13178,
-    "wins": 2305,
-    "losses": 1632,
-    "battleCount": 3937,
+    "wins": 2308,
+    "losses": 1635,
+    "battleCount": 3943,
     "threeCrownWins": 600,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -905,11 +905,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Barbarian Hut",
+      "name": "Bomb Tower",
       "rarity": "rare",
-      "elixirCost": 6,
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png"
     }
   },
   "#8LRPG2VPQ": {
