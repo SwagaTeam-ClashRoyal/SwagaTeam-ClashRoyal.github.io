@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 114851,
+  "clanScore": 114888,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4252,
+  "donationsPerWeek": 4262,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -34,7 +34,7 @@
       "clanRank": 1,
       "previousClanRank": 5,
       "donations": 370,
-      "donationsReceived": 320,
+      "donationsReceived": 330,
       "clanChestPoints": 0
     },
     {
@@ -200,6 +200,24 @@
       "clanChestPoints": 0
     },
     {
+      "tag": "#9GVPRJQLL",
+      "name": "NovaZonday",
+      "role": "member",
+      "lastSeen": "20261030T204351.000Z",
+      "expLevel": 0,
+      "trophies": 12852,
+      "arena": {
+        "id": 54000142,
+        "name": "Ultimate Clash Pit",
+        "rawName": "Arena_L16"
+      },
+      "clanRank": 11,
+      "previousClanRank": 0,
+      "donations": 56,
+      "donationsReceived": 72,
+      "clanChestPoints": 0
+    },
+    {
       "tag": "#P08LLGYLQ",
       "name": "Luka13",
       "role": "member",
@@ -211,28 +229,10 @@
         "name": "Ultimate Clash Pit",
         "rawName": "Arena_L16"
       },
-      "clanRank": 11,
+      "clanRank": 12,
       "previousClanRank": 12,
       "donations": 0,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#9GVPRJQLL",
-      "name": "NovaZonday",
-      "role": "member",
-      "lastSeen": "20261030T204351.000Z",
-      "expLevel": 0,
-      "trophies": 12704,
-      "arena": {
-        "id": 54000142,
-        "name": "Ultimate Clash Pit",
-        "rawName": "Arena_L16"
-      },
-      "clanRank": 12,
-      "previousClanRank": 0,
-      "donations": 46,
-      "donationsReceived": 72,
       "clanChestPoints": 0
     },
     {
@@ -383,7 +383,7 @@
       "tag": "#222YY9YCC",
       "name": "king abolfazl",
       "role": "member",
-      "lastSeen": "20261029T180125.000Z",
+      "lastSeen": "20261030T204926.000Z",
       "expLevel": 0,
       "trophies": 10125,
       "arena": {
@@ -491,7 +491,7 @@
       "tag": "#JU2L2U8LG",
       "name": "адцкий гей",
       "role": "member",
-      "lastSeen": "20261030T170455.000Z",
+      "lastSeen": "20261030T212903.000Z",
       "expLevel": 0,
       "trophies": 9243,
       "arena": {

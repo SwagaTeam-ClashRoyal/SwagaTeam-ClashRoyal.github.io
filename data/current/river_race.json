@@ -1876,7 +1876,7 @@
       "tag": "#YVCJJJYL",
       "name": "Kaiser Wilhelm",
       "badgeId": 16000080,
-      "fame": 6350,
+      "fame": 7150,
       "repairPoints": 0,
       "participants": [
         {
@@ -1909,6 +1909,15 @@
         {
           "tag": "#V8CRR2YPV",
           "name": "Nor9mal",
+          "fame": 0,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 0,
+          "decksUsedToday": 0
+        },
+        {
+          "tag": "#YYG98QL8L",
+          "name": "Maximus",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -2375,18 +2384,18 @@
           "decksUsedToday": 4
         },
         {
-          "tag": "#U0QY9LJVC",
-          "name": "andyboi",
-          "fame": 800,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#PCRGLCYPG",
           "name": "KingOJ",
           "fame": 1150,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#U0QY9LJVC",
+          "name": "andyboi",
+          "fame": 1600,
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 8,

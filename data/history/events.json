@@ -1084,5 +1084,90 @@
     "tag": "#UJ0CY2UPC",
     "name": "да",
     "at": "2026-10-30T20:46:37+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#9GVPRJQLL",
+    "name": "NovaZonday",
+    "cards": [
+      {
+        "name": "Zappies",
+        "level": 11
+      },
+      {
+        "name": "Clone",
+        "level": 11
+      },
+      {
+        "name": "Sparky",
+        "level": 11
+      },
+      {
+        "name": "Barbarians",
+        "level": 11
+      },
+      {
+        "name": "Lumberjack",
+        "level": 11
+      },
+      {
+        "name": "Tombstone",
+        "level": 11
+      },
+      {
+        "name": "Goblin Curse",
+        "level": 11
+      },
+      {
+        "name": "Ronin",
+        "level": 11
+      },
+      {
+        "name": "Battle Healer",
+        "level": 10
+      },
+      {
+        "name": "Royal Delivery",
+        "level": 10
+      },
+      {
+        "name": "Flying Machine",
+        "level": 10
+      },
+      {
+        "name": "Royal Hogs",
+        "level": 10
+      },
+      {
+        "name": "Minion Horde",
+        "level": 10
+      },
+      {
+        "name": "Goblin Hut",
+        "level": 10
+      },
+      {
+        "name": "Goblin Cage",
+        "level": 10
+      },
+      {
+        "name": "Royal Recruits",
+        "level": 10
+      },
+      {
+        "name": "Goblin Demolisher",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T21:43:51+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#9GVPRJQLL",
+    "name": "NovaZonday",
+    "cards": [
+      "Valkyrie"
+    ],
+    "at": "2026-10-30T21:43:51+00:00"
   }
 ]

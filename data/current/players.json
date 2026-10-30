@@ -2184,8 +2184,8 @@
     "trophies": 9243,
     "bestTrophies": 9243,
     "wins": 1025,
-    "losses": 804,
-    "battleCount": 1829,
+    "losses": 805,
+    "battleCount": 1830,
     "threeCrownWins": 526,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -2264,11 +2264,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Mega Knight",
-      "rarity": "legendary",
-      "elixirCost": 7,
+      "name": "Fireball",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
     }
   },
   "#CJR008LV9": {
@@ -3768,15 +3768,15 @@
   },
   "#9GVPRJQLL": {
     "expLevel": 60,
-    "trophies": 12704,
-    "bestTrophies": 12763,
-    "wins": 1990,
-    "losses": 1647,
-    "battleCount": 3637,
+    "trophies": 12852,
+    "bestTrophies": 12881,
+    "wins": 1997,
+    "losses": 1649,
+    "battleCount": 3646,
     "threeCrownWins": 642,
     "warDayWins": 2,
     "clanCardsCollected": 10990,
-    "totalDonations": 32638,
+    "totalDonations": 32648,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
