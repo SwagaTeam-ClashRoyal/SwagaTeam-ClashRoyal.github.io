@@ -272,13 +272,13 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 11005,
-    "losses": 10657,
-    "battleCount": 21662,
-    "threeCrownWins": 5592,
+    "wins": 11006,
+    "losses": 10659,
+    "battleCount": 21665,
+    "threeCrownWins": 5593,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
-    "totalDonations": 138487,
+    "totalDonations": 138495,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -548,9 +548,9 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 2820,
-    "losses": 1467,
-    "battleCount": 4287,
+    "wins": 2823,
+    "losses": 1469,
+    "battleCount": 4292,
     "threeCrownWins": 1020,
     "warDayWins": 13,
     "clanCardsCollected": 23160,
@@ -1999,13 +1999,13 @@
     "expLevel": 38,
     "trophies": 9617,
     "bestTrophies": 9825,
-    "wins": 2278,
+    "wins": 2279,
     "losses": 2104,
-    "battleCount": 4382,
+    "battleCount": 4383,
     "threeCrownWins": 784,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17467,
+    "totalDonations": 17501,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2080,11 +2080,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Dark Prince",
+      "name": "P.E.K.K.A",
       "rarity": "epic",
-      "elixirCost": 4,
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png"
     }
   },
   "#9RJPRQLL2": {
@@ -3257,15 +3257,15 @@
   },
   "#V0RCP20LR": {
     "expLevel": 58,
-    "trophies": 3199,
+    "trophies": 3201,
     "bestTrophies": 3397,
-    "wins": 3182,
-    "losses": 2780,
-    "battleCount": 5962,
-    "threeCrownWins": 2551,
+    "wins": 3186,
+    "losses": 2786,
+    "battleCount": 5972,
+    "threeCrownWins": 2556,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 20066,
+    "totalDonations": 20100,
     "currentPathOfLegendSeasonResult": null,
     "lastPathOfLegendSeasonResult": null,
     "bestPathOfLegendSeasonResult": null,
@@ -3278,11 +3278,11 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/vD24bBgK4rSq7wx5QEbuqChtPMRFviL_ep76GwQw1yA.png"
       },
       {
-        "name": "Ronin",
+        "name": "Magic Archer",
         "rarity": "legendary",
-        "elixirCost": 5,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/X0dTFs7OGUavreDEzOtYd_YNZ8Zly6qgAE-dd-bNfWU.png"
+        "elixirCost": 4,
+        "evolved": true,
+        "icon": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png"
       },
       {
         "name": "Battle Ram",
@@ -3328,11 +3328,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Giant Skeleton",
-      "rarity": "epic",
+      "name": "Barbarian Hut",
+      "rarity": "rare",
       "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png"
     }
   },
   "#8LJQ29VPG": {
@@ -3509,11 +3509,11 @@
   },
   "#20CY2VYYYY": {
     "expLevel": 1,
-    "trophies": 3788,
-    "bestTrophies": 3788,
-    "wins": 382,
-    "losses": 357,
-    "battleCount": 739,
+    "trophies": 3791,
+    "bestTrophies": 3791,
+    "wins": 383,
+    "losses": 358,
+    "battleCount": 741,
     "threeCrownWins": 177,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -3671,10 +3671,10 @@
     "expLevel": 55,
     "trophies": 10371,
     "bestTrophies": 10435,
-    "wins": 2904,
-    "losses": 3460,
-    "battleCount": 6364,
-    "threeCrownWins": 1447,
+    "wins": 2905,
+    "losses": 3462,
+    "battleCount": 6367,
+    "threeCrownWins": 1448,
     "warDayWins": 3,
     "clanCardsCollected": 4080,
     "totalDonations": 18145,
@@ -3761,11 +3761,11 @@
   },
   "#9GVPRJQLL": {
     "expLevel": 60,
-    "trophies": 12733,
+    "trophies": 12704,
     "bestTrophies": 12763,
     "wins": 1990,
-    "losses": 1646,
-    "battleCount": 3636,
+    "losses": 1647,
+    "battleCount": 3637,
     "threeCrownWins": 642,
     "warDayWins": 2,
     "clanCardsCollected": 10990,

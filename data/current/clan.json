@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 116794,
+  "clanScore": 116789,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4076,
+  "donationsPerWeek": 4152,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -23,7 +23,7 @@
       "tag": "#28G90Y9JL",
       "name": "GamerPro",
       "role": "member",
-      "lastSeen": "20261030T171506.000Z",
+      "lastSeen": "20261030T183855.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -38,10 +38,10 @@
       "clanChestPoints": 0
     },
     {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261030T170422.000Z",
+      "tag": "#9JQ8PCJ",
+      "name": "lastiq",
+      "role": "member",
+      "lastSeen": "20261030T182343.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -50,6 +50,24 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
+      "previousClanRank": 3,
+      "donations": 104,
+      "donationsReceived": 336,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261030T180722.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 3,
       "previousClanRank": 4,
       "donations": 178,
       "donationsReceived": 200,
@@ -67,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 4,
       "previousClanRank": 5,
       "donations": 344,
       "donationsReceived": 320,
@@ -85,7 +103,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 5,
       "previousClanRank": 1,
       "donations": 54,
       "donationsReceived": 0,
@@ -103,28 +121,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 5,
+      "clanRank": 6,
       "previousClanRank": 2,
       "donations": 82,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#9JQ8PCJ",
-      "name": "lastiq",
-      "role": "member",
-      "lastSeen": "20261030T111222.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 6,
-      "previousClanRank": 3,
-      "donations": 96,
-      "donationsReceived": 320,
       "clanChestPoints": 0
     },
     {
@@ -196,7 +196,7 @@
       "clanRank": 10,
       "previousClanRank": 10,
       "donations": 298,
-      "donationsReceived": 260,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {
@@ -239,9 +239,9 @@
       "tag": "#9GVPRJQLL",
       "name": "NovaZonday",
       "role": "member",
-      "lastSeen": "20261030T112140.000Z",
+      "lastSeen": "20261030T181942.000Z",
       "expLevel": 0,
-      "trophies": 12733,
+      "trophies": 12704,
       "arena": {
         "id": 54000142,
         "name": "Ultimate Clash Pit",
@@ -250,7 +250,7 @@
       "clanRank": 13,
       "previousClanRank": 0,
       "donations": 46,
-      "donationsReceived": 40,
+      "donationsReceived": 48,
       "clanChestPoints": 0
     },
     {
@@ -455,7 +455,7 @@
       "tag": "#GQQL9YLYQ",
       "name": "Ter",
       "role": "elder",
-      "lastSeen": "20261029T223522.000Z",
+      "lastSeen": "20261030T183433.000Z",
       "expLevel": 0,
       "trophies": 9617,
       "arena": {
@@ -465,7 +465,7 @@
       },
       "clanRank": 25,
       "previousClanRank": 23,
-      "donations": 253,
+      "donations": 287,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -707,9 +707,9 @@
       "tag": "#20CY2VYYYY",
       "name": "gigiti",
       "role": "member",
-      "lastSeen": "20261030T055134.000Z",
+      "lastSeen": "20261030T184458.000Z",
       "expLevel": 0,
-      "trophies": 3788,
+      "trophies": 3791,
       "arena": {
         "id": 54000024,
         "name": "Electro Valley",
@@ -718,7 +718,7 @@
       "clanRank": 39,
       "previousClanRank": 37,
       "donations": 0,
-      "donationsReceived": 0,
+      "donationsReceived": 24,
       "clanChestPoints": 0
     },
     {
@@ -743,9 +743,9 @@
       "tag": "#V0RCP20LR",
       "name": "подписични черв",
       "role": "elder",
-      "lastSeen": "20261030T133514.000Z",
+      "lastSeen": "20261030T184623.000Z",
       "expLevel": 0,
-      "trophies": 3199,
+      "trophies": 3201,
       "arena": {
         "id": 54000007,
         "name": "Hog Mountain",
@@ -753,8 +753,8 @@
       },
       "clanRank": 41,
       "previousClanRank": 39,
-      "donations": 278,
-      "donationsReceived": 280,
+      "donations": 312,
+      "donationsReceived": 288,
       "clanChestPoints": 0
     },
     {

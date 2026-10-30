@@ -1025,5 +1025,34 @@
       }
     ],
     "at": "2026-10-30T17:48:30+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#9JQ8PCJ",
+    "name": "lastiq",
+    "cards": [
+      "Electro Giant"
+    ],
+    "at": "2026-10-30T18:52:14+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#20CY2VYYYY",
+    "name": "gigiti",
+    "cards": [
+      {
+        "name": "Giant Skeleton",
+        "level": 10
+      },
+      {
+        "name": "Battle Ram",
+        "level": 9
+      },
+      {
+        "name": "Tesla",
+        "level": 8
+      }
+    ],
+    "at": "2026-10-30T18:52:14+00:00"
   }
 ]
