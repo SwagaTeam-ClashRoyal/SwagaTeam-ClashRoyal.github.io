@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 5100,
+    "fame": 5700,
     "repairPoints": 0,
     "participants": [
       {
@@ -161,15 +161,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#9JPPYRL90",
-        "name": "disruption",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#VGVQG0CVG",
         "name": "¿ G1ntex21 ?",
         "fame": 0,
@@ -253,15 +244,6 @@
       {
         "tag": "#UY2UPL2GV",
         "name": "\"Erick\"",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#LV0GVYYL8",
-        "name": "kkyo",
         "fame": 0,
         "repairPoints": 0,
         "boatAttacks": 0,
@@ -503,6 +485,15 @@
         "decksUsedToday": 0
       },
       {
+        "tag": "#9JPPYRL90",
+        "name": "disruption",
+        "fame": 100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 1,
+        "decksUsedToday": 1
+      },
+      {
         "tag": "#22JLP29RV",
         "name": "Kale",
         "fame": 100,
@@ -555,6 +546,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 4
+      },
+      {
+        "tag": "#LV0GVYYL8",
+        "name": "kkyo",
+        "fame": 500,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 2,
+        "decksUsedToday": 2
       },
       {
         "tag": "#9JQ8PCJ",
@@ -1235,7 +1235,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 5100,
+      "fame": 5700,
       "repairPoints": 0,
       "participants": [
         {
@@ -1392,15 +1392,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#9JPPYRL90",
-          "name": "disruption",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#VGVQG0CVG",
           "name": "¿ G1ntex21 ?",
           "fame": 0,
@@ -1484,15 +1475,6 @@
         {
           "tag": "#UY2UPL2GV",
           "name": "\"Erick\"",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#LV0GVYYL8",
-          "name": "kkyo",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -1734,6 +1716,15 @@
           "decksUsedToday": 0
         },
         {
+          "tag": "#9JPPYRL90",
+          "name": "disruption",
+          "fame": 100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
+        },
+        {
           "tag": "#22JLP29RV",
           "name": "Kale",
           "fame": 100,
@@ -1786,6 +1777,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 4
+        },
+        {
+          "tag": "#LV0GVYYL8",
+          "name": "kkyo",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 2,
+          "decksUsedToday": 2
         },
         {
           "tag": "#9JQ8PCJ",

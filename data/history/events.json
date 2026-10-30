@@ -798,5 +798,17 @@
     "tag": "#PLUQRR22G",
     "name": "ветмо",
     "at": "2026-10-30T04:52:35+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#20CY2VYYYY",
+    "name": "gigiti",
+    "cards": [
+      {
+        "name": "Flying Machine",
+        "level": 9
+      }
+    ],
+    "at": "2026-10-30T05:51:14+00:00"
   }
 ]
