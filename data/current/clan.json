@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 116793,
+  "clanScore": 116781,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 3948,
+  "donationsPerWeek": 4014,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 42,
   "memberList": [
+    {
+      "tag": "#LV0GVYYL8",
+      "name": "kkyo",
+      "role": "coLeader",
+      "lastSeen": "20261030T143955.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 5,
+      "donations": 344,
+      "donationsReceived": 320,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#R98U8U290",
       "name": "tenkuu.☁️",
@@ -31,7 +49,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 1,
       "donations": 54,
       "donationsReceived": 0,
@@ -49,28 +67,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 2,
       "donations": 82,
       "donationsReceived": 0,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#LV0GVYYL8",
-      "name": "kkyo",
-      "role": "coLeader",
-      "lastSeen": "20261030T122705.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 3,
-      "previousClanRank": 5,
-      "donations": 324,
-      "donationsReceived": 310,
       "clanChestPoints": 0
     },
     {
@@ -88,7 +88,7 @@
       "clanRank": 4,
       "previousClanRank": 3,
       "donations": 96,
-      "donationsReceived": 310,
+      "donationsReceived": 318,
       "clanChestPoints": 0
     },
     {
@@ -178,7 +178,7 @@
       "clanRank": 9,
       "previousClanRank": 9,
       "donations": 76,
-      "donationsReceived": 140,
+      "donationsReceived": 160,
       "clanChestPoints": 0
     },
     {
@@ -250,7 +250,7 @@
       "clanRank": 13,
       "previousClanRank": 0,
       "donations": 46,
-      "donationsReceived": 38,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -329,9 +329,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T060927.000Z",
+      "lastSeen": "20261030T154920.000Z",
       "expLevel": 0,
-      "trophies": 11428,
+      "trophies": 11368,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -339,8 +339,8 @@
       },
       "clanRank": 18,
       "previousClanRank": 17,
-      "donations": 336,
-      "donationsReceived": 320,
+      "donations": 382,
+      "donationsReceived": 330,
       "clanChestPoints": 0
     },
     {
@@ -664,7 +664,7 @@
       "clanRank": 36,
       "previousClanRank": 34,
       "donations": 68,
-      "donationsReceived": 32,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -725,9 +725,9 @@
       "tag": "#VGVQG0CVG",
       "name": "¿ G1ntex21 ?",
       "role": "member",
-      "lastSeen": "20261030T135850.000Z",
+      "lastSeen": "20261030T140842.000Z",
       "expLevel": 0,
-      "trophies": 3464,
+      "trophies": 3492,
       "arena": {
         "id": 54000024,
         "name": "Electro Valley",
@@ -754,7 +754,7 @@
       "clanRank": 41,
       "previousClanRank": 39,
       "donations": 278,
-      "donationsReceived": 262,
+      "donationsReceived": 270,
       "clanChestPoints": 0
     },
     {

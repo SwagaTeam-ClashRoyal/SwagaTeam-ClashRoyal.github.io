@@ -186,7 +186,7 @@
     "threeCrownWins": 1067,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 34460,
+    "totalDonations": 34480,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1445,15 +1445,15 @@
   },
   "#PQQ2JYL2G": {
     "expLevel": 48,
-    "trophies": 11428,
+    "trophies": 11368,
     "bestTrophies": 11456,
     "wins": 2213,
-    "losses": 2434,
-    "battleCount": 4647,
+    "losses": 2436,
+    "battleCount": 4649,
     "threeCrownWins": 1064,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 12023,
+    "totalDonations": 12069,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -3021,13 +3021,6 @@
         "icon": "https://api-assets.clashroyale.com/cardevolutions/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
       },
       {
-        "name": "Archer Queen",
-        "rarity": "champion",
-        "elixirCost": 5,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/p7OQmOAFTery7zCzlpDdm-LOD1kINTm42AwIHchZfWk.png"
-      },
-      {
         "name": "Valkyrie",
         "rarity": "rare",
         "elixirCost": 4,
@@ -3436,12 +3429,12 @@
   },
   "#VGVQG0CVG": {
     "expLevel": 3,
-    "trophies": 3464,
+    "trophies": 3492,
     "bestTrophies": 3526,
-    "wins": 246,
-    "losses": 218,
-    "battleCount": 464,
-    "threeCrownWins": 155,
+    "wins": 248,
+    "losses": 220,
+    "battleCount": 468,
+    "threeCrownWins": 156,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 66,
