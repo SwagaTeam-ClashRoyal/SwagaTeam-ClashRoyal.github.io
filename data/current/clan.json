@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 116789,
+  "clanScore": 116812,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4152,
+  "donationsPerWeek": 4226,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -23,7 +23,7 @@
       "tag": "#28G90Y9JL",
       "name": "GamerPro",
       "role": "member",
-      "lastSeen": "20261030T183855.000Z",
+      "lastSeen": "20261030T193023.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -38,6 +38,24 @@
       "clanChestPoints": 0
     },
     {
+      "tag": "#CGPUY8P2",
+      "name": "BIG BOY",
+      "role": "elder",
+      "lastSeen": "20261030T192249.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 2,
+      "previousClanRank": 4,
+      "donations": 210,
+      "donationsReceived": 210,
+      "clanChestPoints": 0
+    },
+    {
       "tag": "#9JQ8PCJ",
       "name": "lastiq",
       "role": "member",
@@ -49,28 +67,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 3,
       "donations": 104,
-      "donationsReceived": 336,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#CGPUY8P2",
-      "name": "BIG BOY",
-      "role": "elder",
-      "lastSeen": "20261030T180722.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 3,
-      "previousClanRank": 4,
-      "donations": 178,
-      "donationsReceived": 200,
+      "donationsReceived": 352,
       "clanChestPoints": 0
     },
     {
@@ -250,7 +250,7 @@
       "clanRank": 13,
       "previousClanRank": 0,
       "donations": 46,
-      "donationsReceived": 48,
+      "donationsReceived": 64,
       "clanChestPoints": 0
     },
     {
@@ -329,17 +329,17 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T172631.000Z",
+      "lastSeen": "20261030T193538.000Z",
       "expLevel": 0,
-      "trophies": 11425,
+      "trophies": 11512,
       "arena": {
-        "id": 54000131,
-        "name": "Musketeer Street",
-        "rawName": "Arena_L13"
+        "id": 54000132,
+        "name": "Summit of Heroes",
+        "rawName": "Arena_L14"
       },
       "clanRank": 18,
       "previousClanRank": 17,
-      "donations": 392,
+      "donations": 434,
       "donationsReceived": 360,
       "clanChestPoints": 0
     },
@@ -383,7 +383,7 @@
       "tag": "#PLUQRR22G",
       "name": "ветмо",
       "role": "member",
-      "lastSeen": "20261030T173029.000Z",
+      "lastSeen": "20261030T185245.000Z",
       "expLevel": 0,
       "trophies": 10371,
       "arena": {
@@ -707,18 +707,18 @@
       "tag": "#20CY2VYYYY",
       "name": "gigiti",
       "role": "member",
-      "lastSeen": "20261030T184458.000Z",
+      "lastSeen": "20261030T190752.000Z",
       "expLevel": 0,
-      "trophies": 3791,
+      "trophies": 3803,
       "arena": {
-        "id": 54000024,
-        "name": "Electro Valley",
-        "rawName": "Arena_Electric"
+        "id": 54000011,
+        "name": "Spooky Town",
+        "rawName": "Arena_T"
       },
       "clanRank": 39,
       "previousClanRank": 37,
       "donations": 0,
-      "donationsReceived": 24,
+      "donationsReceived": 40,
       "clanChestPoints": 0
     },
     {
@@ -754,7 +754,7 @@
       "clanRank": 41,
       "previousClanRank": 39,
       "donations": 312,
-      "donationsReceived": 288,
+      "donationsReceived": 304,
       "clanChestPoints": 0
     },
     {
