@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 5900,
+    "fame": 6350,
     "repairPoints": 0,
     "participants": [
       {
@@ -251,15 +251,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#JU2L2U8LG",
-        "name": "адцкий гей",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#PG2Q892U2",
         "name": "Galars",
         "fame": 0,
@@ -476,6 +467,15 @@
         "decksUsedToday": 0
       },
       {
+        "tag": "#9GVPRJQLL",
+        "name": "NovaZonday",
+        "fame": 0,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 0,
+        "decksUsedToday": 0
+      },
+      {
         "tag": "#9JPPYRL90",
         "name": "disruption",
         "fame": 100,
@@ -528,6 +528,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#JU2L2U8LG",
+        "name": "адцкий гей",
+        "fame": 450,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 3,
+        "decksUsedToday": 3
       },
       {
         "tag": "#PQQ2JYL2G",
@@ -1235,7 +1244,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 5900,
+      "fame": 6350,
       "repairPoints": 0,
       "participants": [
         {
@@ -1482,15 +1491,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#JU2L2U8LG",
-          "name": "адцкий гей",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#PG2Q892U2",
           "name": "Galars",
           "fame": 0,
@@ -1707,6 +1707,15 @@
           "decksUsedToday": 0
         },
         {
+          "tag": "#9GVPRJQLL",
+          "name": "NovaZonday",
+          "fame": 0,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 0,
+          "decksUsedToday": 0
+        },
+        {
           "tag": "#9JPPYRL90",
           "name": "disruption",
           "fame": 100,
@@ -1759,6 +1768,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#JU2L2U8LG",
+          "name": "адцкий гей",
+          "fame": 450,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 3,
+          "decksUsedToday": 3
         },
         {
           "tag": "#PQQ2JYL2G",
@@ -2382,7 +2400,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 4050,
+      "fame": 4850,
       "repairPoints": 0,
       "participants": [
         {
@@ -2829,11 +2847,11 @@
         {
           "tag": "#YVJQ0RGGQ",
           "name": "モモ",
-          "fame": 900,
+          "fame": 1700,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
+          "decksUsed": 8,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,

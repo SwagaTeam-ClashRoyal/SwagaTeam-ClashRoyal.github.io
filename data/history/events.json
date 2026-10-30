@@ -867,5 +867,23 @@
       }
     ],
     "at": "2026-10-30T07:00:09+00:00"
+  },
+  {
+    "type": "joined",
+    "tag": "#9GVPRJQLL",
+    "name": "NovaZonday",
+    "at": "2026-10-30T10:52:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#GQP92GLC8",
+    "name": "Adawell",
+    "cards": [
+      {
+        "name": "Tornado",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T10:52:09+00:00"
   }
 ]

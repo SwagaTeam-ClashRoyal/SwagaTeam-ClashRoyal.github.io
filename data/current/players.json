@@ -922,7 +922,7 @@
     "threeCrownWins": 1173,
     "warDayWins": 0,
     "clanCardsCollected": 460,
-    "totalDonations": 14757,
+    "totalDonations": 14809,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -1100,9 +1100,9 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3543,
-    "losses": 3009,
-    "battleCount": 6552,
+    "wins": 3550,
+    "losses": 3012,
+    "battleCount": 6562,
     "threeCrownWins": 2407,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -1181,11 +1181,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Night Witch",
-      "rarity": "legendary",
+      "name": "Musketeer",
+      "rarity": "rare",
       "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/NpCrXDEDBBJgNv9QrBAcJmmMFbS7pe3KCY8xJ5VB18A.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -2176,13 +2176,13 @@
     "expLevel": 40,
     "trophies": 9243,
     "bestTrophies": 9243,
-    "wins": 1024,
-    "losses": 801,
-    "battleCount": 1825,
+    "wins": 1025,
+    "losses": 803,
+    "battleCount": 1828,
     "threeCrownWins": 526,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 3219,
+    "totalDonations": 3237,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2353,9 +2353,9 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2594,
+    "wins": 2595,
     "losses": 2776,
-    "battleCount": 5370,
+    "battleCount": 5371,
     "threeCrownWins": 1628,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
@@ -2989,7 +2989,7 @@
     "threeCrownWins": 389,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 527,
+    "totalDonations": 535,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -3757,6 +3757,98 @@
       "elixirCost": 4,
       "evolved": false,
       "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+    }
+  },
+  "#9GVPRJQLL": {
+    "expLevel": 60,
+    "trophies": 12708,
+    "bestTrophies": 12737,
+    "wins": 1986,
+    "losses": 1643,
+    "battleCount": 3629,
+    "threeCrownWins": 642,
+    "warDayWins": 2,
+    "clanCardsCollected": 10990,
+    "totalDonations": 32620,
+    "currentPathOfLegendSeasonResult": {
+      "leagueNumber": 1,
+      "trophies": 0,
+      "rank": null
+    },
+    "lastPathOfLegendSeasonResult": {
+      "leagueNumber": 1,
+      "trophies": 0,
+      "rank": null
+    },
+    "bestPathOfLegendSeasonResult": {
+      "leagueNumber": 1,
+      "trophies": 0,
+      "rank": null
+    },
+    "currentDeck": [
+      {
+        "name": "Ice Spirit",
+        "rarity": "common",
+        "elixirCost": 1,
+        "evolved": true,
+        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png"
+      },
+      {
+        "name": "Dark Prince",
+        "rarity": "epic",
+        "elixirCost": 4,
+        "evolved": true,
+        "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
+      },
+      {
+        "name": "Tesla",
+        "rarity": "common",
+        "elixirCost": 4,
+        "evolved": true,
+        "icon": "https://api-assets.clashroyale.com/cardevolutions/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
+      },
+      {
+        "name": "Golem",
+        "rarity": "epic",
+        "elixirCost": 8,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png"
+      },
+      {
+        "name": "Goblin Gang",
+        "rarity": "common",
+        "elixirCost": 3,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
+      },
+      {
+        "name": "Fireball",
+        "rarity": "rare",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+      },
+      {
+        "name": "Electro Wizard",
+        "rarity": "legendary",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png"
+      },
+      {
+        "name": "The Log",
+        "rarity": "legendary",
+        "elixirCost": 2,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
+      }
+    ],
+    "currentFavouriteCard": {
+      "name": "Dark Prince",
+      "rarity": "epic",
+      "elixirCost": 4,
+      "evolved": false,
+      "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
     }
   }
 }
