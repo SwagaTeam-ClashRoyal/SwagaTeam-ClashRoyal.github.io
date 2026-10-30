@@ -921,11 +921,11 @@
   },
   "#8LRPG2VPQ": {
     "expLevel": 43,
-    "trophies": 13120,
-    "bestTrophies": 13146,
-    "wins": 2344,
-    "losses": 2040,
-    "battleCount": 4384,
+    "trophies": 13177,
+    "bestTrophies": 13177,
+    "wins": 2347,
+    "losses": 2044,
+    "battleCount": 4391,
     "threeCrownWins": 1172,
     "warDayWins": 0,
     "clanCardsCollected": 460,
@@ -1004,11 +1004,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Mega Knight",
-      "rarity": "legendary",
-      "elixirCost": 7,
+      "name": "Elite Barbarians",
+      "rarity": "common",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
     }
   },
   "#P08LLGYLQ": {
