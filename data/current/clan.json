@@ -13,12 +13,30 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4378,
+  "donationsPerWeek": 4434,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 41,
   "memberList": [
+    {
+      "tag": "#R98U8U290",
+      "name": "tenkuu.☁️",
+      "role": "member",
+      "lastSeen": "20261030T231438.000Z",
+      "expLevel": 0,
+      "trophies": 14000,
+      "arena": {
+        "id": 54000144,
+        "name": "Spirit Square",
+        "rawName": "Arena_L18"
+      },
+      "clanRank": 1,
+      "previousClanRank": 1,
+      "donations": 100,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
     {
       "tag": "#LV0GVYYL8",
       "name": "kkyo",
@@ -31,10 +49,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 1,
+      "clanRank": 2,
       "previousClanRank": 5,
       "donations": 370,
-      "donationsReceived": 350,
+      "donationsReceived": 360,
       "clanChestPoints": 0
     },
     {
@@ -49,7 +67,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 2,
+      "clanRank": 3,
       "previousClanRank": 7,
       "donations": 16,
       "donationsReceived": 40,
@@ -67,7 +85,7 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 3,
+      "clanRank": 4,
       "previousClanRank": 4,
       "donations": 210,
       "donationsReceived": 240,
@@ -85,28 +103,10 @@
         "name": "Spirit Square",
         "rawName": "Arena_L18"
       },
-      "clanRank": 4,
+      "clanRank": 5,
       "previousClanRank": 3,
       "donations": 104,
       "donationsReceived": 360,
-      "clanChestPoints": 0
-    },
-    {
-      "tag": "#R98U8U290",
-      "name": "tenkuu.☁️",
-      "role": "member",
-      "lastSeen": "20261030T135001.000Z",
-      "expLevel": 0,
-      "trophies": 14000,
-      "arena": {
-        "id": 54000144,
-        "name": "Spirit Square",
-        "rawName": "Arena_L18"
-      },
-      "clanRank": 5,
-      "previousClanRank": 1,
-      "donations": 54,
-      "donationsReceived": 0,
       "clanChestPoints": 0
     },
     {
@@ -196,7 +196,7 @@
       "clanRank": 10,
       "previousClanRank": 11,
       "donations": 416,
-      "donationsReceived": 48,
+      "donationsReceived": 56,
       "clanChestPoints": 0
     },
     {
@@ -268,7 +268,7 @@
       "clanRank": 14,
       "previousClanRank": 14,
       "donations": 10,
-      "donationsReceived": 128,
+      "donationsReceived": 136,
       "clanChestPoints": 0
     },
     {
@@ -394,7 +394,7 @@
       "clanRank": 21,
       "previousClanRank": 20,
       "donations": 0,
-      "donationsReceived": 210,
+      "donationsReceived": 230,
       "clanChestPoints": 0
     },
     {
@@ -465,8 +465,8 @@
       },
       "clanRank": 25,
       "previousClanRank": 24,
-      "donations": 444,
-      "donationsReceived": 410,
+      "donations": 454,
+      "donationsReceived": 420,
       "clanChestPoints": 0
     },
     {
