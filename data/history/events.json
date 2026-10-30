@@ -810,5 +810,62 @@
       }
     ],
     "at": "2026-10-30T05:51:14+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#Q2RJCVYUQ",
+    "name": "NEVIDIMKA YT",
+    "cards": [
+      {
+        "name": "X-Bow",
+        "level": 13
+      }
+    ],
+    "at": "2026-10-30T07:00:09+00:00"
+  },
+  {
+    "type": "arena",
+    "tag": "#CJR008LV9",
+    "name": "cook",
+    "arena": "Legendary Arena",
+    "raw": "Arena_L10",
+    "at": "2026-10-30T07:00:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#9JPPYRL90",
+    "name": "disruption",
+    "cards": [
+      {
+        "name": "Barbarians",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T07:00:09+00:00"
+  },
+  {
+    "type": "evolution",
+    "tag": "#9JPPYRL90",
+    "name": "disruption",
+    "cards": [
+      "Dart Goblin"
+    ],
+    "at": "2026-10-30T07:00:09+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#20CY2VYYYY",
+    "name": "gigiti",
+    "cards": [
+      {
+        "name": "Mini P.E.K.K.A",
+        "level": 10
+      },
+      {
+        "name": "Hog Rider",
+        "level": 10
+      }
+    ],
+    "at": "2026-10-30T07:00:09+00:00"
   }
 ]

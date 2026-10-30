@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 115311,
+  "clanScore": 115337,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,17 +13,17 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 3518,
+  "donationsPerWeek": 3600,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
   "members": 41,
   "memberList": [
     {
-      "tag": "#LV0GVYYL8",
-      "name": "kkyo",
-      "role": "coLeader",
-      "lastSeen": "20261030T052109.000Z",
+      "tag": "#QP0PPC0QU",
+      "name": "pshkzzz",
+      "role": "elder",
+      "lastSeen": "20261030T063114.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -32,16 +32,16 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 1,
-      "previousClanRank": 4,
-      "donations": 266,
-      "donationsReceived": 260,
+      "previousClanRank": 5,
+      "donations": 156,
+      "donationsReceived": 80,
       "clanChestPoints": 0
     },
     {
-      "tag": "#QP0PPC0QU",
-      "name": "pshkzzz",
-      "role": "elder",
-      "lastSeen": "20261030T015202.000Z",
+      "tag": "#LV0GVYYL8",
+      "name": "kkyo",
+      "role": "coLeader",
+      "lastSeen": "20261030T063025.000Z",
       "expLevel": 0,
       "trophies": 14000,
       "arena": {
@@ -50,9 +50,9 @@
         "rawName": "Arena_L18"
       },
       "clanRank": 2,
-      "previousClanRank": 5,
-      "donations": 156,
-      "donationsReceived": 80,
+      "previousClanRank": 4,
+      "donations": 284,
+      "donationsReceived": 270,
       "clanChestPoints": 0
     },
     {
@@ -239,7 +239,7 @@
       "tag": "#Q2RJCVYUQ",
       "name": "NEVIDIMKA YT",
       "role": "member",
-      "lastSeen": "20261030T053842.000Z",
+      "lastSeen": "20261030T064039.000Z",
       "expLevel": 0,
       "trophies": 12150,
       "arena": {
@@ -249,7 +249,7 @@
       },
       "clanRank": 13,
       "previousClanRank": 13,
-      "donations": 0,
+      "donations": 28,
       "donationsReceived": 0,
       "clanChestPoints": 0
     },
@@ -311,9 +311,9 @@
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T051747.000Z",
+      "lastSeen": "20261030T060927.000Z",
       "expLevel": 0,
-      "trophies": 11399,
+      "trophies": 11428,
       "arena": {
         "id": 54000131,
         "name": "Musketeer Street",
@@ -322,7 +322,7 @@
       "clanRank": 17,
       "previousClanRank": 17,
       "donations": 336,
-      "donationsReceived": 300,
+      "donationsReceived": 310,
       "clanChestPoints": 0
     },
     {
@@ -365,7 +365,7 @@
       "tag": "#PLUQRR22G",
       "name": "ветмо",
       "role": "member",
-      "lastSeen": "20261030T052559.000Z",
+      "lastSeen": "20261030T061642.000Z",
       "expLevel": 0,
       "trophies": 10371,
       "arena": {
@@ -430,7 +430,7 @@
       "clanRank": 23,
       "previousClanRank": 22,
       "donations": 56,
-      "donationsReceived": 104,
+      "donationsReceived": 112,
       "clanChestPoints": 0
     },
     {
@@ -455,7 +455,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261029T222755.000Z",
+      "lastSeen": "20261030T064549.000Z",
       "expLevel": 0,
       "trophies": 9562,
       "arena": {
@@ -465,7 +465,7 @@
       },
       "clanRank": 25,
       "previousClanRank": 24,
-      "donations": 348,
+      "donations": 384,
       "donationsReceived": 360,
       "clanChestPoints": 0
     },
@@ -475,16 +475,16 @@
       "role": "member",
       "lastSeen": "20261030T044215.000Z",
       "expLevel": 0,
-      "trophies": 9495,
+      "trophies": 9528,
       "arena": {
-        "id": 54000020,
-        "name": "Valkalla",
-        "rawName": "Arena_L9"
+        "id": 54000031,
+        "name": "Legendary Arena",
+        "rawName": "Arena_L10"
       },
       "clanRank": 26,
       "previousClanRank": 25,
       "donations": 448,
-      "donationsReceived": 288,
+      "donationsReceived": 312,
       "clanChestPoints": 0
     },
     {
@@ -565,7 +565,7 @@
       "role": "member",
       "lastSeen": "20261030T054609.000Z",
       "expLevel": 0,
-      "trophies": 8236,
+      "trophies": 8264,
       "arena": {
         "id": 54000018,
         "name": "Clash Fest",
@@ -574,7 +574,7 @@
       "clanRank": 31,
       "previousClanRank": 30,
       "donations": 42,
-      "donationsReceived": 50,
+      "donationsReceived": 80,
       "clanChestPoints": 0
     },
     {
@@ -689,9 +689,9 @@
       "tag": "#20CY2VYYYY",
       "name": "gigiti",
       "role": "member",
-      "lastSeen": "20261030T052805.000Z",
+      "lastSeen": "20261030T055134.000Z",
       "expLevel": 0,
-      "trophies": 3670,
+      "trophies": 3788,
       "arena": {
         "id": 54000024,
         "name": "Electro Valley",
