@@ -1914,10 +1914,10 @@
     "expLevel": 42,
     "trophies": 9821,
     "bestTrophies": 9822,
-    "wins": 1733,
-    "losses": 1515,
-    "battleCount": 3248,
-    "threeCrownWins": 429,
+    "wins": 1735,
+    "losses": 1517,
+    "battleCount": 3252,
+    "threeCrownWins": 431,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 2938,
@@ -1995,11 +1995,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Golden Knight",
-      "rarity": "champion",
-      "elixirCost": 4,
+      "name": "Elite Barbarians",
+      "rarity": "common",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
     }
   },
   "#GQQL9YLYQ": {
