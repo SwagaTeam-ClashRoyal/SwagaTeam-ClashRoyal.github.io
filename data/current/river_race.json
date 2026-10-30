@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 7250,
+    "fame": 7850,
     "repairPoints": 0,
     "participants": [
       {
@@ -566,15 +566,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#U0QJL29PY",
-        "name": "egor",
-        "fame": 500,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 4,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#8LRPG2VPQ",
         "name": "CHLE N EGRA",
         "fame": 500,
@@ -609,6 +600,15 @@
         "boatAttacks": 0,
         "decksUsed": 6,
         "decksUsedToday": 2
+      },
+      {
+        "tag": "#U0QJL29PY",
+        "name": "egor",
+        "fame": 1100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 8,
+        "decksUsedToday": 4
       },
       {
         "tag": "#VJQQLCJP8",
@@ -900,7 +900,7 @@
       "tag": "#RVU89Q",
       "name": "Les Dragounets",
       "badgeId": 16000078,
-      "fame": 3400,
+      "fame": 3500,
       "repairPoints": 0,
       "participants": [
         {
@@ -1230,11 +1230,11 @@
         {
           "tag": "#PCPU00V99",
           "name": "kaaris",
-          "fame": 1000,
+          "fame": 1100,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 7,
-          "decksUsedToday": 3
+          "decksUsed": 8,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,
@@ -1244,7 +1244,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 7250,
+      "fame": 7850,
       "repairPoints": 0,
       "participants": [
         {
@@ -1806,15 +1806,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#U0QJL29PY",
-          "name": "egor",
-          "fame": 500,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#8LRPG2VPQ",
           "name": "CHLE N EGRA",
           "fame": 500,
@@ -1851,6 +1842,15 @@
           "decksUsedToday": 2
         },
         {
+          "tag": "#U0QJL29PY",
+          "name": "egor",
+          "fame": 1100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
+        },
+        {
           "tag": "#VJQQLCJP8",
           "name": "Генри lll",
           "fame": 1200,
@@ -1867,7 +1867,7 @@
       "tag": "#YVCJJJYL",
       "name": "Kaiser Wilhelm",
       "badgeId": 16000080,
-      "fame": 3900,
+      "fame": 4100,
       "repairPoints": 0,
       "participants": [
         {
@@ -2132,15 +2132,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#YV92QVLCY",
-          "name": "elyar",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#2LRV8P2VQ",
           "name": "El_Romannno",
           "fame": 0,
@@ -2337,6 +2328,15 @@
           "boatAttacks": 0,
           "decksUsed": 1,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#YV92QVLCY",
+          "name": "elyar",
+          "fame": 200,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
         },
         {
           "tag": "#RVQ8V0RYU",

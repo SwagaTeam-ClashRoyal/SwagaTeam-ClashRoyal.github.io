@@ -16675,7 +16675,7 @@
       0
     ],
     "Night Witch": [
-      10,
+      11,
       0
     ],
     "Spirit Empress": [
@@ -18591,7 +18591,7 @@
       0
     ],
     "Skeletons": [
-      8,
+      10,
       1
     ],
     "Spear Goblins": [
@@ -18716,6 +18716,14 @@
     ],
     "Royal Recruits": [
       7,
+      0
+    ],
+    "Royal Giant": [
+      8,
+      0
+    ],
+    "Three Musketeers": [
+      6,
       0
     ]
   },
