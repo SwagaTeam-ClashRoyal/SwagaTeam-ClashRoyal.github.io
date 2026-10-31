@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 10600,
+    "fame": 11000,
     "repairPoints": 0,
     "participants": [
       {
@@ -512,15 +512,6 @@
         "decksUsedToday": 1
       },
       {
-        "tag": "#222YY9YCC",
-        "name": "king abolfazl",
-        "fame": 400,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 4,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#JU2L2U8LG",
         "name": "адцкий гей",
         "fame": 450,
@@ -582,6 +573,15 @@
         "boatAttacks": 0,
         "decksUsed": 3,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#222YY9YCC",
+        "name": "king abolfazl",
+        "fame": 800,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 7,
+        "decksUsedToday": 3
       },
       {
         "tag": "#9JQ8PCJ",
@@ -1262,7 +1262,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 10600,
+      "fame": 11000,
       "repairPoints": 0,
       "participants": [
         {
@@ -1770,15 +1770,6 @@
           "decksUsedToday": 1
         },
         {
-          "tag": "#222YY9YCC",
-          "name": "king abolfazl",
-          "fame": 400,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#JU2L2U8LG",
           "name": "адцкий гей",
           "fame": 450,
@@ -1840,6 +1831,15 @@
           "boatAttacks": 0,
           "decksUsed": 3,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#222YY9YCC",
+          "name": "king abolfazl",
+          "fame": 800,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 7,
+          "decksUsedToday": 3
         },
         {
           "tag": "#9JQ8PCJ",
