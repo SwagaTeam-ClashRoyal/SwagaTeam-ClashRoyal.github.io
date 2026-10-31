@@ -4,21 +4,12 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 10500,
+    "fame": 10600,
     "repairPoints": 0,
     "participants": [
       {
         "tag": "#LGQC0JPLU",
         "name": "am012",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
-        "tag": "#29GJQ0G9Q",
-        "name": "✨R_U_B_I_N✨",
         "fame": 0,
         "repairPoints": 0,
         "boatAttacks": 0,
@@ -465,6 +456,15 @@
         "boatAttacks": 0,
         "decksUsed": 0,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#29GJQ0G9Q",
+        "name": "✨R_U_B_I_N✨",
+        "fame": 100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 1,
+        "decksUsedToday": 1
       },
       {
         "tag": "#9JPPYRL90",
@@ -1262,21 +1262,12 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 10500,
+      "fame": 10600,
       "repairPoints": 0,
       "participants": [
         {
           "tag": "#LGQC0JPLU",
           "name": "am012",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#29GJQ0G9Q",
-          "name": "✨R_U_B_I_N✨",
           "fame": 0,
           "repairPoints": 0,
           "boatAttacks": 0,
@@ -1723,6 +1714,15 @@
           "boatAttacks": 0,
           "decksUsed": 0,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#29GJQ0G9Q",
+          "name": "✨R_U_B_I_N✨",
+          "fame": 100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
         },
         {
           "tag": "#9JPPYRL90",
@@ -2436,7 +2436,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 6800,
+      "fame": 7000,
       "repairPoints": 0,
       "participants": [
         {
@@ -2847,11 +2847,11 @@
         {
           "tag": "#28Q2PLY82",
           "name": "hefeweizen007",
-          "fame": 600,
+          "fame": 800,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
+          "decksUsed": 5,
+          "decksUsedToday": 1
         },
         {
           "tag": "#YUUPVJULY",

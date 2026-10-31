@@ -95,13 +95,13 @@
     "expLevel": 69,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 3689,
+    "wins": 3691,
     "losses": 2064,
-    "battleCount": 5753,
+    "battleCount": 5755,
     "threeCrownWins": 1073,
     "warDayWins": 30,
     "clanCardsCollected": 92376,
-    "totalDonations": 40726,
+    "totalDonations": 40768,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 5,
       "trophies": 0,
@@ -176,11 +176,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Princess",
-      "rarity": "legendary",
-      "elixirCost": 3,
+      "name": "Valkyrie",
+      "rarity": "rare",
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
     }
   },
   "#LV0GVYYL8": {
@@ -1015,9 +1015,9 @@
     "expLevel": 56,
     "trophies": 12774,
     "bestTrophies": 12780,
-    "wins": 3289,
+    "wins": 3292,
     "losses": 1832,
-    "battleCount": 5121,
+    "battleCount": 5124,
     "threeCrownWins": 1199,
     "warDayWins": 19,
     "clanCardsCollected": 45839,
@@ -1107,10 +1107,10 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3565,
+    "wins": 3566,
     "losses": 3015,
-    "battleCount": 6580,
-    "threeCrownWins": 2410,
+    "battleCount": 6581,
+    "threeCrownWins": 2411,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 22353,
@@ -1136,6 +1136,13 @@
         "elixirCost": 7,
         "evolved": false,
         "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+      },
+      {
+        "name": "Golden Knight",
+        "rarity": "champion",
+        "elixirCost": 4,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Battle Ram",
@@ -1181,11 +1188,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Musketeer",
-      "rarity": "rare",
+      "name": "Rune Giant",
+      "rarity": "epic",
       "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/UogMnGHQXT-TOVXRxslKdAKXUPhqUvrD_hV9x8lbzdE.png"
     }
   },
   "#J9Y9Y9YRG": {
@@ -1363,12 +1370,12 @@
     "trophies": 11523,
     "bestTrophies": 11523,
     "wins": 3637,
-    "losses": 2820,
-    "battleCount": 6457,
+    "losses": 2821,
+    "battleCount": 6458,
     "threeCrownWins": 2721,
     "warDayWins": 87,
     "clanCardsCollected": 215555,
-    "totalDonations": 72701,
+    "totalDonations": 72717,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2353,10 +2360,10 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2598,
-    "losses": 2779,
-    "battleCount": 5377,
-    "threeCrownWins": 1629,
+    "wins": 2603,
+    "losses": 2785,
+    "battleCount": 5388,
+    "threeCrownWins": 1631,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
     "totalDonations": 26159,
@@ -2434,11 +2441,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Electro Giant",
+      "name": "Balloon",
       "rarity": "epic",
-      "elixirCost": 7,
+      "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
     }
   },
   "#LGQC0JPLU": {
