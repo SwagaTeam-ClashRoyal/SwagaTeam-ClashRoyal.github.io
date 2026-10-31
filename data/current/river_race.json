@@ -422,6 +422,15 @@
         "decksUsedToday": 0
       },
       {
+        "tag": "#RYRY0V89G",
+        "name": "Клэшер",
+        "fame": 0,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 0,
+        "decksUsedToday": 0
+      },
+      {
         "tag": "#J9Y9Y9YRG",
         "name": "Sinner",
         "fame": 0,
@@ -1671,6 +1680,15 @@
           "decksUsedToday": 0
         },
         {
+          "tag": "#RYRY0V89G",
+          "name": "Клэшер",
+          "fame": 0,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 0,
+          "decksUsedToday": 0
+        },
+        {
           "tag": "#J9Y9Y9YRG",
           "name": "Sinner",
           "fame": 0,
@@ -1876,7 +1894,7 @@
       "tag": "#YVCJJJYL",
       "name": "Kaiser Wilhelm",
       "badgeId": 16000080,
-      "fame": 7150,
+      "fame": 7550,
       "repairPoints": 0,
       "participants": [
         {
@@ -2330,15 +2348,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#RYUU099CV",
-          "name": "Jayce",
-          "fame": 100,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 1,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#YV92QVLCY",
           "name": "elyar",
           "fame": 200,
@@ -2364,6 +2373,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#RYUU099CV",
+          "name": "Jayce",
+          "fame": 500,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 3,
+          "decksUsedToday": 2
         },
         {
           "tag": "#20RRUU8J0U",
