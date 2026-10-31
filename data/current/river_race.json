@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 12150,
+    "fame": 12250,
     "repairPoints": 0,
     "participants": [
       {
@@ -359,15 +359,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#PL82RPJUJ",
-        "name": ")))",
-        "fame": 0,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 0,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#VPUY80L2L",
         "name": "❤️L❤️A❤️",
         "fame": 0,
@@ -483,6 +474,15 @@
         "boatAttacks": 0,
         "decksUsed": 1,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#PL82RPJUJ",
+        "name": ")))",
+        "fame": 100,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 1,
+        "decksUsedToday": 1
       },
       {
         "tag": "#CJR008LV9",
@@ -909,7 +909,7 @@
       "tag": "#RVU89Q",
       "name": "Les Dragounets",
       "badgeId": 16000078,
-      "fame": 6300,
+      "fame": 7100,
       "repairPoints": 0,
       "participants": [
         {
@@ -1212,20 +1212,11 @@
         {
           "tag": "#YQ8YQJ8P",
           "name": "<C5>yanisking",
-          "fame": 800,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
-          "tag": "#PCPU00V99",
-          "name": "kaaris",
           "fame": 1100,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 8,
-          "decksUsedToday": 0
+          "decksUsed": 6,
+          "decksUsedToday": 2
         },
         {
           "tag": "#2VVU0LYVJ",
@@ -1246,6 +1237,15 @@
           "decksUsedToday": 0
         },
         {
+          "tag": "#PCPU00V99",
+          "name": "kaaris",
+          "fame": 1600,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 12,
+          "decksUsedToday": 4
+        },
+        {
           "tag": "#209P80JQLQ",
           "name": "philippo17",
           "fame": 1900,
@@ -1262,7 +1262,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 12150,
+      "fame": 12250,
       "repairPoints": 0,
       "participants": [
         {
@@ -1617,15 +1617,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#PL82RPJUJ",
-          "name": ")))",
-          "fame": 0,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 0,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#VPUY80L2L",
           "name": "❤️L❤️A❤️",
           "fame": 0,
@@ -1741,6 +1732,15 @@
           "boatAttacks": 0,
           "decksUsed": 1,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#PL82RPJUJ",
+          "name": ")))",
+          "fame": 100,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 1,
+          "decksUsedToday": 1
         },
         {
           "tag": "#CJR008LV9",
@@ -2436,7 +2436,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 8600,
+      "fame": 9100,
       "repairPoints": 0,
       "participants": [
         {
@@ -2883,11 +2883,11 @@
         {
           "tag": "#YVJQ0RGGQ",
           "name": "モモ",
-          "fame": 1700,
+          "fame": 2200,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 8,
-          "decksUsedToday": 0
+          "decksUsed": 10,
+          "decksUsedToday": 2
         }
       ],
       "periodPoints": 0,
