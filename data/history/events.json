@@ -1187,5 +1187,17 @@
     "tag": "#RYRY0V89G",
     "name": "Клэшер",
     "at": "2026-10-31T02:52:05+00:00"
+  },
+  {
+    "type": "cards",
+    "tag": "#LV0GVYYL8",
+    "name": "kkyo",
+    "cards": [
+      {
+        "name": "Wall Breakers",
+        "level": 14
+      }
+    ],
+    "at": "2026-10-31T06:56:11+00:00"
   }
 ]

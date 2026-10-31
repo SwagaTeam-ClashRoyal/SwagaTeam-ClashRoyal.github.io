@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 10300,
+    "fame": 10500,
     "repairPoints": 0,
     "participants": [
       {
@@ -521,15 +521,6 @@
         "decksUsedToday": 0
       },
       {
-        "tag": "#CGPUY8P2",
-        "name": "BIG BOY",
-        "fame": 400,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 3,
-        "decksUsedToday": 1
-      },
-      {
         "tag": "#JU2L2U8LG",
         "name": "адцкий гей",
         "fame": 450,
@@ -573,6 +564,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#CGPUY8P2",
+        "name": "BIG BOY",
+        "fame": 600,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 4,
+        "decksUsedToday": 2
       },
       {
         "tag": "#GQQL9YLYQ",
@@ -1262,7 +1262,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 10300,
+      "fame": 10500,
       "repairPoints": 0,
       "participants": [
         {
@@ -1779,15 +1779,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#CGPUY8P2",
-          "name": "BIG BOY",
-          "fame": 400,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 3,
-          "decksUsedToday": 1
-        },
-        {
           "tag": "#JU2L2U8LG",
           "name": "адцкий гей",
           "fame": 450,
@@ -1831,6 +1822,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#CGPUY8P2",
+          "name": "BIG BOY",
+          "fame": 600,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 4,
+          "decksUsedToday": 2
         },
         {
           "tag": "#GQQL9YLYQ",
@@ -2436,7 +2436,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 6250,
+      "fame": 6800,
       "repairPoints": 0,
       "participants": [
         {
@@ -2854,15 +2854,6 @@
           "decksUsedToday": 0
         },
         {
-          "tag": "#YJQQ002LV",
-          "name": "YA-MAN",
-          "fame": 800,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#YUUPVJULY",
           "name": "so0011",
           "fame": 1250,
@@ -2875,6 +2866,15 @@
           "tag": "#L2RL0C8V8",
           "name": "きゅう",
           "fame": 1300,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#YJQQ002LV",
+          "name": "YA-MAN",
+          "fame": 1350,
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 8,

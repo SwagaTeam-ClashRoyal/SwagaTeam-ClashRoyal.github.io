@@ -95,13 +95,13 @@
     "expLevel": 69,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 3687,
+    "wins": 3689,
     "losses": 2064,
-    "battleCount": 5751,
+    "battleCount": 5753,
     "threeCrownWins": 1073,
     "warDayWins": 30,
     "clanCardsCollected": 92376,
-    "totalDonations": 40690,
+    "totalDonations": 40726,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 5,
       "trophies": 0,
@@ -124,6 +124,13 @@
         "elixirCost": 5,
         "evolved": false,
         "icon": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+      },
+      {
+        "name": "Archer Queen",
+        "rarity": "champion",
+        "elixirCost": 5,
+        "evolved": false,
+        "icon": "https://api-assets.clashroyale.com/cards/300/p7OQmOAFTery7zCzlpDdm-LOD1kINTm42AwIHchZfWk.png"
       },
       {
         "name": "Cannon",
@@ -169,11 +176,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Goblin Barrel",
-      "rarity": "epic",
+      "name": "Princess",
+      "rarity": "legendary",
       "elixirCost": 3,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
     }
   },
   "#LV0GVYYL8": {
@@ -186,7 +193,7 @@
     "threeCrownWins": 1067,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 34506,
+    "totalDonations": 34530,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -272,9 +279,9 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 11006,
+    "wins": 11008,
     "losses": 10659,
-    "battleCount": 21665,
+    "battleCount": 21667,
     "threeCrownWins": 5593,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
@@ -353,11 +360,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
+      "name": "Baby Dragon",
       "rarity": "epic",
-      "elixirCost": 5,
+      "elixirCost": 4,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png"
     }
   },
   "#R98U8U290": {
@@ -1100,10 +1107,10 @@
     "expLevel": 60,
     "trophies": 12150,
     "bestTrophies": 12267,
-    "wins": 3555,
-    "losses": 3014,
-    "battleCount": 6569,
-    "threeCrownWins": 2409,
+    "wins": 3565,
+    "losses": 3015,
+    "battleCount": 6580,
+    "threeCrownWins": 2410,
     "warDayWins": 0,
     "clanCardsCollected": 0,
     "totalDonations": 22353,
@@ -1129,13 +1136,6 @@
         "elixirCost": 7,
         "evolved": false,
         "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-      },
-      {
-        "name": "Golden Knight",
-        "rarity": "champion",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Battle Ram",
@@ -2000,12 +2000,12 @@
     "trophies": 9617,
     "bestTrophies": 9825,
     "wins": 2279,
-    "losses": 2104,
-    "battleCount": 4383,
+    "losses": 2105,
+    "battleCount": 4384,
     "threeCrownWins": 784,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 17501,
+    "totalDonations": 17525,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2353,10 +2353,10 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2597,
-    "losses": 2778,
-    "battleCount": 5375,
-    "threeCrownWins": 1628,
+    "wins": 2598,
+    "losses": 2779,
+    "battleCount": 5377,
+    "threeCrownWins": 1629,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
     "totalDonations": 26159,
@@ -2899,8 +2899,8 @@
     "trophies": 6785,
     "bestTrophies": 6785,
     "wins": 2479,
-    "losses": 2615,
-    "battleCount": 5094,
+    "losses": 2616,
+    "battleCount": 5095,
     "threeCrownWins": 1808,
     "warDayWins": 31,
     "clanCardsCollected": 71356,
@@ -3265,7 +3265,7 @@
     "threeCrownWins": 2556,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 20100,
+    "totalDonations": 20118,
     "currentPathOfLegendSeasonResult": null,
     "lastPathOfLegendSeasonResult": null,
     "bestPathOfLegendSeasonResult": null,
@@ -3671,9 +3671,9 @@
     "expLevel": 55,
     "trophies": 10371,
     "bestTrophies": 10435,
-    "wins": 2905,
-    "losses": 3462,
-    "battleCount": 6367,
+    "wins": 2908,
+    "losses": 3465,
+    "battleCount": 6373,
     "threeCrownWins": 1448,
     "warDayWins": 3,
     "clanCardsCollected": 4080,
@@ -3752,11 +3752,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Ice Wizard",
-      "rarity": "legendary",
-      "elixirCost": 3,
+      "name": "Royal Recruits",
+      "rarity": "common",
+      "elixirCost": 7,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/W3dkw0HTw9n1jB-zbknY2w3wHuyuLxSRIAV5fUT1SEY.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/jcNyYGUiXXNz3kuz8NBkHNKNREQKraXlb_Ts7rhCIdM.png"
     }
   },
   "#9GVPRJQLL": {
