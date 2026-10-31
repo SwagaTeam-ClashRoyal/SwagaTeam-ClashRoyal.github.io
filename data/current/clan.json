@@ -4,7 +4,7 @@
   "type": "open",
   "description": "Активно идём в топ 1000! Пропустил 2 КВ подряд - кик. Неделя офлайна - кик. Наш тг - swagateamcr",
   "badgeId": 16000072,
-  "clanScore": 115684,
+  "clanScore": 115682,
   "clanWarTrophies": 2055,
   "location": {
     "id": 57000193,
@@ -13,7 +13,7 @@
     "countryCode": "RU"
   },
   "requiredTrophies": 1000,
-  "donationsPerWeek": 4754,
+  "donationsPerWeek": 4812,
   "clanChestStatus": "inactive",
   "clanChestLevel": 1,
   "clanChestMaxLevel": 0,
@@ -52,7 +52,7 @@
       "clanRank": 2,
       "previousClanRank": 4,
       "donations": 288,
-      "donationsReceived": 270,
+      "donationsReceived": 280,
       "clanChestPoints": 0
     },
     {
@@ -70,7 +70,7 @@
       "clanRank": 3,
       "previousClanRank": 5,
       "donations": 394,
-      "donationsReceived": 390,
+      "donationsReceived": 400,
       "clanChestPoints": 0
     },
     {
@@ -221,7 +221,7 @@
       "tag": "#P08LLGYLQ",
       "name": "Luka13",
       "role": "member",
-      "lastSeen": "20261031T103143.000Z",
+      "lastSeen": "20261031T113241.000Z",
       "expLevel": 0,
       "trophies": 12774,
       "arena": {
@@ -304,14 +304,14 @@
       "clanRank": 16,
       "previousClanRank": 17,
       "donations": 100,
-      "donationsReceived": 230,
+      "donationsReceived": 238,
       "clanChestPoints": 0
     },
     {
       "tag": "#PQQ2JYL2G",
       "name": "MFbren",
       "role": "member",
-      "lastSeen": "20261030T193538.000Z",
+      "lastSeen": "20261031T113948.000Z",
       "expLevel": 0,
       "trophies": 11512,
       "arena": {
@@ -321,7 +321,7 @@
       },
       "clanRank": 17,
       "previousClanRank": 18,
-      "donations": 434,
+      "donations": 492,
       "donationsReceived": 360,
       "clanChestPoints": 0
     },
@@ -394,7 +394,7 @@
       "clanRank": 21,
       "previousClanRank": 22,
       "donations": 0,
-      "donationsReceived": 260,
+      "donationsReceived": 270,
       "clanChestPoints": 0
     },
     {
@@ -473,7 +473,7 @@
       "tag": "#9RJPRQLL2",
       "name": "Morj",
       "role": "member",
-      "lastSeen": "20261030T224149.000Z",
+      "lastSeen": "20261031T111056.000Z",
       "expLevel": 0,
       "trophies": 9562,
       "arena": {
@@ -484,16 +484,16 @@
       "clanRank": 26,
       "previousClanRank": 26,
       "donations": 454,
-      "donationsReceived": 440,
+      "donationsReceived": 450,
       "clanChestPoints": 0
     },
     {
       "tag": "#CJR008LV9",
       "name": "cook",
       "role": "member",
-      "lastSeen": "20261031T103725.000Z",
+      "lastSeen": "20261031T105101.000Z",
       "expLevel": 0,
-      "trophies": 9528,
+      "trophies": 9500,
       "arena": {
         "id": 54000031,
         "name": "Legendary Arena",
@@ -502,7 +502,7 @@
       "clanRank": 27,
       "previousClanRank": 27,
       "donations": 518,
-      "donationsReceived": 326,
+      "donationsReceived": 327,
       "clanChestPoints": 0
     },
     {
@@ -538,7 +538,7 @@
       "clanRank": 29,
       "previousClanRank": 29,
       "donations": 10,
-      "donationsReceived": 344,
+      "donationsReceived": 352,
       "clanChestPoints": 0
     },
     {
@@ -763,7 +763,7 @@
       "role": "member",
       "lastSeen": "20261031T102242.000Z",
       "expLevel": 0,
-      "trophies": 2323,
+      "trophies": 2351,
       "arena": {
         "id": 54000009,
         "name": "Frozen Peak",
@@ -772,7 +772,7 @@
       "clanRank": 42,
       "previousClanRank": 42,
       "donations": 66,
-      "donationsReceived": 48,
+      "donationsReceived": 49,
       "clanChestPoints": 0
     }
   ]

@@ -4,7 +4,7 @@
     "tag": "#QVQUPC8Q",
     "name": "Swaga team",
     "badgeId": 16000072,
-    "fame": 11650,
+    "fame": 12150,
     "repairPoints": 0,
     "participants": [
       {
@@ -494,15 +494,6 @@
         "decksUsedToday": 1
       },
       {
-        "tag": "#9RJPRQLL2",
-        "name": "Morj",
-        "fame": 200,
-        "repairPoints": 0,
-        "boatAttacks": 0,
-        "decksUsed": 2,
-        "decksUsedToday": 0
-      },
-      {
         "tag": "#28G90Y9JL",
         "name": "GamerPro",
         "fame": 200,
@@ -546,6 +537,15 @@
         "boatAttacks": 0,
         "decksUsed": 4,
         "decksUsedToday": 0
+      },
+      {
+        "tag": "#9RJPRQLL2",
+        "name": "Morj",
+        "fame": 600,
+        "repairPoints": 0,
+        "boatAttacks": 0,
+        "decksUsed": 5,
+        "decksUsedToday": 3
       },
       {
         "tag": "#CC9J8Y902",
@@ -622,11 +622,11 @@
       {
         "tag": "#VJQQLCJP8",
         "name": "Генри lll",
-        "fame": 1650,
+        "fame": 1750,
         "repairPoints": 0,
         "boatAttacks": 0,
-        "decksUsed": 11,
-        "decksUsedToday": 3
+        "decksUsed": 12,
+        "decksUsedToday": 4
       }
     ],
     "periodPoints": 0,
@@ -1262,7 +1262,7 @@
       "tag": "#QVQUPC8Q",
       "name": "Swaga team",
       "badgeId": 16000072,
-      "fame": 11650,
+      "fame": 12150,
       "repairPoints": 0,
       "participants": [
         {
@@ -1752,15 +1752,6 @@
           "decksUsedToday": 1
         },
         {
-          "tag": "#9RJPRQLL2",
-          "name": "Morj",
-          "fame": 200,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 2,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#28G90Y9JL",
           "name": "GamerPro",
           "fame": 200,
@@ -1804,6 +1795,15 @@
           "boatAttacks": 0,
           "decksUsed": 4,
           "decksUsedToday": 0
+        },
+        {
+          "tag": "#9RJPRQLL2",
+          "name": "Morj",
+          "fame": 600,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 5,
+          "decksUsedToday": 3
         },
         {
           "tag": "#CC9J8Y902",
@@ -1880,11 +1880,11 @@
         {
           "tag": "#VJQQLCJP8",
           "name": "Генри lll",
-          "fame": 1650,
+          "fame": 1750,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 11,
-          "decksUsedToday": 3
+          "decksUsed": 12,
+          "decksUsedToday": 4
         }
       ],
       "periodPoints": 0,
