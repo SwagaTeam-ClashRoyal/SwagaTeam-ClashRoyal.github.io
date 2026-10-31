@@ -2436,7 +2436,7 @@
       "tag": "#PRP0YQR2",
       "name": "TWICE",
       "badgeId": 16000127,
-      "fame": 7000,
+      "fame": 7300,
       "repairPoints": 0,
       "participants": [
         {
@@ -2847,11 +2847,11 @@
         {
           "tag": "#28Q2PLY82",
           "name": "hefeweizen007",
-          "fame": 800,
+          "fame": 1100,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 5,
-          "decksUsedToday": 1
+          "decksUsed": 8,
+          "decksUsedToday": 4
         },
         {
           "tag": "#YUUPVJULY",
