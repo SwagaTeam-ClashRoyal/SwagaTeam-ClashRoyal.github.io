@@ -272,9 +272,9 @@
     "expLevel": 59,
     "trophies": 14000,
     "bestTrophies": 14000,
-    "wins": 11012,
+    "wins": 11013,
     "losses": 10661,
-    "battleCount": 21673,
+    "battleCount": 21674,
     "threeCrownWins": 5594,
     "warDayWins": 136,
     "clanCardsCollected": 394128,
@@ -1008,10 +1008,10 @@
     "expLevel": 56,
     "trophies": 12774,
     "bestTrophies": 12780,
-    "wins": 3293,
+    "wins": 3297,
     "losses": 1832,
-    "battleCount": 5125,
-    "threeCrownWins": 1199,
+    "battleCount": 5129,
+    "threeCrownWins": 1201,
     "warDayWins": 19,
     "clanCardsCollected": 45839,
     "totalDonations": 18818,
@@ -1089,11 +1089,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Cannon Cart",
-      "rarity": "epic",
-      "elixirCost": 5,
+      "name": "Elixir Collector",
+      "rarity": "rare",
+      "elixirCost": 6,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png"
     }
   },
   "#Q2RJCVYUQ": {
@@ -1129,13 +1129,6 @@
         "elixirCost": 7,
         "evolved": false,
         "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
-      },
-      {
-        "name": "Golden Knight",
-        "rarity": "champion",
-        "elixirCost": 4,
-        "evolved": false,
-        "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png"
       },
       {
         "name": "Battle Ram",
@@ -2268,13 +2261,13 @@
     "expLevel": 39,
     "trophies": 9528,
     "bestTrophies": 9528,
-    "wins": 1178,
+    "wins": 1179,
     "losses": 1014,
-    "battleCount": 2192,
+    "battleCount": 2193,
     "threeCrownWins": 665,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 4130,
+    "totalDonations": 4200,
     "currentPathOfLegendSeasonResult": {
       "leagueNumber": 1,
       "trophies": 0,
@@ -2353,9 +2346,9 @@
     "expLevel": 42,
     "trophies": 8741,
     "bestTrophies": 8741,
-    "wins": 2604,
+    "wins": 2608,
     "losses": 2785,
-    "battleCount": 5389,
+    "battleCount": 5393,
     "threeCrownWins": 1632,
     "warDayWins": 6,
     "clanCardsCollected": 5920,
@@ -2434,11 +2427,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Balloon",
-      "rarity": "epic",
+      "name": "Royal Hogs",
+      "rarity": "rare",
       "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
     }
   },
   "#LGQC0JPLU": {
@@ -3511,9 +3504,9 @@
     "expLevel": 1,
     "trophies": 3800,
     "bestTrophies": 3830,
-    "wins": 385,
-    "losses": 363,
-    "battleCount": 748,
+    "wins": 386,
+    "losses": 368,
+    "battleCount": 754,
     "threeCrownWins": 177,
     "warDayWins": 0,
     "clanCardsCollected": 0,
@@ -3580,11 +3573,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
+      "name": "Electro Dragon",
       "rarity": "epic",
       "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png"
     }
   },
   "#VJQQLCJP8": {
@@ -3592,12 +3585,12 @@
     "trophies": 2323,
     "bestTrophies": 2352,
     "wins": 87,
-    "losses": 11,
-    "battleCount": 98,
+    "losses": 12,
+    "battleCount": 99,
     "threeCrownWins": 53,
     "warDayWins": 0,
     "clanCardsCollected": 0,
-    "totalDonations": 48,
+    "totalDonations": 76,
     "currentPathOfLegendSeasonResult": null,
     "lastPathOfLegendSeasonResult": null,
     "bestPathOfLegendSeasonResult": null,

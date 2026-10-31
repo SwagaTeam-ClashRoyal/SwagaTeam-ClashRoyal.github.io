@@ -18543,6 +18543,10 @@
     "Mega Knight": [
       9,
       0
+    ],
+    "Electro Dragon": [
+      6,
+      0
     ]
   },
   "#VJQQLCJP8": {
@@ -18736,6 +18740,18 @@
     ],
     "Freeze": [
       7,
+      0
+    ],
+    "Giant Snowball": [
+      8,
+      0
+    ],
+    "Dark Prince": [
+      6,
+      0
+    ],
+    "Lightning": [
+      10,
       0
     ]
   },
