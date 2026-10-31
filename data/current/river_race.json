@@ -1894,7 +1894,7 @@
       "tag": "#YVCJJJYL",
       "name": "Kaiser Wilhelm",
       "badgeId": 16000080,
-      "fame": 7550,
+      "fame": 8350,
       "repairPoints": 0,
       "participants": [
         {
@@ -2357,15 +2357,6 @@
           "decksUsedToday": 1
         },
         {
-          "tag": "#RVQ8V0RYU",
-          "name": "Aadit DBSS",
-          "fame": 500,
-          "repairPoints": 0,
-          "boatAttacks": 0,
-          "decksUsed": 4,
-          "decksUsedToday": 0
-        },
-        {
           "tag": "#9CY2J9J08",
           "name": "Iker13899",
           "fame": 500,
@@ -2377,11 +2368,11 @@
         {
           "tag": "#RYUU099CV",
           "name": "Jayce",
-          "fame": 500,
+          "fame": 600,
           "repairPoints": 0,
           "boatAttacks": 0,
-          "decksUsed": 3,
-          "decksUsedToday": 2
+          "decksUsed": 4,
+          "decksUsedToday": 3
         },
         {
           "tag": "#20RRUU8J0U",
@@ -2405,6 +2396,15 @@
           "tag": "#PCRGLCYPG",
           "name": "KingOJ",
           "fame": 1150,
+          "repairPoints": 0,
+          "boatAttacks": 0,
+          "decksUsed": 8,
+          "decksUsedToday": 4
+        },
+        {
+          "tag": "#RVQ8V0RYU",
+          "name": "Aadit DBSS",
+          "fame": 1200,
           "repairPoints": 0,
           "boatAttacks": 0,
           "decksUsed": 8,
