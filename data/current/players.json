@@ -916,9 +916,9 @@
     "expLevel": 43,
     "trophies": 13177,
     "bestTrophies": 13177,
-    "wins": 2351,
-    "losses": 2047,
-    "battleCount": 4398,
+    "wins": 2352,
+    "losses": 2048,
+    "battleCount": 4400,
     "threeCrownWins": 1176,
     "warDayWins": 0,
     "clanCardsCollected": 460,
@@ -997,11 +997,11 @@
       }
     ],
     "currentFavouriteCard": {
-      "name": "Witch",
+      "name": "Electro Dragon",
       "rarity": "epic",
       "elixirCost": 5,
       "evolved": false,
-      "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+      "icon": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png"
     }
   },
   "#P08LLGYLQ": {
